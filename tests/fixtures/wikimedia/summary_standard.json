@@ -1,0 +1,19 @@
+{
+  "type": "standard",
+  "title": "The Glass Orchard (film)",
+  "displaytitle": "<i>The Glass Orchard</i> (film)",
+  "titles": {
+    "canonical": "The_Glass_Orchard_(film)",
+    "normalized": "The Glass Orchard (film)",
+    "display": "<i>The Glass Orchard</i> (film)"
+  },
+  "pageid": 424242,
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1180000001",
+  "tid": "00000000-0000-0000-0000-000000000000",
+  "timestamp": "2026-10-01T12:00:00Z",
+  "description": "2019 film",
+  "content_urls": {"desktop": {"page": "https://en.wikipedia.org/wiki/The_Glass_Orchard_(film)"}},
+  "extract": "The Glass Orchard is a 2019 drama film about two sisters who restore a greenhouse."
+}

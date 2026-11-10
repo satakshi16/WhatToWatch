@@ -1,0 +1,557 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/5aE1kxWg6RhgQxJTXTxifv4uq7P.jpg",
+      "id": 93405,
+      "name": "Squid Game",
+      "original_name": "오징어 게임",
+      "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+      "poster_path": "/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
+      "media_type": "tv",
+      "original_language": "ko",
+      "genre_ids": [
+        10759,
+        9648,
+        18
+      ],
+      "popularity": 66.4058,
+      "first_air_date": "2021-09-17",
+      "softcore": false,
+      "vote_average": 7.851,
+      "vote_count": 17911,
+      "origin_country": [
+        "KR"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/JPuk8H588WIUragF1EQNPVQRcG.jpg",
+      "id": 35447,
+      "name": "Squid Girl",
+      "original_name": "侵略！イカ娘",
+      "overview": "Squid Girl has come to the land from the depths of the sea to conquer humanity in revenge for pollution of the ocean. Unfortunately she ruins the first house she uses as an invasion base and has to work to pay for repairs. Of course, she can't overcome the Aizawa sisters who manage the house, so who knows whether she can subjugate humankind.",
+      "poster_path": "/n9mhIbk2VE3bCDEm2aPsNZtZuOH.jpg",
+      "media_type": "tv",
+      "original_language": "ja",
+      "genre_ids": [
+        16,
+        35,
+        10765
+      ],
+      "popularity": 10.4235,
+      "first_air_date": "2010-10-05",
+      "softcore": false,
+      "vote_average": 6.865,
+      "vote_count": 37,
+      "origin_country": [
+        "JP"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uRoJOzn3K7cEwyjsQdkQ9Is9Ikb.jpg",
+      "id": 82817,
+      "name": "Go Go Squid!",
+      "original_name": "亲爱的，热爱的",
+      "overview": "Tong Nian is a genius 19-year-old student with high IQ and low EQ, who is also a famous anime cosplay person and sings well. She’s falls in love at first sight with Han Shang Yan, who is a game genius in the e-sports world and never pays attention to the girls.",
+      "poster_path": "/6dymOCbSvn1Y539hOwRTVcPV7mx.jpg",
+      "media_type": "tv",
+      "original_language": "zh",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 10.8653,
+      "first_air_date": "2019-07-09",
+      "softcore": false,
+      "vote_average": 8.0,
+      "vote_count": 174,
+      "origin_country": [
+        "CN"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qgYK2c5Yl6h0K7s0ClLa3lIcKuV.jpg",
+      "id": 204082,
+      "name": "Squid Game: The Challenge",
+      "original_name": "Squid Game: The Challenge",
+      "overview": "In this reality competition show inspired by \"Squid Game,\" 456 players put their skills to the ultimate test for a life-changing $4.56 million prize.",
+      "poster_path": "/eAjXAgdjPMZH9Ugub7XYPowFoS1.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        10764
+      ],
+      "popularity": 8.1009,
+      "first_air_date": "2023-11-22",
+      "softcore": false,
+      "vote_average": 6.5,
+      "vote_count": 651,
+      "origin_country": [
+        "GB"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3ZjxENlw4HXioGGwhqaJrvdEXKo.jpg",
+      "id": 10707,
+      "title": "The Squid and the Whale",
+      "original_title": "The Squid and the Whale",
+      "overview": "Based on the true childhood experiences of Noah Baumbach and his brother, The Squid and the Whale tells the touching story of two young boys dealing with their parents' divorce in Brooklyn in the 1980s.",
+      "poster_path": "/9NbXn1NMdfGM491V3EFjZADR9SX.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "popularity": 4.0284,
+      "release_date": "2005-10-05",
+      "softcore": false,
+      "video": false,
+      "vote_average": 6.952,
+      "vote_count": 1125
+    },
+    {
+      "adult": false,
+      "id": 6085115,
+      "name": "Squid",
+      "original_name": "Squid",
+      "media_type": "person",
+      "popularity": 0.1603,
+      "gender": 0,
+      "known_for_department": "Acting",
+      "profile_path": "/nhXF3QBlmJG9zgvvzR80rTqcMnE.jpg",
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/2JoAuzH6TZXuT4RPW5h9wNaJBkg.jpg",
+          "id": 1237266,
+          "title": "Runt",
+          "original_title": "Runt",
+          "overview": "In the Australian town of Upson Downs, ten-year-old Annie and Runt, her stray dog, attempt to win the Agility Course Championship at the Krumpets Dog Show in London in order to save their family's farm from drought and misery.",
+          "poster_path": "/ycSTEW0v36BlhG4FPDTy9ykrEAv.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [
+            10751,
+            12,
+            35,
+            18
+          ],
+          "popularity": 1.6688,
+          "release_date": "2024-09-19",
+          "softcore": false,
+          "video": false,
+          "vote_average": 6.2,
+          "vote_count": 13
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iOSXgx5vXZ2KP4Snu4SV0luRFfI.jpg",
+      "id": 321480,
+      "name": "Squid Game: The Official Podcast",
+      "original_name": "Squid Game: The Official Podcast",
+      "overview": "Hosts Phil Yu and Kiera Please unpack the twisted politics of fairness, the final betrayal of the Os, and Player 456's decision to protect the baby.",
+      "poster_path": "/gMKbFGUA6BnD7HsORtN0tdpDCxA.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        10767
+      ],
+      "popularity": 2.3245,
+      "first_air_date": "2024-12-19",
+      "softcore": false,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "id": 5803928,
+      "name": "Squid",
+      "original_name": "Squid",
+      "media_type": "person",
+      "popularity": 0.1443,
+      "gender": 0,
+      "known_for_department": "Acting",
+      "profile_path": null,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 1576902,
+          "title": "Squid Echoes with Jehnny Beth",
+          "original_title": "Squid Echoes with Jehnny Beth",
+          "overview": "Squid bring the full knotty force of their writhing rock to a willing audience in Paris for Echoes with Jehnny Beth. This English group wear their experimentation loud and proud, introducing a touch of rural weird into their sprawling sound with latest album O Monolith.",
+          "poster_path": "/98PsuGogRLE6SP0nqe1Z9WspfM7.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [
+            10402
+          ],
+          "popularity": 1.0417,
+          "release_date": "2023-01-01",
+          "softcore": false,
+          "video": false,
+          "vote_average": 0.0,
+          "vote_count": 0
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cixgYGAX71KCrV9NqaQshmeqlp.jpg",
+      "id": 1108461,
+      "title": "Squid Fleet",
+      "original_title": "Squid Fleet",
+      "overview": "Squid fishing on the high seas is one of the practices most called out by protectionist groups around the world, and the exploitation of its workers is repeatedly denounced by human rights organisations. This visually powerful film brings us dazzling images of a unique and terrible world: that of the fishing vessel, thousands of kilometres from home.",
+      "poster_path": "/28PYsCZyrEH7mb0x5JAx8FnBLCg.jpg",
+      "media_type": "movie",
+      "original_language": "zh",
+      "genre_ids": [
+        99
+      ],
+      "popularity": 0.9582,
+      "release_date": "2023-04-20",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 301486,
+      "title": "Squid Man",
+      "original_title": "Squid Man",
+      "overview": "'I can shoot ink out of my fingers. That's about it really. Sometimes, in pressure situations, I can shoot it out of my toes.' When Squid Man gets downsized out of the Superhero Society, he's forced to crash on the couch of his former sidekick (and only friend) Warren. Now he spends his time boozing in a dead end bar, reminiscing about the days when the hero groupies were plentiful and even a second-rater like him could sometimes save the universe. But when a reporter wants to include him in an upcoming book about superheroes, Squid Man is forced to face the dark mysteries of his past... and the even more unsettling idea that he might actually have a future.",
+      "poster_path": null,
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        35,
+        18,
+        14,
+        10749
+      ],
+      "popularity": 2.9199,
+      "release_date": "2012-01-01",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.9,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 598739,
+      "title": "Squid",
+      "original_title": "Кальмар",
+      "overview": "The 30-year-old single Polina always puts first the interests of other people: relatives, acquaintances and her beloved Mitya, who has been married in serious and for a long time. She does not notice that they all manipulate her, solving only their problems. When Polina is attacked and her own life is in danger, she understands that she is no longer a victim and must fight for herself not only in the attack, but also in her everyday life.",
+      "poster_path": "/yFANim0gZyHLxg8oSKaZWnkh0lr.jpg",
+      "media_type": "movie",
+      "original_language": "ru",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 1.5204,
+      "release_date": "2019-06-11",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 600032,
+      "title": "Squid",
+      "original_title": "오징어",
+      "overview": "Sun-joo is a mother of two who is on her way to the beach with her daughter Hae-ji and son Geun-chul. But they run out of gas on the way and the car comes to a stop. The three of them start to blame each other in frustration and starts to fight, but why?",
+      "poster_path": null,
+      "media_type": "movie",
+      "original_language": "ko",
+      "genre_ids": [
+        10751,
+        14,
+        18,
+        9648
+      ],
+      "popularity": 0.7321,
+      "release_date": "2017-07-13",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "id": 2762183,
+      "name": "Michael Squid",
+      "original_name": "Michael Squid",
+      "media_type": "person",
+      "popularity": 0.1773,
+      "gender": 0,
+      "known_for_department": "Directing",
+      "profile_path": null,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 738493,
+          "title": "The Chrysalis",
+          "original_title": "The Chrysalis",
+          "overview": "A young man moves in with his mother, a retired entomologist, to assist her battle with dementia. His stay quickly descends into a nightmare as his mother's aggression and strange behavior gives light to something more insidious at play.",
+          "poster_path": "/bKSGQ0Ng7uGyIaC1iRyxvwCYGam.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [
+            27
+          ],
+          "popularity": 1.2379,
+          "release_date": "2020-05-01",
+          "softcore": false,
+          "video": false,
+          "vote_average": 5.6,
+          "vote_count": 8
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 876974,
+          "title": "Dice",
+          "original_title": "Dice",
+          "overview": "A man facing financial troubles stumbles across a bizarre and sinister solution to his predicament. He soon finds himself in a spiraling descent into darkness as dependence takes the reins.",
+          "poster_path": "/xT3mHV2YdIBn2wvueNLIyVWI7uV.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [],
+          "popularity": 0.3125,
+          "release_date": "",
+          "softcore": false,
+          "video": false,
+          "vote_average": 7.0,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 1063121,
+          "title": "The Order",
+          "original_title": "The Order",
+          "overview": "A food delivery driver struggling to get by accepts an extremely high-paying gig. It's soon clear, however, that this order is anything but ordinary.",
+          "poster_path": "/dGcF35UA6EXTj2Ohkw78pN0yV6w.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [
+            27
+          ],
+          "popularity": 0.2431,
+          "release_date": "",
+          "softcore": false,
+          "video": false,
+          "vote_average": 5.0,
+          "vote_count": 1
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "id": 3812581,
+      "name": "Squid Sterling",
+      "original_name": "Squid Sterling",
+      "media_type": "person",
+      "popularity": 0.1199,
+      "gender": 0,
+      "known_for_department": "Acting",
+      "profile_path": null,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 154196,
+          "name": "OutBreak Wrestling Quarantine",
+          "original_name": "OutBreak Wrestling Quarantine",
+          "overview": "OutBreak Wrestling From Reading, Pennsylvania, USA",
+          "poster_path": null,
+          "media_type": "tv",
+          "original_language": "en",
+          "genre_ids": [],
+          "popularity": 0.3678,
+          "first_air_date": "2020-07-04",
+          "softcore": false,
+          "vote_average": 0.0,
+          "vote_count": 0,
+          "origin_country": [
+            "US"
+          ]
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 224707,
+          "name": "Back Breakers Wrestling Present's Chasing the Dream",
+          "original_name": "Back Breakers Wrestling Present's Chasing the Dream",
+          "overview": "Back Breakers Wrestling Present's Chasing the Dream",
+          "poster_path": null,
+          "media_type": "tv",
+          "original_language": "en",
+          "genre_ids": [],
+          "popularity": 0.5441,
+          "first_air_date": "2018-10-31",
+          "softcore": false,
+          "vote_average": 0.0,
+          "vote_count": 0,
+          "origin_country": [
+            "US"
+          ]
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "id": 5985422,
+      "name": "Greg Squid",
+      "original_name": "Greg Squid",
+      "media_type": "person",
+      "popularity": 0.1324,
+      "gender": 0,
+      "known_for_department": "Directing",
+      "profile_path": null,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/9Z8qljb5bw9yvicEwaaBOxywTuU.jpg",
+          "id": 1628859,
+          "title": "The Worm",
+          "original_title": "Червь",
+          "overview": "Bill Razor, a retired \"Counter Terrestrial\" operative, lives a quiet life in the middle of nowhere. That life ends when a mysterious package arrives, unleashing a lethal alien parasite. Now, Razor must fight his way through a web of betrayal and government corruption to stop the creature. He is the world’s last line of defense: if the worm gets out, humanity falls.",
+          "poster_path": "/lKLIbGxOCoE7jSZ1HZBKykpmGnT.jpg",
+          "media_type": "movie",
+          "original_language": "ru",
+          "genre_ids": [
+            27,
+            878,
+            35
+          ],
+          "popularity": 0.3975,
+          "release_date": "2026-05-14",
+          "softcore": false,
+          "video": false,
+          "vote_average": 6.0,
+          "vote_count": 1
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/i9bhxhUBFZHorvK81GNKMJGj2Kt.jpg",
+      "id": 1214667,
+      "title": "Making Squid Game: The Challenge",
+      "original_title": "Making Squid Game: The Challenge",
+      "overview": "Go behind the scenes and witness how the \"Squid Game\"-inspired reality show transformed from a scripted drama to a cutthroat, nail-biting competition.",
+      "poster_path": "/78yTLvtsMntVN1cLfzBuZj870pe.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        99
+      ],
+      "popularity": 1.8119,
+      "release_date": "2023-12-06",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.967,
+      "vote_count": 241
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 510261,
+      "title": "Colossal Squid",
+      "original_title": "Colossal Squid",
+      "overview": "The colossal squid, the largest known invertebrate to roam the oceans, has long been a mystery, mostly because no living specimens had been available for study. In 2007, however, an astonished fishing crew in Antarctica made the catch of their lives. Racing against the clock to preserve the enormous creature, scientists eagerly study the fierce predator.",
+      "poster_path": "/l8MlU0QOpq4UhAywttJd6f7G5xm.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        99
+      ],
+      "popularity": 0.2921,
+      "release_date": "2008-08-30",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 876050,
+      "title": "Squid Goddess",
+      "original_title": "Squid Goddess",
+      "overview": "a suggestive trompe l'oeil delight",
+      "poster_path": "/rpgOA9vVasFmzf6akim5OXTZopM.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        16
+      ],
+      "popularity": 0.2619,
+      "release_date": "2021-01-01",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 67995,
+      "title": "Squid Invasion",
+      "original_title": "Squid Invasion",
+      "overview": "This marine special is an introduction into the alarming ascendance of these unforgiving ocean predators, a glance beneath the surface at a brand new species of squid, and a chance to get up-close and personal with enigmatic underwater explorer Scott Cassell.",
+      "poster_path": null,
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        99
+      ],
+      "popularity": 0.209,
+      "release_date": "",
+      "softcore": false,
+      "video": false,
+      "vote_average": 5.2,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zecxlBpLx0aLIjNjX1IOZuaSgo0.jpg",
+      "id": 1412113,
+      "title": "Squid Game: Making Season 2",
+      "original_title": "오징어 게임: 시즌2 제작 이야기",
+      "overview": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life.",
+      "poster_path": "/yQGaui0bQ5Ai3KIFBB45nTeIqad.jpg",
+      "media_type": "movie",
+      "original_language": "ko",
+      "genre_ids": [
+        99
+      ],
+      "popularity": 5.481,
+      "release_date": "2025-01-02",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.316,
+      "vote_count": 463
+    }
+  ],
+  "total_pages": 4,
+  "total_results": 78
+}

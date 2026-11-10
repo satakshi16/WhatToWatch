@@ -1,0 +1,243 @@
+{
+  "id": 27205,
+  "results": {
+    "IN": {
+      "link": "https://www.themoviedb.org/movie/27205-inception/watch?locale=IN",
+      "buy": [
+        {
+          "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+          "provider_id": 2,
+          "provider_name": "Apple TV Store",
+          "display_priority": 5
+        },
+        {
+          "logo_path": "/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+          "provider_id": 192,
+          "provider_name": "YouTube",
+          "display_priority": 10
+        }
+      ],
+      "rent": [
+        {
+          "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+          "provider_id": 2,
+          "provider_name": "Apple TV Store",
+          "display_priority": 5
+        },
+        {
+          "logo_path": "/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+          "provider_id": 192,
+          "provider_name": "YouTube",
+          "display_priority": 10
+        },
+        {
+          "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 38
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+          "provider_id": 119,
+          "provider_name": "Amazon Prime Video",
+          "display_priority": 2
+        },
+        {
+          "logo_path": "/ledoS6EgdjTNq8F1e6wubUQer18.png",
+          "provider_id": 2336,
+          "provider_name": "JioHotstar",
+          "display_priority": 4
+        },
+        {
+          "logo_path": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+          "provider_id": 2100,
+          "provider_name": "Amazon Prime Video with Ads",
+          "display_priority": 69
+        }
+      ]
+    },
+    "JP": {
+      "link": "https://www.themoviedb.org/movie/27205-inception/watch?locale=JP",
+      "rent": [
+        {
+          "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+          "provider_id": 2,
+          "provider_name": "Apple TV Store",
+          "display_priority": 7
+        },
+        {
+          "logo_path": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+          "provider_id": 2683,
+          "provider_name": "FOD",
+          "display_priority": 77
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+          "provider_id": 9,
+          "provider_name": "Amazon Prime Video",
+          "display_priority": 1
+        },
+        {
+          "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+          "provider_id": 15,
+          "provider_name": "Hulu",
+          "display_priority": 4
+        },
+        {
+          "logo_path": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+          "provider_id": 84,
+          "provider_name": "U-NEXT",
+          "display_priority": 5
+        },
+        {
+          "logo_path": "/mrzVKXhM1vryerBWd65emU9TfUm.png",
+          "provider_id": 2284,
+          "provider_name": "HBO Max on U-Next",
+          "display_priority": 25
+        },
+        {
+          "logo_path": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+          "provider_id": 2100,
+          "provider_name": "Amazon Prime Video with Ads",
+          "display_priority": 68
+        }
+      ],
+      "buy": [
+        {
+          "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 6
+        },
+        {
+          "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+          "provider_id": 2,
+          "provider_name": "Apple TV Store",
+          "display_priority": 7
+        }
+      ]
+    },
+    "KR": {
+      "link": "https://www.themoviedb.org/movie/27205-inception/watch?locale=KR",
+      "rent": [
+        {
+          "logo_path": "/mh1vBeclG7Eq15TjRnmyustqp3v.png",
+          "provider_id": 356,
+          "provider_name": "wavve",
+          "display_priority": 4
+        }
+      ],
+      "flatrate": [
+        {
+          "logo_path": "/mh1vBeclG7Eq15TjRnmyustqp3v.png",
+          "provider_id": 356,
+          "provider_name": "wavve",
+          "display_priority": 4
+        },
+        {
+          "logo_path": "/ppQIS7UMtBwJSspSoGqDR8wO1Gr.png",
+          "provider_id": 97,
+          "provider_name": "Watcha",
+          "display_priority": 5
+        }
+      ],
+      "buy": [
+        {
+          "logo_path": "/mh1vBeclG7Eq15TjRnmyustqp3v.png",
+          "provider_id": 356,
+          "provider_name": "wavve",
+          "display_priority": 4
+        }
+      ]
+    },
+    "US": {
+      "link": "https://www.themoviedb.org/movie/27205-inception/watch?locale=US",
+      "rent": [
+        {
+          "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 10
+        },
+        {
+          "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+          "provider_id": 2,
+          "provider_name": "Apple TV Store",
+          "display_priority": 11
+        },
+        {
+          "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png",
+          "provider_id": 3,
+          "provider_name": "Google Play Movies",
+          "display_priority": 24
+        },
+        {
+          "logo_path": "/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+          "provider_id": 192,
+          "provider_name": "YouTube",
+          "display_priority": 25
+        },
+        {
+          "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+          "provider_id": 7,
+          "provider_name": "Fandango At Home",
+          "display_priority": 41
+        },
+        {
+          "logo_path": "/6qPtM96UZkt3Bu4ZFPsDeHFWUZ2.png",
+          "provider_id": 486,
+          "provider_name": "Spectrum On Demand",
+          "display_priority": 123
+        },
+        {
+          "logo_path": "/blAEhvx3XX8sV0fFVFk88FFjubs.png",
+          "provider_id": 538,
+          "provider_name": "Plex",
+          "display_priority": 128
+        }
+      ],
+      "buy": [
+        {
+          "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+          "provider_id": 10,
+          "provider_name": "Amazon Video",
+          "display_priority": 10
+        },
+        {
+          "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+          "provider_id": 2,
+          "provider_name": "Apple TV Store",
+          "display_priority": 11
+        },
+        {
+          "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png",
+          "provider_id": 3,
+          "provider_name": "Google Play Movies",
+          "display_priority": 24
+        },
+        {
+          "logo_path": "/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+          "provider_id": 192,
+          "provider_name": "YouTube",
+          "display_priority": 25
+        },
+        {
+          "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+          "provider_id": 7,
+          "provider_name": "Fandango At Home",
+          "display_priority": 41
+        }
+      ]
+    }
+  }
+}

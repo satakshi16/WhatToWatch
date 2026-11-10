@@ -1,0 +1,417 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
+      "genre_ids": [
+        53,
+        80
+      ],
+      "id": 1453407,
+      "title": "Gajab Raat",
+      "original_language": "hi",
+      "original_title": "ग़ज़ब रात",
+      "overview": "A corrupt, troubled cop's night spirals out of control when a reluctant act of mercy toward an injured girl pulls him into a deadly web of crime.",
+      "popularity": 104.6412,
+      "poster_path": "/e4N7M52cBbyi24xLga8yI6yt1u1.jpg",
+      "release_date": "2026-10-23",
+      "softcore": false,
+      "video": false,
+      "vote_average": 5.7,
+      "vote_count": 17
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
+      "genre_ids": [
+        80,
+        53
+      ],
+      "id": 1389172,
+      "title": "Reporting Live",
+      "original_language": "hi",
+      "original_title": "रिपोर्टिंग लाइव",
+      "overview": "A young reporter and her reluctant cameraman chase a story, only to get entangled in an illegal sand-mining racket run by a ruthless syndicate.",
+      "popularity": 37.3626,
+      "poster_path": "/xVabS4lTi6IMscr2FOucxydE6ZD.jpg",
+      "release_date": "2026-10-09",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.0,
+      "vote_count": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bkhPaFOiqc9GeLMdf1D44KbozRH.jpg",
+      "genre_ids": [
+        14,
+        28,
+        12
+      ],
+      "id": 656908,
+      "title": "Ramayana: Rise of a Legend",
+      "original_language": "hi",
+      "original_title": "रामायणम्",
+      "overview": "An ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love, duty and destiny sets the stage for greater challenges ahead.",
+      "popularity": 29.7659,
+      "poster_path": "/cK6xaYrb498y2rmMRSZmRKaCXKL.jpg",
+      "release_date": "2026-11-04",
+      "softcore": false,
+      "video": false,
+      "vote_average": 5.7,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/snYOXem8pUGOffnLbbGq4aB1pg4.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "id": 1291608,
+      "title": "Dhurandhar",
+      "original_language": "hi",
+      "original_title": "Dhurandhar",
+      "overview": "In the early 2000s, an undercover operative infiltrates Karachi's underworld, breaking into its inner circle to dismantle a violent nexus from within.",
+      "popularity": 15.9838,
+      "poster_path": "/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
+      "release_date": "2025-12-05",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 381
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nTkQBI8ldvPByIkxsemGxtKlr8E.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "id": 1378537,
+      "title": "Mirzapur: The Movie",
+      "original_language": "hi",
+      "original_title": "मिर्ज़ापुर - द मूवी",
+      "overview": "Akhandanand Tripathi sits on the throne of Mirzapur. Munna Tripathi is heir apparent. Rati Shankar Shukla is the rival from Jaunpur. And, Guddu and Bablu are the two brothers who came like a tornado and changed things irreversibly. And now comes a new claimant in town. Babban Babua, from the desert of Jaisalmer. A ruthless man who is power hungry.",
+      "popularity": 14.4814,
+      "poster_path": "/jAt8u6MMIMnExmG6bN02EQyB0KR.jpg",
+      "release_date": "2026-09-03",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.0,
+      "vote_count": 27
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5UkQUYXkG4iJH5Ova55lkxDPiCB.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        18
+      ],
+      "id": 1802464,
+      "title": "Meethe Mein Kya Hai",
+      "original_language": "hi",
+      "original_title": "मीठे में क्या है",
+      "overview": "A young widower's grief eases at a joyful Diwali reunion — until his sister's surprise marriage throws the family into chaos.",
+      "popularity": 14.2804,
+      "poster_path": "/xTJYIPjyuCbkc7zEtfAFJfVDSV5.jpg",
+      "release_date": "2026-10-30",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jRtR4aTq4vmxRg9ah60R5i1kkQ7.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 1451944,
+      "title": "Lust Stories 3",
+      "original_language": "hi",
+      "original_title": "लस्ट स्टोरीज़ ३",
+      "overview": "Through four bite-sized yet emotionally resonant films, the anthology once again explores lust, love, relationships, and repressed desire, offering fresh perspectives on intimacy, longing, and human connection in all their complexity.",
+      "popularity": 11.7016,
+      "poster_path": "/cLA83DD1qMEBwbRIYXf29RKjMja.jpg",
+      "release_date": "2026-09-18",
+      "softcore": false,
+      "video": false,
+      "vote_average": 6.182,
+      "vote_count": 11
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nq73eRdEooripf3k0XHLtX14zyC.jpg",
+      "genre_ids": [
+        53,
+        18,
+        9648,
+        80
+      ],
+      "id": 1269325,
+      "title": "Drishyam: The Conclusion",
+      "original_language": "hi",
+      "original_title": "दृश्यम: आखिरी हिस्सा",
+      "overview": "Years after outsmarting the police, Vijay Salgaonkar's past resurfaces when a new evidence threatens to expose his secret. As the investigation reopens, he must outwit the system once again to save his family.",
+      "popularity": 11.3083,
+      "poster_path": "/67FsF2kpgEZ1T5Qos4adgqm9dLf.jpg",
+      "release_date": "2026-10-02",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 11
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/u7kuUaySqXBVAtqEl9vkTkAzHV9.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 20453,
+      "title": "3 Idiots",
+      "original_language": "hi",
+      "original_title": "3 Idiots",
+      "overview": "Rascal. Joker. Dreamer. Genius... You've never met a college student quite like \"Rancho.\" From the moment he arrives at India's most prestigious university, Rancho's outlandish schemes turn the campus upside down—along with the lives of his two newfound best friends. Together, they make life miserable for \"Virus,\" the school’s uptight and heartless dean. But when Rancho catches the eye of the dean's daughter, Virus sets his sights on flunking out the \"3 idiots\" once and for all.",
+      "popularity": 10.3944,
+      "poster_path": "/66A9MqXOyVFCssoloscw79z8Tew.jpg",
+      "release_date": "2009-12-23",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.013,
+      "vote_count": 2897
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/br4Ra4dRpvR0R7a1zPPkOwGkcky.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "id": 1582770,
+      "title": "Dhurandhar: The Revenge",
+      "original_language": "hi",
+      "original_title": "धुरंधर: द रिवेंज",
+      "overview": "As rival gangs, corrupt officials and a ruthless Major Iqbal close in, Hamza's mission for his country spirals into a bloody personal war where the line between patriot and monster disappears in the streets of Lyari.",
+      "popularity": 9.7522,
+      "poster_path": "/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
+      "release_date": "2026-03-18",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 174
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7VDLEHli74eLsYLNcq9djn1Gw76.jpg",
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ],
+      "id": 19404,
+      "title": "Dilwale Dulhania Le Jayenge",
+      "original_language": "hi",
+      "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
+      "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+      "popularity": 9.6966,
+      "poster_path": "/lfRkUr7DYdHldAqi3PwdQGBRBPM.jpg",
+      "release_date": "1995-10-20",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.502,
+      "vote_count": 4640
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ncVecUcDZe1EOWtHaU2f8BFvbx4.jpg",
+      "genre_ids": [
+        35,
+        28
+      ],
+      "id": 1375156,
+      "title": "Udta Teer",
+      "original_language": "hi",
+      "original_title": "उड़ता तीर",
+      "overview": "An amnesiac Pakistani spy wakes up believing he is a patriotic Indian counter-terrorism officer.",
+      "popularity": 9.1702,
+      "poster_path": "/tvICKypVlW7Iio4KVs7NousbSKi.jpg",
+      "release_date": "2026-10-23",
+      "softcore": false,
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iaVcws1W3owTlRSI8GKcov95UHS.jpg",
+      "genre_ids": [
+        10749,
+        35,
+        18
+      ],
+      "id": 1772549,
+      "title": "Pehla Pyaar Doosri Baar",
+      "original_language": "hi",
+      "original_title": "पहला प्यार दूसरी बार",
+      "overview": "Three friends attend their school reunion and enter into different relationships, discovering the trials, tribulations, allure, and absurdities of love.",
+      "popularity": 9.001,
+      "poster_path": "/tGS4b47RIpF3DTAkezHBqfYNTm2.jpg",
+      "release_date": "2026-10-23",
+      "softcore": false,
+      "video": false,
+      "vote_average": 6.0,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sT5WVT8LzvDwIbfy9BGXK0fvf3s.jpg",
+      "genre_ids": [
+        28,
+        18,
+        53
+      ],
+      "id": 1355228,
+      "title": "Gandhari",
+      "original_language": "hi",
+      "original_title": "गांधारी",
+      "overview": "When a mother loses her eyesight and her daughter in a kidnapping, she takes matters into her own hands to hunt down those responsible.",
+      "popularity": 8.7569,
+      "poster_path": "/hCHei97aPYCCsh4vicz9X0wmdFV.jpg",
+      "release_date": "2026-09-03",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.264,
+      "vote_count": 36
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4MNRH73XmwBK2ycv3qvLpa07O5F.jpg",
+      "genre_ids": [
+        28,
+        18
+      ],
+      "id": 1257960,
+      "title": "Sikandar",
+      "original_language": "hi",
+      "original_title": "सिकंदर",
+      "overview": "A tragic accident pushes the powerful Sikandar to protect the less fortunate by standing up to corruption and greed — using any means necessary.",
+      "popularity": 7.5438,
+      "poster_path": "/41s42CRXafa3OuRGvCtfYPEBmse.jpg",
+      "release_date": "2025-03-29",
+      "softcore": false,
+      "video": false,
+      "vote_average": 4.8,
+      "vote_count": 70
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gxfvtq5eYiClS2X7hxAAPBNrbWA.jpg",
+      "genre_ids": [
+        35,
+        18,
+        878
+      ],
+      "id": 297222,
+      "title": "PK",
+      "original_language": "hi",
+      "original_title": "पीके",
+      "overview": "A stranger in the city asks questions no one has asked before. Known only by his initials, the man's innocent questions and childlike curiosity take him on a journey of love, laughter and letting go.",
+      "popularity": 7.2734,
+      "poster_path": "/z2x2Y4tncefsIU7h82gmUM5vnBJ.jpg",
+      "release_date": "2014-12-18",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.697,
+      "vote_count": 1241
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tKYOK8iMxkhJhug3LJ2yvC5QY8M.jpg",
+      "genre_ids": [
+        10751,
+        18
+      ],
+      "id": 1709391,
+      "title": "Hanuman Ansh",
+      "original_language": "hi",
+      "original_title": "हनुमान अंश",
+      "overview": "A grieving boy seeks God to meet his departed mother, and in finding the divine, learns to serve humanity with miracles of love, food and silent blessings, becoming Hanuman Ansh, Neem Karoli Baba.",
+      "popularity": 7.098,
+      "poster_path": "/as2Y3zGUa2IUS3uAx2sh6Ano3es.jpg",
+      "release_date": "2026-08-07",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.1,
+      "vote_count": 16
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/95sjD0dRajtU6SKD6Gq6PtrGoGY.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 1303331,
+      "title": "Dhamaal 4",
+      "original_language": "hi",
+      "original_title": "धमाल ४",
+      "overview": "The Dhamaal boys are back for another treasure hunt, facing hilarious challenges in their quest for the Treasure of Life.",
+      "popularity": 7.0962,
+      "poster_path": "/oVij5aEEE6iI4PxB4i0CgKp8h0m.jpg",
+      "release_date": "2026-07-10",
+      "softcore": false,
+      "video": false,
+      "vote_average": 3.969,
+      "vote_count": 16
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "id": 1141868,
+      "title": "Tante Siska",
+      "original_language": "hi",
+      "original_title": "Tante Siska",
+      "overview": "",
+      "popularity": 6.9139,
+      "poster_path": "/ui5arpwdiTrnAJ3P5Ue6XPSBMQx.jpg",
+      "release_date": "2023-06-02",
+      "softcore": false,
+      "video": false,
+      "vote_average": 3.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5LtSjMNw6j3LkG29Oa4O0iY5U8.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "id": 872906,
+      "title": "Jawan",
+      "original_language": "hi",
+      "original_title": "जवान",
+      "overview": "An emotional journey of a prison warden, driven by a personal vendetta while keeping up to a promise made years ago, recruits inmates to commit outrageous crimes that shed light on corruption and injustice, in an attempt to get even with his past,  and that leads him to an unexpected reunion.",
+      "popularity": 6.6214,
+      "poster_path": "/jFt1gS4BGHlK8xt76Y81Alp4dbt.jpg",
+      "release_date": "2023-09-07",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.0,
+      "vote_count": 364
+    }
+  ],
+  "total_pages": 532,
+  "total_results": 10636
+}

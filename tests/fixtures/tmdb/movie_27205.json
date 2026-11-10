@@ -1,0 +1,728 @@
+{
+  "adult": false,
+  "backdrop_path": "/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+  "belongs_to_collection": null,
+  "budget": 160000000,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 878,
+      "name": "Science Fiction"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.warnerbros.com/movies/inception",
+  "id": 27205,
+  "imdb_id": "tt1375666",
+  "origin_country": [
+    "US",
+    "GB"
+  ],
+  "original_language": "en",
+  "original_title": "Inception",
+  "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+  "popularity": 47.2752,
+  "poster_path": "/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+  "production_companies": [
+    {
+      "id": 174,
+      "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+      "name": "Warner Bros. Pictures",
+      "origin_country": "US"
+    },
+    {
+      "id": 923,
+      "logo_path": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+      "name": "Legendary Pictures",
+      "origin_country": "US"
+    },
+    {
+      "id": 9996,
+      "logo_path": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+      "name": "Syncopy",
+      "origin_country": "GB"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    },
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "2010-07-15",
+  "revenue": 839030630,
+  "runtime": 148,
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    },
+    {
+      "english_name": "French",
+      "iso_639_1": "fr",
+      "name": "Français"
+    },
+    {
+      "english_name": "Japanese",
+      "iso_639_1": "ja",
+      "name": "日本語"
+    }
+  ],
+  "status": "Released",
+  "tagline": "Your mind is the scene of the crime.",
+  "title": "Inception",
+  "video": false,
+  "vote_average": 8.373,
+  "vote_count": 40638,
+  "keywords": {
+    "keywords": [
+      {
+        "id": 10364,
+        "name": "mission"
+      },
+      {
+        "id": 1566,
+        "name": "dreams"
+      },
+      {
+        "id": 1930,
+        "name": "kidnapping"
+      },
+      {
+        "id": 470,
+        "name": "spy"
+      },
+      {
+        "id": 1501,
+        "name": "allegory"
+      },
+      {
+        "id": 6258,
+        "name": "intellectual"
+      },
+      {
+        "id": 2887,
+        "name": "manipulation"
+      },
+      {
+        "id": 10051,
+        "name": "heist"
+      },
+      {
+        "id": 10937,
+        "name": "memory"
+      },
+      {
+        "id": 186789,
+        "name": "dream world"
+      },
+      {
+        "id": 234868,
+        "name": "subconscious"
+      },
+      {
+        "id": 315323,
+        "name": "incredulous"
+      },
+      {
+        "id": 333185,
+        "name": "high concept"
+      },
+      {
+        "id": 346773,
+        "name": "dream"
+      }
+    ]
+  },
+  "credits": {
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 6193,
+        "known_for_department": "Acting",
+        "name": "Leonardo DiCaprio",
+        "original_name": "Leonardo DiCaprio",
+        "popularity": 8.6318,
+        "profile_path": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
+        "cast_id": 1,
+        "character": "Dom Cobb",
+        "credit_id": "52fe4534c3a368484e04de03",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 24045,
+        "known_for_department": "Acting",
+        "name": "Joseph Gordon-Levitt",
+        "original_name": "Joseph Gordon-Levitt",
+        "popularity": 8.5692,
+        "profile_path": "/z2FA8js799xqtfiFjBTicFYdfk.jpg",
+        "cast_id": 3,
+        "character": "Arthur",
+        "credit_id": "52fe4534c3a368484e04de0b",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3899,
+        "known_for_department": "Acting",
+        "name": "Ken Watanabe",
+        "original_name": "渡辺謙",
+        "popularity": 3.5326,
+        "profile_path": "/psAXOYp9SBOXvg6AXzARDedNQ9P.jpg",
+        "cast_id": 2,
+        "character": "Saito",
+        "credit_id": "52fe4534c3a368484e04de07",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2524,
+        "known_for_department": "Acting",
+        "name": "Tom Hardy",
+        "original_name": "Tom Hardy",
+        "popularity": 12.7323,
+        "profile_path": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
+        "cast_id": 7,
+        "character": "Eames",
+        "credit_id": "52fe4534c3a368484e04de1b",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 3,
+        "id": 27578,
+        "known_for_department": "Acting",
+        "name": "Elliot Page",
+        "original_name": "Elliot Page",
+        "popularity": 5.912,
+        "profile_path": "/nXO8DE4biVXY4UDYP0NdIY1zvXS.jpg",
+        "cast_id": 5,
+        "character": "Ariadne",
+        "credit_id": "52fe4534c3a368484e04de13",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 95697,
+        "known_for_department": "Acting",
+        "name": "Dileep Rao",
+        "original_name": "Dileep Rao",
+        "popularity": 1.3189,
+        "profile_path": "/jRNn8SZqFXuI5wOOlHwYsWh0hXs.jpg",
+        "cast_id": 19,
+        "character": "Yusuf",
+        "credit_id": "52fe4534c3a368484e04de4f",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2037,
+        "known_for_department": "Acting",
+        "name": "Cillian Murphy",
+        "original_name": "Cillian Murphy",
+        "popularity": 7.0472,
+        "profile_path": "/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg",
+        "cast_id": 8,
+        "character": "Robert Fischer, Jr.",
+        "credit_id": "52fe4534c3a368484e04de1f",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 13022,
+        "known_for_department": "Acting",
+        "name": "Tom Berenger",
+        "original_name": "Tom Berenger",
+        "popularity": 2.4666,
+        "profile_path": "/zLxzAdAfu7y02yEx29JSLDgXJZ4.jpg",
+        "cast_id": 9,
+        "character": "Peter Browning",
+        "credit_id": "52fe4534c3a368484e04de23",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 8293,
+        "known_for_department": "Acting",
+        "name": "Marion Cotillard",
+        "original_name": "Marion Cotillard",
+        "popularity": 5.6059,
+        "profile_path": "/biitzOF0GffIqFYLyOPkoiaOngQ.jpg",
+        "cast_id": 4,
+        "character": "Mal Cobb",
+        "credit_id": "52fe4534c3a368484e04de0f",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 4935,
+        "known_for_department": "Acting",
+        "name": "Pete Postlethwaite",
+        "original_name": "Pete Postlethwaite",
+        "popularity": 3.1692,
+        "profile_path": "/2gpa75Ci4y2OKmOc8WXnaeGgyKF.jpg",
+        "cast_id": 22,
+        "character": "Maurice Fischer",
+        "credit_id": "52fe4534c3a368484e04de59",
+        "order": 9
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 525,
+        "known_for_department": "Directing",
+        "name": "Christopher Nolan",
+        "original_name": "Christopher Nolan",
+        "popularity": 8.2143,
+        "profile_path": "/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg",
+        "credit_id": "6168e57da802360043ef85d0",
+        "department": "Writing",
+        "job": "Writer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 947,
+        "known_for_department": "Sound",
+        "name": "Hans Zimmer",
+        "original_name": "Hans Zimmer",
+        "popularity": 4.7133,
+        "profile_path": "/tpQnDeHY15szIXvpnhlprufz4d.jpg",
+        "credit_id": "56e8462cc3a368408400354c",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 525,
+        "known_for_department": "Directing",
+        "name": "Christopher Nolan",
+        "original_name": "Christopher Nolan",
+        "popularity": 8.2143,
+        "profile_path": "/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg",
+        "credit_id": "5e83ac2ee33f830018359a00",
+        "department": "Directing",
+        "job": "Director"
+      }
+    ]
+  },
+  "watch/providers": {
+    "results": {
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/27205-inception/watch?locale=IN",
+        "buy": [
+          {
+            "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 10
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 38
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+            "provider_id": 119,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/ledoS6EgdjTNq8F1e6wubUQer18.png",
+            "provider_id": 2336,
+            "provider_name": "JioHotstar",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 69
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/27205-inception/watch?locale=JP",
+        "rent": [
+          {
+            "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+            "provider_id": 2683,
+            "provider_name": "FOD",
+            "display_priority": 77
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+            "provider_id": 15,
+            "provider_name": "Hulu",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+            "provider_id": 84,
+            "provider_name": "U-NEXT",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/mrzVKXhM1vryerBWd65emU9TfUm.png",
+            "provider_id": 2284,
+            "provider_name": "HBO Max on U-Next",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 68
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 7
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/27205-inception/watch?locale=KR",
+        "rent": [
+          {
+            "logo_path": "/mh1vBeclG7Eq15TjRnmyustqp3v.png",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/mh1vBeclG7Eq15TjRnmyustqp3v.png",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/ppQIS7UMtBwJSspSoGqDR8wO1Gr.png",
+            "provider_id": 97,
+            "provider_name": "Watcha",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/mh1vBeclG7Eq15TjRnmyustqp3v.png",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 4
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/27205-inception/watch?locale=US",
+        "rent": [
+          {
+            "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 41
+          },
+          {
+            "logo_path": "/6qPtM96UZkt3Bu4ZFPsDeHFWUZ2.png",
+            "provider_id": 486,
+            "provider_name": "Spectrum On Demand",
+            "display_priority": 123
+          },
+          {
+            "logo_path": "/blAEhvx3XX8sV0fFVFk88FFjubs.png",
+            "provider_id": 538,
+            "provider_name": "Plex",
+            "display_priority": 128
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "provider_id": 7,
+            "provider_name": "Fandango At Home",
+            "display_priority": 41
+          }
+        ]
+      }
+    }
+  },
+  "release_dates": {
+    "results": [
+      {
+        "iso_3166_1": "IN",
+        "release_dates": [
+          {
+            "certification": "UA",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2010-07-16T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "JP",
+        "release_dates": [
+          {
+            "certification": "G",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2010-07-17T00:00:00.000Z",
+            "type": 2
+          },
+          {
+            "certification": "G",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2010-07-23T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "KR",
+        "release_dates": [
+          {
+            "certification": "12",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2010-07-21T00:00:00.000Z",
+            "type": 3
+          },
+          {
+            "certification": "12",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "Re-release",
+            "release_date": "2020-01-29T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "US",
+        "release_dates": [
+          {
+            "certification": "",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "Hollywood, California",
+            "release_date": "2010-07-13T00:00:00.000Z",
+            "type": 1
+          },
+          {
+            "certification": "PG-13",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2010-07-16T00:00:00.000Z",
+            "type": 3
+          },
+          {
+            "certification": "PG-13",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "Re-release",
+            "release_date": "2020-08-21T00:00:00.000Z",
+            "type": 3
+          },
+          {
+            "certification": "PG-13",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "Blu-ray / DVD",
+            "release_date": "2010-12-07T00:00:00.000Z",
+            "type": 5
+          }
+        ]
+      }
+    ]
+  },
+  "translations": {
+    "translations": [
+      {
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "name": "English",
+        "english_name": "English",
+        "data": {
+          "homepage": "https://www.warnerbros.com/movies/inception",
+          "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+          "runtime": 148,
+          "tagline": "Your mind is the scene of the crime.",
+          "title": ""
+        }
+      },
+      {
+        "iso_3166_1": "JP",
+        "iso_639_1": "ja",
+        "name": "日本語",
+        "english_name": "Japanese",
+        "data": {
+          "homepage": "",
+          "overview": "他人の夢に潜入してアイデアを盗み出す企業スパイのコブは国際指名手配犯であるが、それと同時に妻モルを殺した容疑もかけられていた。そんな彼に日本人男性サイトーからある依頼が。それはこれまでのように思考を盗み出すのではなく、標的にした人物の潜在意識に、あるアイデアを移植する“インセプション”という仕事だった。コブはサイトーを含むスペシャリスト6人を集め、標的の男性ロバートの夢に潜入しようとする。",
+          "runtime": 0,
+          "tagline": "お前の頭へ侵入する。",
+          "title": "インセプション"
+        }
+      },
+      {
+        "iso_3166_1": "KR",
+        "iso_639_1": "ko",
+        "name": "한국어/조선말",
+        "english_name": "Korean",
+        "data": {
+          "homepage": "",
+          "overview": "타인의 꿈에 들어가 생각을 훔치는 특수 보안요원 코브. 그를 이용해 라이벌 기업의 정보를 빼내고자 하는 사이토는 코브에게 생각을 훔치는 것이 아닌, 생각을 심는 ‘인셉션’ 작전을 제안한다. 성공 조건으로 국제적인 수배자가 되어있는 코브의 신분을 바꿔주겠다는 거부할 수 없는 제안을 하고, 사랑하는 아이들에게 돌아가기 위해 그 제안을 받아들인다. 최강의 팀을 구성, 표적인 피셔에게 접근해서 ‘인셉션’ 작전을 실행하지만 예기치 못한 사건들과 마주하게 되는데… 꿈 VS 현실! 시간, 규칙, 타이밍 모든 것이 완벽해야만 하는, 단 한 번도 성공한 적 없는 ‘인셉션’ 작전이 시작된다!",
+          "runtime": 0,
+          "tagline": "생각을 훔치는 거대한 전쟁",
+          "title": "인셉션"
+        }
+      },
+      {
+        "iso_3166_1": "IN",
+        "iso_639_1": "hi",
+        "name": "हिन्दी",
+        "english_name": "Hindi",
+        "data": {
+          "homepage": "",
+          "overview": "",
+          "runtime": 0,
+          "tagline": "",
+          "title": "चक्रव्युह"
+        }
+      }
+    ]
+  }
+}

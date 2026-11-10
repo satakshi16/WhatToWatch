@@ -1,0 +1,654 @@
+{
+  "adult": false,
+  "backdrop_path": "/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
+  "created_by": [],
+  "episode_run_time": [],
+  "first_air_date": "2013-04-07",
+  "genres": [
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    },
+    {
+      "id": 10759,
+      "name": "Action & Adventure"
+    }
+  ],
+  "homepage": "https://shingeki.tv/",
+  "id": 1429,
+  "in_production": false,
+  "languages": [
+    "ja"
+  ],
+  "last_air_date": "2022-04-04",
+  "last_episode_to_air": {
+    "id": 3508327,
+    "name": "The Dawn of Humanity",
+    "overview": "Regardless of where it all began, Eren commits to his path of destruction during the Scouts' first visit to the Marleyan mainland, leaving Mikasa to wonder if things could've been different.",
+    "vote_average": 9.0,
+    "vote_count": 54,
+    "air_date": "2022-04-04",
+    "episode_number": 28,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 23,
+    "season_number": 4,
+    "show_id": 1429,
+    "still_path": "/9IT29LxBTDd610r2XzzGZXeca0b.jpg"
+  },
+  "name": "Attack on Titan",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 94,
+      "logo_path": "/7RNXnyiMbjgqtPAjja13wchcrGI.png",
+      "name": "MBS",
+      "origin_country": "JP"
+    },
+    {
+      "id": 469,
+      "logo_path": "/3E5bxm9VfOU9LkAX545jtpKAe6Z.png",
+      "name": "NHK G",
+      "origin_country": "JP"
+    },
+    {
+      "id": 614,
+      "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+      "name": "TOKYO MX",
+      "origin_country": "JP"
+    }
+  ],
+  "number_of_episodes": 87,
+  "number_of_seasons": 4,
+  "origin_country": [
+    "JP"
+  ],
+  "original_language": "ja",
+  "original_name": "進撃の巨人",
+  "overview": "100 years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the members of the Scouting Legion dared to stray beyond the safety of the walls – but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill – or be devoured!",
+  "popularity": 48.6875,
+  "poster_path": "/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
+  "production_companies": [
+    {
+      "id": 529,
+      "logo_path": "/rwB6w2aPENQbx756pBWSw44Ouk.png",
+      "name": "Production I.G",
+      "origin_country": "JP"
+    },
+    {
+      "id": 21444,
+      "logo_path": "/wSejGn3lAZdQ5muByxvzigwyDY6.png",
+      "name": "MAPPA",
+      "origin_country": "JP"
+    },
+    {
+      "id": 31058,
+      "logo_path": "/1vwZPG0zMVRvThCY8Lljh0ppxQo.png",
+      "name": "WIT STUDIO",
+      "origin_country": "JP"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "JP",
+      "name": "Japan"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2013-07-07",
+      "episode_count": 37,
+      "id": 3789,
+      "name": "Specials",
+      "overview": "The complete selection of specials relating to any 'Attack on Titan' TV series, including spin-offs and 'The Final Chapters' specials that aired.",
+      "poster_path": "/no3dkH44ywREi0la8tw4TnA1GxN.jpg",
+      "season_number": 0,
+      "vote_average": 0.0
+    },
+    {
+      "air_date": "2013-04-07",
+      "episode_count": 25,
+      "id": 3788,
+      "name": "Season 1",
+      "overview": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations.",
+      "poster_path": "/gC78bsXhdU2PwT3FkLcn8R5YcHb.jpg",
+      "season_number": 1,
+      "vote_average": 8.4
+    },
+    {
+      "air_date": "2017-04-01",
+      "episode_count": 12,
+      "id": 84756,
+      "name": "Season 2",
+      "overview": "Eren’s battle against the Titans rages on! After fighting the Female Titan, he has no time to rest as a hoard approaches Wall Rose. A new war begins and as they face the threat to humanity, they begin to unearth terrifying secrets. What are the Titans really and where do they get their power—and who’s really on their side?",
+      "poster_path": "/2fhK0wbFixskgRyuq6YvaMn75et.jpg",
+      "season_number": 2,
+      "vote_average": 8.6
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "Japanese",
+      "iso_639_1": "ja",
+      "name": "日本語"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Home was a pen. Humanity, cattle.",
+  "type": "Scripted",
+  "vote_average": 8.689,
+  "vote_count": 7803,
+  "keywords": {
+    "results": [
+      {
+        "name": "fascism",
+        "id": 1755
+      },
+      {
+        "name": "dystopia",
+        "id": 4565
+      },
+      {
+        "name": "politics",
+        "id": 6078
+      },
+      {
+        "name": "revenge",
+        "id": 9748
+      },
+      {
+        "name": "gore",
+        "id": 10292
+      },
+      {
+        "name": "survival",
+        "id": 10349
+      },
+      {
+        "name": "tragedy",
+        "id": 10614
+      },
+      {
+        "name": "giant monster",
+        "id": 11100
+      },
+      {
+        "name": "based on manga",
+        "id": 13141
+      },
+      {
+        "name": "super power",
+        "id": 33637
+      },
+      {
+        "name": "political intrigue ",
+        "id": 41282
+      },
+      {
+        "name": "family tragedy",
+        "id": 160234
+      },
+      {
+        "name": "military",
+        "id": 162365
+      },
+      {
+        "name": "dark fantasy",
+        "id": 177895
+      },
+      {
+        "name": "shounen",
+        "id": 207826
+      },
+      {
+        "name": "anime",
+        "id": 210024
+      },
+      {
+        "name": "war",
+        "id": 273967
+      },
+      {
+        "name": "suspense",
+        "id": 288394
+      },
+      {
+        "name": "mystery",
+        "id": 316332
+      }
+    ]
+  },
+  "credits": {
+    "cast": [
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 90135,
+        "known_for_department": "Acting",
+        "name": "Marina Inoue",
+        "original_name": "井上麻里奈",
+        "popularity": 2.18,
+        "profile_path": "/f7PuEx1h2g4FLgMzk9wCrWuS9Eu.jpg",
+        "character": "Armin Arlert (voice)",
+        "credit_id": "5d5fa849924ce50015154a9e",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 119145,
+        "known_for_department": "Acting",
+        "name": "Hiro Shimono",
+        "original_name": "下野紘",
+        "popularity": 2.4556,
+        "profile_path": "/yrSDcgFefHtWkFmLnTrcw2t0MV.jpg",
+        "character": "Connie Springer (voice)",
+        "credit_id": "5d5fa95da894d63c769ba40d",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 149894,
+        "known_for_department": "Acting",
+        "name": "Yuki Kaji",
+        "original_name": "梶裕貴",
+        "popularity": 3.311,
+        "profile_path": "/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg",
+        "character": "Eren Yeager (voice)",
+        "credit_id": "547c859b9251411f4e001e9a",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1256603,
+        "known_for_department": "Acting",
+        "name": "Natsuki Hanae",
+        "original_name": "花江夏樹",
+        "popularity": 2.8937,
+        "profile_path": "/alTb0DlcPIbcwM08WSmxFai58sd.jpg",
+        "character": "Falco Grice (voice)",
+        "credit_id": "620a6a3a297338132edc8d18",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 992869,
+        "known_for_department": "Acting",
+        "name": "Ayane Sakura",
+        "original_name": "佐倉綾音",
+        "popularity": 3.3047,
+        "profile_path": "/yPbTmntASE9psPIMhNGU5oo6vIH.jpg",
+        "character": "Gabi Braun (voice)",
+        "credit_id": "6036a424eec5b5003d1b957e",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 553959,
+        "known_for_department": "Acting",
+        "name": "Kisho Taniyama",
+        "original_name": "谷山紀章",
+        "popularity": 1.5939,
+        "profile_path": "/9lOnUF6C6xEhZ0FQmYNzNZhcUpd.jpg",
+        "character": "Jean Kirstein (voice)",
+        "credit_id": "5d5ff7be924ce54c7d14aa75",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1224288,
+        "known_for_department": "Acting",
+        "name": "Yui Ishikawa",
+        "original_name": "石川由依",
+        "popularity": 1.943,
+        "profile_path": "/zptGIN1iklKJL1xrfHKOpxR2qJ9.jpg",
+        "character": "Mikasa Ackerman (voice)",
+        "credit_id": "5256dab319c2956ff60b748a",
+        "order": 7
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1253008,
+        "known_for_department": "Acting",
+        "name": "Yoshimasa Hosoya",
+        "original_name": "細谷佳正",
+        "popularity": 2.3228,
+        "profile_path": "/lUR5oN1LrqGgp25IOcI1qOH1Ud5.jpg",
+        "character": "Reiner Braun (voice)",
+        "credit_id": "5d61e2347f6c8d0019ed8727",
+        "order": 9
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 84508,
+        "known_for_department": "Acting",
+        "name": "Takehito Koyasu",
+        "original_name": "子安武人",
+        "popularity": 3.3321,
+        "profile_path": "/8uBkNDKPNmp9JWgMUI02NVyfhi1.jpg",
+        "character": "Zeke (voice)",
+        "credit_id": "5fc2ae4f174a87003fe1c909",
+        "order": 10
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1553591,
+        "known_for_department": "Directing",
+        "name": "Yuichiro Hayashi",
+        "original_name": "林祐一郎",
+        "popularity": 1.1633,
+        "profile_path": "/fnxPe3512mkUYw3OnYuZJSBtwXZ.jpg",
+        "credit_id": "5f7a380e1fd36f00374e84d3",
+        "department": "Directing",
+        "job": "Series Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 996639,
+        "known_for_department": "Directing",
+        "name": "Jun Shishido",
+        "original_name": "宍戸淳",
+        "popularity": 0.1687,
+        "profile_path": null,
+        "credit_id": "5f7a37fe9a64350037aa29bc",
+        "department": "Directing",
+        "job": "Series Director"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 2659300,
+        "known_for_department": "Sound",
+        "name": "Kohta Yamamoto",
+        "original_name": "KOHTA YAMAMOTO",
+        "popularity": 0.8361,
+        "profile_path": "/83Iu3Ey3ym9ZwewSmUjOvimpTMd.jpg",
+        "credit_id": "5f74f0f319675700379a5119",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1208426,
+        "known_for_department": "Sound",
+        "name": "Hiroyuki Sawano",
+        "original_name": "澤野弘之",
+        "popularity": 3.4974,
+        "profile_path": "/gV1lO7MjMso31nQ9NiLGtsdSYgZ.jpg",
+        "credit_id": "5f74f091fea0d700350eb0a6",
+        "department": "Sound",
+        "job": "Original Music Composer"
+      }
+    ]
+  },
+  "watch/providers": {
+    "results": {
+      "IN": {
+        "link": "https://www.themoviedb.org/tv/1429/watch?locale=IN",
+        "flatrate": [
+          {
+            "logo_path": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+            "provider_id": 2182,
+            "provider_name": "Anime Times Amazon Channel",
+            "display_priority": 55
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/tv/1429/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+            "provider_id": 337,
+            "provider_name": "Disney Plus",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/3DGpCh83CR9lDzyKbNWlmUBexBF.png",
+            "provider_id": 84,
+            "provider_name": "U-NEXT",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/e4dDK8VBh4pbdPfwK9aeN9Rc7ar.png",
+            "provider_id": 2182,
+            "provider_name": "Anime Times Amazon Channel",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png",
+            "provider_id": 2494,
+            "provider_name": "dAnime Amazon Channel",
+            "display_priority": 42
+          },
+          {
+            "logo_path": "/jjXnZFeUc848snG5PHRQpbV3MMm.png",
+            "provider_id": 2498,
+            "provider_name": "FOD Channel Amazon Channel",
+            "display_priority": 45
+          },
+          {
+            "logo_path": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+            "provider_id": 2100,
+            "provider_name": "Amazon Prime Video with Ads",
+            "display_priority": 68
+          },
+          {
+            "logo_path": "/m0tkTiV5TN7NWfazDEYc8NoVXSd.png",
+            "provider_id": 2683,
+            "provider_name": "FOD",
+            "display_priority": 77
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+            "provider_id": 9,
+            "provider_name": "Amazon Prime Video",
+            "display_priority": 1
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/tv/1429/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/ppQIS7UMtBwJSspSoGqDR8wO1Gr.png",
+            "provider_id": 97,
+            "provider_name": "Watcha",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+            "provider_id": 1796,
+            "provider_name": "Netflix Standard with Ads",
+            "display_priority": 24
+          },
+          {
+            "logo_path": "/uFL3c4Cq8M6WoLymlC5Y8bmGytV.png",
+            "provider_id": 283,
+            "provider_name": "Crunchyroll",
+            "display_priority": 25
+          },
+          {
+            "logo_path": "/w4ov8Zx73eu2TjHsDs5EmiuYKA4.png",
+            "provider_id": 1883,
+            "provider_name": "TVING",
+            "display_priority": 29
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/uFL3c4Cq8M6WoLymlC5Y8bmGytV.png",
+            "provider_id": 283,
+            "provider_name": "Crunchyroll",
+            "display_priority": 25
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/tv/1429/watch?locale=US",
+        "buy": [
+          {
+            "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "provider_id": 2,
+            "provider_name": "Apple TV Store",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 24
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+            "provider_id": 15,
+            "provider_name": "Hulu",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/uFL3c4Cq8M6WoLymlC5Y8bmGytV.png",
+            "provider_id": 283,
+            "provider_name": "Crunchyroll",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/qHLLmKo7udRgiSnIASVTwP2IxfJ.png",
+            "provider_id": 1968,
+            "provider_name": "Crunchyroll Amazon Channel",
+            "display_priority": 26
+          }
+        ]
+      }
+    }
+  },
+  "content_ratings": {
+    "results": [
+      {
+        "descriptors": [],
+        "iso_3166_1": "US",
+        "rating": "TV-MA"
+      },
+      {
+        "descriptors": [],
+        "iso_3166_1": "KR",
+        "rating": "19"
+      },
+      {
+        "descriptors": [],
+        "iso_3166_1": "IN",
+        "rating": "U/A 16+"
+      }
+    ]
+  },
+  "translations": {
+    "translations": [
+      {
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "name": "English",
+        "english_name": "English",
+        "data": {
+          "name": "Attack on Titan",
+          "overview": "100 years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the members of the Scouting Legion dared to stray beyond the safety of the walls – but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill – or be devoured!",
+          "homepage": "",
+          "tagline": "Home was a pen. Humanity, cattle."
+        }
+      },
+      {
+        "iso_3166_1": "KR",
+        "iso_639_1": "ko",
+        "name": "한국어/조선말",
+        "english_name": "Korean",
+        "data": {
+          "name": "진격의 거인",
+          "overview": "2013년 4월 MBS에서 방영을 시작한 애니메이션. 100여 년 전 갑자기 나타난 거인들에 의해 멸종 위기에 처한 인류는 거대한 벽을 쌓고 그 안에서 살아가고 있다. 에렌은 바깥 세계를 동경하며, 언젠가 저 방벽 밖으로 나가겠다는 꿈을 키우고 있었다. 그러던 어느 날, 60m가 넘는 초대형 거인의 등장으로 벽은 무너지고, 거인들이 벽 안으로 들어와 사람들을 잡아먹기 시작한다. 절규와 죽음으로 가득한 절망적인 상황에서 거인에게 어머니 카를라를 비롯한 소중한 사람들을 빼앗긴 엘런은 복수를 맹세하고, 사무친 복수심을 원동력으로 삼아 만 12세에 훈련병단의 훈련병으로 지원한다.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "JP",
+        "iso_639_1": "ja",
+        "name": "日本語",
+        "english_name": "Japanese",
+        "data": {
+          "name": "",
+          "overview": "繁栄を築き上げた人類は、突如出現した巨人により滅亡の淵に立たされた。生き残った人類は巨大な三重の城壁の内側に生活圏を確保することで辛うじてその命脈を保っていた。城壁による平和を得てから約100年後。いつしか人類は巨人の脅威を忘れかけていた。",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "IN",
+        "iso_639_1": "hi",
+        "name": "हिन्दी",
+        "english_name": "Hindi",
+        "data": {
+          "name": "दानव पर हमला",
+          "overview": "एरेन जैगर, अपनी बहन और दोस्तों के साथ, जो मानव मांस खाने वाले विशाल नरभक्षी,टाइटन्स को नष्ट करने के लिए सेना में शामिल होता है।",
+          "homepage": "",
+          "tagline": ""
+        }
+      }
+    ]
+  }
+}

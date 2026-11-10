@@ -1,0 +1,451 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+      "id": 1423191,
+      "title": "Resident Evil",
+      "original_title": "Resident Evil",
+      "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "poster_path": "/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        27,
+        878,
+        12
+      ],
+      "popularity": 190.4858,
+      "release_date": "2026-09-16",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.407,
+      "vote_count": 1388
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3k7GzxOdLZkN3eZsuhLi2eRzkXO.jpg",
+      "id": 1384216,
+      "title": "The Dog Stars",
+      "original_title": "The Dog Stars",
+      "overview": "After the world's population has been ravaged by a pandemic, a man lives a lonesome existence in a Colorado airplane hangar with his dog and a dour gunman he has befriended. When a mysterious transmission comes through on the radio while he’s flying his old Cessna, it sparks a hunt for the provenance of the sound.",
+      "poster_path": "/5O616X9vmRzQdB68PHzBewPittd.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        53,
+        878
+      ],
+      "popularity": 166.362,
+      "release_date": "2026-08-26",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.227,
+      "vote_count": 864
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+      "id": 1400940,
+      "title": "Clayface",
+      "original_title": "Clayface",
+      "overview": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
+      "poster_path": "/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        27,
+        53,
+        878
+      ],
+      "popularity": 149.0958,
+      "release_date": "2026-10-19",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.409,
+      "vote_count": 369
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
+      "id": 1381071,
+      "title": "Godzilla Minus Zero",
+      "original_title": "ゴジラ-0.0",
+      "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
+      "poster_path": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+      "media_type": "movie",
+      "original_language": "ja",
+      "genre_ids": [
+        878,
+        27,
+        28
+      ],
+      "popularity": 38.7101,
+      "release_date": "2026-11-03",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.95,
+      "vote_count": 10
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg",
+      "id": 1283515,
+      "title": "Verity",
+      "original_title": "Verity",
+      "overview": "Lowen Ashleigh, hired to ghostwrite for best-selling author Verity Crawford, uncovers Verity's autobiographical notes, and becomes involved in what may prove to be a lethal conspiracy.",
+      "poster_path": "/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        9648,
+        53
+      ],
+      "popularity": 235.311,
+      "release_date": "2026-09-30",
+      "softcore": false,
+      "video": false,
+      "vote_average": 6.963,
+      "vote_count": 585
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rObL4of4eFA8yWaN9pRFo9aOVNi.jpg",
+      "id": 1003596,
+      "title": "Avengers: Doomsday",
+      "original_title": "Avengers: Doomsday",
+      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+      "poster_path": "/9jlZ59UALLLOE279HMT19rP9XQs.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "popularity": 114.2872,
+      "release_date": "2026-12-16",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cyH2fZUjIJjLmgpF3tgA5CSGz4L.jpg",
+      "id": 289517,
+      "name": "Dead-End Job",
+      "original_name": "꿀알바",
+      "overview": "Drowning in debt, a young man takes lucrative part-time jobs from a mysterious agency — only to find his hustle for more money turning nightmarish.",
+      "poster_path": "/agNYOaXhshj35EMjzVZLGRZUlx6.jpg",
+      "media_type": "tv",
+      "original_language": "ko",
+      "genre_ids": [
+        9648
+      ],
+      "popularity": 144.7314,
+      "first_air_date": "2026-10-30",
+      "softcore": false,
+      "vote_average": 7.5,
+      "vote_count": 36,
+      "origin_country": [
+        "KR"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/614k6C9doThoMe6GyH0nTnGgLXt.jpg",
+      "id": 292741,
+      "name": "Nocturne",
+      "original_name": "Nocturne",
+      "overview": "When a victim of notorious serial killer Jurek Walter unexpectedly turns up alive, detective Jonah Lynn races against time to find the one person still missing, while his protégé Saga Bauer goes undercover to get answers from the killer himself.",
+      "poster_path": "/nyvXVcPnHEwVmqCdzjjCsu1jqhm.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        80,
+        18,
+        9648
+      ],
+      "popularity": 103.4801,
+      "first_air_date": "2026-10-29",
+      "softcore": false,
+      "vote_average": 7.625,
+      "vote_count": 32,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/o3XwuDUj0n8qnK91p6q8LKfr6rj.jpg",
+      "id": 1507696,
+      "title": "Apocalypse Z: New World",
+      "original_title": "Apocalipsis Z: Nuevo mundo",
+      "overview": "The Canary Islands have become Europe’s last refuge following the outbreak of the TSJ virus. When a special mission sets out for the mainland in search of vital supplies, Roberto joins the team with questionable intentions. The dangerous operation turns into a desperate race for survival, and Roberto and his companions find themselves caught between hordes of infected and divided loyalties.",
+      "poster_path": "/wXln4DUrwcyjcFPwgQxFPYTlG1Z.jpg",
+      "media_type": "movie",
+      "original_language": "es",
+      "genre_ids": [
+        28,
+        53,
+        27
+      ],
+      "popularity": 324.0359,
+      "release_date": "2026-10-09",
+      "softcore": false,
+      "video": false,
+      "vote_average": 6.125,
+      "vote_count": 96
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
+      "id": 259909,
+      "name": "Dexter: Resurrection",
+      "original_name": "Dexter: Resurrection",
+      "overview": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
+      "poster_path": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        80,
+        18,
+        9648
+      ],
+      "popularity": 123.0986,
+      "first_air_date": "2025-07-13",
+      "softcore": false,
+      "vote_average": 8.546,
+      "vote_count": 725,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+      "id": 1465063,
+      "title": "Forgotten Island",
+      "original_title": "Forgotten Island",
+      "overview": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+      "poster_path": "/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        16,
+        12,
+        14,
+        35,
+        10751
+      ],
+      "popularity": 118.5098,
+      "release_date": "2026-09-10",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.01,
+      "vote_count": 203
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/b17UWf3LqHgKolQkXckne32qv0.jpg",
+      "id": 891621,
+      "title": "Wild Horse Nine",
+      "original_title": "Wild Horse Nine",
+      "overview": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways.",
+      "poster_path": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        35,
+        80,
+        53
+      ],
+      "popularity": 27.1307,
+      "release_date": "2026-10-30",
+      "softcore": false,
+      "video": false,
+      "vote_average": 9.0,
+      "vote_count": 18
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+      "id": 1300968,
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "original_title": "The Hunger Games: Sunrise on the Reaping",
+      "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+      "poster_path": "/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "popularity": 37.8587,
+      "release_date": "2026-11-18",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg",
+      "id": 96677,
+      "name": "Lupin",
+      "original_name": "Lupin",
+      "overview": "Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
+      "poster_path": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
+      "media_type": "tv",
+      "original_language": "fr",
+      "genre_ids": [
+        80,
+        18,
+        9648
+      ],
+      "popularity": 142.3019,
+      "first_air_date": "2021-01-08",
+      "softcore": false,
+      "vote_average": 7.7,
+      "vote_count": 2772,
+      "origin_country": [
+        "FR"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
+      "id": 1727734,
+      "title": "Ali G: Who Iz I?",
+      "original_title": "Ali G: Who Iz I?",
+      "overview": "After twenty years spent \"chillin', tokin' and bonin'\", Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child's very existence.",
+      "poster_path": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        35
+      ],
+      "popularity": 111.7935,
+      "release_date": "2026-10-22",
+      "softcore": false,
+      "video": false,
+      "vote_average": 5.801,
+      "vote_count": 136
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+      "id": 791523,
+      "title": "Wildwood",
+      "original_title": "Wildwood",
+      "overview": "After her baby brother is abducted by a murder of crows, headstrong teenager Prue McKeel launches a desperate rescue mission into the Impassable Wilderness, an enchanted forest hidden just beyond Portland, Oregon. Joined by her hapless but loyal classmate Curtis Mehlberg, Prue navigates a world of talking animals, bandits, and powerful figures driven by grief and ambition. As the pair is drawn into a conflict threatening the balance of the forest itself, Prue must discover the strength and belief she never knew she possessed.",
+      "poster_path": "/8g7q6o54WfKWRmUQ0Ye8OskevUY.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        16,
+        12,
+        14
+      ],
+      "popularity": 1725.7447,
+      "release_date": "2026-10-19",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.512,
+      "vote_count": 171
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
+      "id": 1596275,
+      "title": "Drive - The Pretenders",
+      "original_title": "Drive – The Pretenders",
+      "overview": "A young mechanic fakes an engagement with racing's most scandalous star — officially for his reputation, secretly for her own shot behind the wheel. But soon the lie threatens to destroy everything — including what's already become so much more than just a deal.",
+      "poster_path": "/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg",
+      "media_type": "movie",
+      "original_language": "de",
+      "genre_ids": [
+        10749,
+        53
+      ],
+      "popularity": 295.8946,
+      "release_date": "2026-10-27",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.75,
+      "vote_count": 106
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/58v1KFe3rxvHrYM1hLH5ScpwqNR.jpg",
+      "id": 213375,
+      "name": "VisionQuest",
+      "original_name": "VisionQuest",
+      "overview": "With a bounty on his head, Vision must confront his nature and resist Ultron's influence to survive.",
+      "poster_path": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        10765,
+        18
+      ],
+      "popularity": 239.2703,
+      "first_air_date": "2026-10-13",
+      "softcore": false,
+      "vote_average": 8.652,
+      "vote_count": 250,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg",
+      "id": 1503762,
+      "title": "Sense and Sensibility",
+      "original_title": "Sense and Sensibility",
+      "overview": "A charming, witty, and deeply relatable story of love and sisterhood.",
+      "poster_path": "/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        10749,
+        18,
+        36
+      ],
+      "popularity": 83.7523,
+      "release_date": "2026-09-23",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.254,
+      "vote_count": 132
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "id": 1375441,
+      "title": "Primetime",
+      "original_title": "Primetime",
+      "overview": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history. When a high stakes operation goes fatally wrong, his veneered dream of fame curdles into a nightmare of performative justice.",
+      "poster_path": "/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        53,
+        18
+      ],
+      "popularity": 56.1029,
+      "release_date": "2026-09-23",
+      "softcore": false,
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 280
+    }
+  ],
+  "total_pages": 500,
+  "total_results": 10000
+}

@@ -1,0 +1,592 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/qgYK2c5Yl6h0K7s0ClLa3lIcKuV.jpg",
+      "id": 204082,
+      "name": "오징어 게임: 더 챌린지",
+      "original_name": "Squid Game: The Challenge",
+      "overview": "《오징어 게임》에서 영감을 받은 리얼리티 서바이벌 시리즈. 인생을 바꿔놓을 456만 달러의 상금을 두고, 참가자 456명의 스킬이 궁극의 시험대에 오른다.",
+      "poster_path": "/8AfJrS6yxk9X0be0WBdTzDOhy1A.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        10764
+      ],
+      "popularity": 8.1009,
+      "first_air_date": "2023-11-22",
+      "softcore": false,
+      "vote_average": 6.5,
+      "vote_count": 651,
+      "origin_country": [
+        "GB"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3ZjxENlw4HXioGGwhqaJrvdEXKo.jpg",
+      "id": 10707,
+      "title": "오징어와 고래",
+      "original_title": "The Squid and the Whale",
+      "overview": "브루클린에 사는 버나드와 조안은 두 아들을 둔 중년의 부부. 17년을 살아온 평범하고 행복해 보였던 부부는 어느 날 이혼을 결정하고 두 아이는 공동양육으로 두 집을 오가며 생활한다. 월트와 프랭크 형제는 한창 성장할 나이에 혼란을 겪지만, 부부는 이를 돌보지 못하고 서로에게 상처 주고 외도한다.",
+      "poster_path": "/ekI7nQ5pApJV1wV1Kp1UWzjsS28.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "popularity": 4.0284,
+      "release_date": "2005-10-05",
+      "softcore": false,
+      "video": false,
+      "vote_average": 6.952,
+      "vote_count": 1125
+    },
+    {
+      "adult": false,
+      "id": 6085115,
+      "name": "Squid",
+      "original_name": "Squid",
+      "media_type": "person",
+      "popularity": 0.1603,
+      "gender": 0,
+      "known_for_department": "Acting",
+      "profile_path": "/nhXF3QBlmJG9zgvvzR80rTqcMnE.jpg",
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/2JoAuzH6TZXuT4RPW5h9wNaJBkg.jpg",
+          "id": 1237266,
+          "title": "런트",
+          "original_title": "Runt",
+          "overview": "",
+          "poster_path": "/ycSTEW0v36BlhG4FPDTy9ykrEAv.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [
+            10751,
+            12,
+            35,
+            18
+          ],
+          "popularity": 1.6688,
+          "release_date": "2024-09-19",
+          "softcore": false,
+          "video": false,
+          "vote_average": 6.2,
+          "vote_count": 13
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iOSXgx5vXZ2KP4Snu4SV0luRFfI.jpg",
+      "id": 321480,
+      "name": "Squid Game: The Official Podcast",
+      "original_name": "Squid Game: The Official Podcast",
+      "overview": "",
+      "poster_path": "/gMKbFGUA6BnD7HsORtN0tdpDCxA.jpg",
+      "media_type": "tv",
+      "original_language": "en",
+      "genre_ids": [
+        10767
+      ],
+      "popularity": 2.3245,
+      "first_air_date": "2024-12-19",
+      "softcore": false,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "id": 5803928,
+      "name": "Squid",
+      "original_name": "Squid",
+      "media_type": "person",
+      "popularity": 0.1443,
+      "gender": 0,
+      "known_for_department": "Acting",
+      "profile_path": null,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 1576902,
+          "title": "Squid Echoes with Jehnny Beth",
+          "original_title": "Squid Echoes with Jehnny Beth",
+          "overview": "",
+          "poster_path": "/98PsuGogRLE6SP0nqe1Z9WspfM7.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [
+            10402
+          ],
+          "popularity": 1.0417,
+          "release_date": "2023-01-01",
+          "softcore": false,
+          "video": false,
+          "vote_average": 0.0,
+          "vote_count": 0
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cixgYGAX71KCrV9NqaQshmeqlp.jpg",
+      "id": 1108461,
+      "title": "Squid Fleet",
+      "original_title": "Squid Fleet",
+      "overview": "",
+      "poster_path": "/28PYsCZyrEH7mb0x5JAx8FnBLCg.jpg",
+      "media_type": "movie",
+      "original_language": "zh",
+      "genre_ids": [
+        99
+      ],
+      "popularity": 0.9582,
+      "release_date": "2023-04-20",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 301486,
+      "title": "Squid Man",
+      "original_title": "Squid Man",
+      "overview": "",
+      "poster_path": null,
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        35,
+        18,
+        14,
+        10749
+      ],
+      "popularity": 2.9199,
+      "release_date": "2012-01-01",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.9,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/i9bhxhUBFZHorvK81GNKMJGj2Kt.jpg",
+      "id": 1214667,
+      "title": "오징어 게임: 더 챌린지 메이킹",
+      "original_title": "Making Squid Game: The Challenge",
+      "overview": "《오징어 게임》을 바탕으로 한 리얼리티 시리즈 《오징어 게임: 더 챌린지》. 픽션 드라마가 아슬아슬하고 치열한 서바이벌 예능으로 탄생하기까지, 그 제작 과정을 비하인드 영상으로 만나본다.",
+      "poster_path": "/73vGRE3qpt1Ifb83uDv9JK6vQEB.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        99
+      ],
+      "popularity": 1.8119,
+      "release_date": "2023-12-06",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.967,
+      "vote_count": 241
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 510261,
+      "title": "Colossal Squid",
+      "original_title": "Colossal Squid",
+      "overview": "",
+      "poster_path": "/l8MlU0QOpq4UhAywttJd6f7G5xm.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        99
+      ],
+      "popularity": 0.2921,
+      "release_date": "2008-08-30",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 876050,
+      "title": "Squid Goddess",
+      "original_title": "Squid Goddess",
+      "overview": "",
+      "poster_path": "/rpgOA9vVasFmzf6akim5OXTZopM.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        16
+      ],
+      "popularity": 0.2619,
+      "release_date": "2021-01-01",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "id": 2762183,
+      "name": "Michael Squid",
+      "original_name": "Michael Squid",
+      "media_type": "person",
+      "popularity": 0.1773,
+      "gender": 0,
+      "known_for_department": "Directing",
+      "profile_path": null,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 738493,
+          "title": "The Chrysalis",
+          "original_title": "The Chrysalis",
+          "overview": "",
+          "poster_path": "/bKSGQ0Ng7uGyIaC1iRyxvwCYGam.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [
+            27
+          ],
+          "popularity": 1.2379,
+          "release_date": "2020-05-01",
+          "softcore": false,
+          "video": false,
+          "vote_average": 5.6,
+          "vote_count": 8
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 876974,
+          "title": "Dice",
+          "original_title": "Dice",
+          "overview": "",
+          "poster_path": "/xT3mHV2YdIBn2wvueNLIyVWI7uV.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [],
+          "popularity": 0.3125,
+          "release_date": "",
+          "softcore": false,
+          "video": false,
+          "vote_average": 7.0,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 1063121,
+          "title": "The Order",
+          "original_title": "The Order",
+          "overview": "",
+          "poster_path": "/dGcF35UA6EXTj2Ohkw78pN0yV6w.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [
+            27
+          ],
+          "popularity": 0.2431,
+          "release_date": "",
+          "softcore": false,
+          "video": false,
+          "vote_average": 5.0,
+          "vote_count": 1
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 67995,
+      "title": "Squid Invasion",
+      "original_title": "Squid Invasion",
+      "overview": "",
+      "poster_path": null,
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        99
+      ],
+      "popularity": 0.209,
+      "release_date": "",
+      "softcore": false,
+      "video": false,
+      "vote_average": 5.2,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1lcXKpzd0fE3fDpN9okdBOUKZMp.jpg",
+      "id": 504382,
+      "title": "The Hungry Squid",
+      "original_title": "The Hungry Squid",
+      "overview": "",
+      "poster_path": "/hwU1WHUfFOOG308oZh7QAOD4VBd.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        16
+      ],
+      "popularity": 0.6701,
+      "release_date": "2002-02-10",
+      "softcore": false,
+      "video": false,
+      "vote_average": 9.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "id": 3812581,
+      "name": "Squid Sterling",
+      "original_name": "Squid Sterling",
+      "media_type": "person",
+      "popularity": 0.1199,
+      "gender": 0,
+      "known_for_department": "Acting",
+      "profile_path": null,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 154196,
+          "name": "OutBreak Wrestling Quarantine",
+          "original_name": "OutBreak Wrestling Quarantine",
+          "overview": "",
+          "poster_path": null,
+          "media_type": "tv",
+          "original_language": "en",
+          "genre_ids": [],
+          "popularity": 0.3678,
+          "first_air_date": "2020-07-04",
+          "softcore": false,
+          "vote_average": 0.0,
+          "vote_count": 0,
+          "origin_country": [
+            "US"
+          ]
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 224707,
+          "name": "Back Breakers Wrestling Present's Chasing the Dream",
+          "original_name": "Back Breakers Wrestling Present's Chasing the Dream",
+          "overview": "",
+          "poster_path": null,
+          "media_type": "tv",
+          "original_language": "en",
+          "genre_ids": [],
+          "popularity": 0.5441,
+          "first_air_date": "2018-10-31",
+          "softcore": false,
+          "vote_average": 0.0,
+          "vote_count": 0,
+          "origin_country": [
+            "US"
+          ]
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "id": 5985422,
+      "name": "Greg Squid",
+      "original_name": "Greg Squid",
+      "media_type": "person",
+      "popularity": 0.1324,
+      "gender": 0,
+      "known_for_department": "Directing",
+      "profile_path": null,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/9Z8qljb5bw9yvicEwaaBOxywTuU.jpg",
+          "id": 1628859,
+          "title": "Червь",
+          "original_title": "Червь",
+          "overview": "",
+          "poster_path": "/5c0OO4vDvro5K21Fc9JpaPRvKPS.jpg",
+          "media_type": "movie",
+          "original_language": "ru",
+          "genre_ids": [
+            27,
+            878,
+            35
+          ],
+          "popularity": 0.3975,
+          "release_date": "2026-05-14",
+          "softcore": false,
+          "video": false,
+          "vote_average": 6.0,
+          "vote_count": 1
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "id": 5985423,
+      "name": "Anna Squid",
+      "original_name": "Anna Squid",
+      "media_type": "person",
+      "popularity": 0.1199,
+      "gender": 0,
+      "known_for_department": "Directing",
+      "profile_path": null,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/9Z8qljb5bw9yvicEwaaBOxywTuU.jpg",
+          "id": 1628859,
+          "title": "Червь",
+          "original_title": "Червь",
+          "overview": "",
+          "poster_path": "/5c0OO4vDvro5K21Fc9JpaPRvKPS.jpg",
+          "media_type": "movie",
+          "original_language": "ru",
+          "genre_ids": [
+            27,
+            878,
+            35
+          ],
+          "popularity": 0.3975,
+          "release_date": "2026-05-14",
+          "softcore": false,
+          "video": false,
+          "vote_average": 6.0,
+          "vote_count": 1
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 885125,
+      "title": "The Space Squid",
+      "original_title": "The Space Squid",
+      "overview": "",
+      "poster_path": null,
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        16
+      ],
+      "popularity": 0.666,
+      "release_date": "1967-01-01",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 1472071,
+      "title": "Squid in the Oven",
+      "original_title": "Squid in the Oven",
+      "overview": "",
+      "poster_path": null,
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [],
+      "popularity": 0.9554,
+      "release_date": "",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 1155711,
+      "title": "Quest for the Giant Squid",
+      "original_title": "Quest for the Giant Squid",
+      "overview": "",
+      "poster_path": null,
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        99,
+        10770
+      ],
+      "popularity": 0.7912,
+      "release_date": "2003-07-09",
+      "softcore": false,
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "id": 6311674,
+      "name": "Robert \"Squid\" Collins",
+      "original_name": "Robert \"Squid\" Collins",
+      "media_type": "person",
+      "popularity": 0.1654,
+      "gender": 0,
+      "known_for_department": "Camera",
+      "profile_path": null,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 1721888,
+          "title": "10,000 Miles From Oslo",
+          "original_title": "10,000 Miles From Oslo",
+          "overview": "",
+          "poster_path": "/xWFUinP27yFIydOXLDz84eHOVyU.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [
+            99,
+            10402
+          ],
+          "popularity": 0.7815,
+          "release_date": "2026-06-30",
+          "softcore": false,
+          "video": false,
+          "vote_average": 0.0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "id": 1736000,
+          "title": "North Melbourne Cheer Squad",
+          "original_title": "North Melbourne Cheer Squad",
+          "overview": "",
+          "poster_path": "/1kAG2wbrkHatjjRAnjWvL68gEC8.jpg",
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [
+            99
+          ],
+          "popularity": 0.4958,
+          "release_date": "2026-08-12",
+          "softcore": false,
+          "video": false,
+          "vote_average": 0.0,
+          "vote_count": 0
+        }
+      ]
+    }
+  ],
+  "total_pages": 4,
+  "total_results": 78
+}

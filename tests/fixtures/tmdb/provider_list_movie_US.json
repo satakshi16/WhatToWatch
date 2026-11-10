@@ -1,0 +1,2827 @@
+{
+  "results": [
+    {
+      "display_priorities": {
+        "US": 1,
+        "IN": 1
+      },
+      "display_priority": 1,
+      "logo_path": "/1gC0K43JMyMtVpqczxvwBp0pkxn.png",
+      "provider_name": "Plex Channel",
+      "provider_id": 2077
+    },
+    {
+      "display_priorities": {
+        "IN": 0,
+        "JP": 0,
+        "KR": 0,
+        "US": 2
+      },
+      "display_priority": 0,
+      "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+      "provider_name": "Netflix",
+      "provider_id": 8
+    },
+    {
+      "display_priorities": {
+        "JP": 1,
+        "US": 5
+      },
+      "display_priority": 5,
+      "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+      "provider_name": "Amazon Prime Video",
+      "provider_id": 9
+    },
+    {
+      "display_priorities": {
+        "IN": 3,
+        "JP": 2,
+        "KR": 2,
+        "US": 6
+      },
+      "display_priority": 2,
+      "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png",
+      "provider_name": "Apple TV",
+      "provider_id": 350
+    },
+    {
+      "display_priorities": {
+        "JP": 3,
+        "KR": 3,
+        "US": 7
+      },
+      "display_priority": 3,
+      "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png",
+      "provider_name": "Disney Plus",
+      "provider_id": 337
+    },
+    {
+      "display_priorities": {
+        "JP": 4,
+        "US": 8
+      },
+      "display_priority": 8,
+      "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png",
+      "provider_name": "Hulu",
+      "provider_id": 15
+    },
+    {
+      "display_priorities": {
+        "JP": 4,
+        "IN": 4,
+        "KR": 4,
+        "US": 9
+      },
+      "display_priority": 9,
+      "logo_path": "/dMMp97ZdEkokwbdjqeM12Xk0acu.png",
+      "provider_name": "JustWatch TV Free",
+      "provider_id": 2285
+    },
+    {
+      "display_priorities": {
+        "IN": 38,
+        "JP": 6,
+        "US": 10,
+        "KR": 34
+      },
+      "display_priority": 33,
+      "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+      "provider_name": "Amazon Video",
+      "provider_id": 10
+    },
+    {
+      "display_priorities": {
+        "IN": 5,
+        "JP": 7,
+        "US": 11
+      },
+      "display_priority": 3,
+      "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+      "provider_name": "Apple TV Store",
+      "provider_id": 2
+    },
+    {
+      "display_priorities": {
+        "US": 12
+      },
+      "display_priority": 12,
+      "logo_path": "/3wF8xISfVlcrc8X3jaa3uMUFGAr.png",
+      "provider_name": "fuboTV",
+      "provider_id": 257
+    },
+    {
+      "display_priorities": {
+        "US": 13
+      },
+      "display_priority": 13,
+      "logo_path": "/aaFIYn2NGPCo0rpLiWokbvNqNJd.png",
+      "provider_name": "JustWatch TV Store",
+      "provider_id": 2784
+    },
+    {
+      "display_priorities": {
+        "US": 14
+      },
+      "display_priority": 14,
+      "logo_path": "/64fLWeSyZ1KQZhIdvTdy4QHeWty.png",
+      "provider_name": "HBO Max Amazon Channel",
+      "provider_id": 1825
+    },
+    {
+      "display_priorities": {
+        "US": 15
+      },
+      "display_priority": 15,
+      "logo_path": "/bSAgNVOaVZcmdts8TZSp0nYxsD3.png",
+      "provider_name": "JustWatch TV Plus",
+      "provider_id": 2785
+    },
+    {
+      "display_priorities": {
+        "IN": 6,
+        "KR": 25,
+        "US": 16
+      },
+      "display_priority": 22,
+      "logo_path": "/uFL3c4Cq8M6WoLymlC5Y8bmGytV.png",
+      "provider_name": "Crunchyroll",
+      "provider_id": 283
+    },
+    {
+      "display_priorities": {
+        "US": 17
+      },
+      "display_priority": 17,
+      "logo_path": "/gk7O3l9qHttE9F3hgDNnhbhlOs7.png",
+      "provider_name": "MGM+ Amazon Channel",
+      "provider_id": 583
+    },
+    {
+      "display_priorities": {
+        "US": 18
+      },
+      "display_priority": 18,
+      "logo_path": "/4N4BMd0Mm0kHAmF7RZgL5lW3cwc.png",
+      "provider_name": "Paramount Plus Premium",
+      "provider_id": 2303
+    },
+    {
+      "display_priorities": {
+        "US": 19
+      },
+      "display_priority": 19,
+      "logo_path": "/uPWQPyF4nqwtfPNmGcFcenU57HG.png",
+      "provider_name": "Paramount Plus Essential",
+      "provider_id": 2616
+    },
+    {
+      "display_priorities": {
+        "US": 20
+      },
+      "display_priority": 20,
+      "logo_path": "/a1UIdq5BrkcAxnxcUhFsNbXnxeu.png",
+      "provider_name": "Peacock Premium",
+      "provider_id": 386
+    },
+    {
+      "display_priorities": {
+        "US": 21
+      },
+      "display_priority": 21,
+      "logo_path": "/mfbhzQwmQKjm7bLZPF5CTeu3Ilc.png",
+      "provider_name": "Philo",
+      "provider_id": 2383
+    },
+    {
+      "display_priorities": {
+        "IN": 84,
+        "US": 22
+      },
+      "display_priority": 22,
+      "logo_path": "/mwGw3KrIZxnACdeojp2a5cO41hi.png",
+      "provider_name": "Brew",
+      "provider_id": 2736
+    },
+    {
+      "display_priorities": {
+        "IN": 16,
+        "JP": 8,
+        "KR": 9,
+        "US": 23
+      },
+      "display_priority": 8,
+      "logo_path": "/oPrhlrmvdq8QDWVXgHLAZz8B2Of.png",
+      "provider_name": "Curiosity Stream",
+      "provider_id": 190
+    },
+    {
+      "display_priorities": {
+        "IN": 8,
+        "JP": 9,
+        "KR": 7,
+        "US": 24
+      },
+      "display_priority": 24,
+      "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png",
+      "provider_name": "Google Play Movies",
+      "provider_id": 3
+    },
+    {
+      "display_priorities": {
+        "IN": 10,
+        "US": 25
+      },
+      "display_priority": 25,
+      "logo_path": "/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+      "provider_name": "YouTube",
+      "provider_id": 192
+    },
+    {
+      "display_priorities": {
+        "IN": 48,
+        "US": 26
+      },
+      "display_priority": 26,
+      "logo_path": "/qHLLmKo7udRgiSnIASVTwP2IxfJ.png",
+      "provider_name": "Crunchyroll Amazon Channel",
+      "provider_id": 1968
+    },
+    {
+      "display_priorities": {
+        "US": 28
+      },
+      "display_priority": 28,
+      "logo_path": "/wLl5LRLVC6UOSaUlsmuzY0H9LS1.png",
+      "provider_name": "AMC Plus Apple TV channel",
+      "provider_id": 1854
+    },
+    {
+      "display_priorities": {
+        "US": 29
+      },
+      "display_priority": 29,
+      "logo_path": "/r5LXOt96llVEmgwAQeheJuxUaMR.png",
+      "provider_name": "Britbox Apple TV channel",
+      "provider_id": 1852
+    },
+    {
+      "display_priorities": {
+        "US": 30
+      },
+      "display_priority": 30,
+      "logo_path": "/bxX0YVOCY7bI85BKRlJAAQ2EjUR.png",
+      "provider_name": "Paramount+ Amazon Channel",
+      "provider_id": 582
+    },
+    {
+      "display_priorities": {
+        "IN": 58,
+        "US": 31
+      },
+      "display_priority": 31,
+      "logo_path": "/52htht83nlt2aAobIug88TeiWvO.png",
+      "provider_name": "Discovery+ Amazon Channel",
+      "provider_id": 584
+    },
+    {
+      "display_priorities": {
+        "US": 32,
+        "IN": 91
+      },
+      "display_priority": 32,
+      "logo_path": "/tg5ufQ1GkYDCMxSSxemfeKWcvRe.png",
+      "provider_name": "AMC+ Amazon Channel",
+      "provider_id": 528
+    },
+    {
+      "display_priorities": {
+        "US": 33
+      },
+      "display_priority": 33,
+      "logo_path": "/b7uhrYJtAe7b1ieJGg705vTbwrX.png",
+      "provider_name": "The Roku Channel",
+      "provider_id": 207
+    },
+    {
+      "display_priorities": {
+        "US": 34
+      },
+      "display_priority": 34,
+      "logo_path": "/xMyod7PSWlER7Q8FLDqVckKeyyB.png",
+      "provider_name": "AMC+ Roku Premium Channel",
+      "provider_id": 635
+    },
+    {
+      "display_priorities": {
+        "US": 35
+      },
+      "display_priority": 35,
+      "logo_path": "/wsCUflcmL4dCkzBUaGP8cj1cTkh.png",
+      "provider_name": "AMC+",
+      "provider_id": 526
+    },
+    {
+      "display_priorities": {
+        "US": 36
+      },
+      "display_priority": 36,
+      "logo_path": "/surh9i8VYeeq9186fKHnUg5Q5dg.png",
+      "provider_name": "MGM Plus Roku Premium Channel",
+      "provider_id": 636
+    },
+    {
+      "display_priorities": {
+        "US": 37
+      },
+      "display_priority": 37,
+      "logo_path": "/eWHpKZihdiY617s5LipWJWvN28U.png",
+      "provider_name": "YouTube Premium",
+      "provider_id": 188
+    },
+    {
+      "display_priorities": {
+        "US": 38
+      },
+      "display_priority": 38,
+      "logo_path": "/6fcYLKQIjGnrswtH7WxjjoSiyy3.png",
+      "provider_name": "The CW",
+      "provider_id": 83
+    },
+    {
+      "display_priorities": {
+        "US": 39
+      },
+      "display_priority": 39,
+      "logo_path": "/cltb8XKan9ierp23ItPmCOcVLRa.png",
+      "provider_name": "Kanopy",
+      "provider_id": 191
+    },
+    {
+      "display_priorities": {
+        "US": 40
+      },
+      "display_priority": 40,
+      "logo_path": "/gtjNBzAoGgUtYzt0UKXmwG34WWL.png",
+      "provider_name": "Hoopla",
+      "provider_id": 212
+    },
+    {
+      "display_priorities": {
+        "US": 41
+      },
+      "display_priority": 41,
+      "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+      "provider_name": "Fandango At Home",
+      "provider_id": 7
+    },
+    {
+      "display_priorities": {
+        "US": 42
+      },
+      "display_priority": 42,
+      "logo_path": "/48bVXEIyCLSL9pZUQ7gB9ToyWto.png",
+      "provider_name": "YouTube TV",
+      "provider_id": 2528
+    },
+    {
+      "display_priorities": {
+        "US": 43
+      },
+      "display_priority": 43,
+      "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+      "provider_name": "Fandango at Home Free",
+      "provider_id": 332
+    },
+    {
+      "display_priorities": {
+        "US": 44
+      },
+      "display_priority": 44,
+      "logo_path": "/32XVilXkVbrwV96O3N5i0rtuyd6.png",
+      "provider_name": "Criterion Channel",
+      "provider_id": 258
+    },
+    {
+      "display_priorities": {
+        "US": 45
+      },
+      "display_priority": 45,
+      "logo_path": "/kwKCUFjKjq1GlZeIjImBV62IypB.png",
+      "provider_name": "PBS",
+      "provider_id": 209
+    },
+    {
+      "display_priorities": {
+        "US": 46
+      },
+      "display_priority": 46,
+      "logo_path": "/a7ZF6Ng3d6KDMylLUMH1OjAeTqW.png",
+      "provider_name": "FXNow",
+      "provider_id": 123
+    },
+    {
+      "display_priorities": {
+        "US": 47
+      },
+      "display_priority": 47,
+      "logo_path": "/ezTsuy3T7Byi7XRbAozgJrsnbQC.png",
+      "provider_name": "FlixHouse",
+      "provider_id": 2239
+    },
+    {
+      "display_priorities": {
+        "US": 48
+      },
+      "display_priority": 48,
+      "logo_path": "/4lMb5R5cpg7o2GZOxI7CgxoU9Jr.png",
+      "provider_name": "AMC",
+      "provider_id": 80
+    },
+    {
+      "display_priorities": {
+        "IN": 13,
+        "JP": 21,
+        "KR": 23,
+        "US": 49
+      },
+      "display_priority": 3,
+      "logo_path": "/1T9VcLknesOZZen9ZgLfcDdm5Ys.png",
+      "provider_name": "Sun Nxt",
+      "provider_id": 309
+    },
+    {
+      "display_priorities": {
+        "US": 51
+      },
+      "display_priority": 51,
+      "logo_path": "/vR0RxwoqbM0ZP10LR3uT6rpuamc.png",
+      "provider_name": "Fandor",
+      "provider_id": 25
+    },
+    {
+      "display_priorities": {
+        "US": 52
+      },
+      "display_priority": 52,
+      "logo_path": "/geRNAmvuPF6hOLExMHLKpt7bGBD.png",
+      "provider_name": "NBC",
+      "provider_id": 79
+    },
+    {
+      "display_priorities": {
+        "US": 53
+      },
+      "display_priority": 53,
+      "logo_path": "/q63Uzpu7JAs566vA2G23Lk7LcID.png",
+      "provider_name": "MGM Plus",
+      "provider_id": 34
+    },
+    {
+      "display_priorities": {
+        "US": 54
+      },
+      "display_priority": 54,
+      "logo_path": "/n0IYtqCRKBhqnioKooWDLOS3l3r.png",
+      "provider_name": "Freeform",
+      "provider_id": 211
+    },
+    {
+      "display_priorities": {
+        "US": 55
+      },
+      "display_priority": 55,
+      "logo_path": "/uZCkdQoyMucDbIylu2jVZp7N0B.png",
+      "provider_name": "A&E",
+      "provider_id": 156
+    },
+    {
+      "display_priorities": {
+        "US": 56
+      },
+      "display_priority": 56,
+      "logo_path": "/qZrPlzjZWFHSmvE3bQdRlFGy8iW.png",
+      "provider_name": "Lifetime",
+      "provider_id": 157
+    },
+    {
+      "display_priorities": {
+        "US": 57
+      },
+      "display_priority": 57,
+      "logo_path": "/58O6yqUFM6qoOiBNAddJs7xNKc.png",
+      "provider_name": "Shudder",
+      "provider_id": 99
+    },
+    {
+      "display_priorities": {
+        "US": 58
+      },
+      "display_priority": 58,
+      "logo_path": "/3aWmgZsNAqdOt8ClxIFT4pnmHrM.png",
+      "provider_name": "Acorn TV",
+      "provider_id": 87
+    },
+    {
+      "display_priorities": {
+        "US": 59
+      },
+      "display_priority": 59,
+      "logo_path": "/uSoP5JLrUjHWDFikg9EJKcm7IvQ.png",
+      "provider_name": "Sundance Now",
+      "provider_id": 143
+    },
+    {
+      "display_priorities": {
+        "IN": 8,
+        "JP": 69,
+        "KR": 28,
+        "US": 60
+      },
+      "display_priority": 27,
+      "logo_path": "/k7iSlvgWzZuO4zU5PcBjhABMuia.png",
+      "provider_name": "MUBI",
+      "provider_id": 11
+    },
+    {
+      "display_priorities": {
+        "IN": 11,
+        "KR": 6,
+        "US": 61
+      },
+      "display_priority": 5,
+      "logo_path": "/zlgqOma3er9QTv5r8g4nhkZCqeN.png",
+      "provider_name": "GuideDoc",
+      "provider_id": 100
+    },
+    {
+      "display_priorities": {
+        "US": 62
+      },
+      "display_priority": 62,
+      "logo_path": "/eZeWGG6DDIi4Kmu1z9RfTeZtqZX.png",
+      "provider_name": "BritBox",
+      "provider_id": 151
+    },
+    {
+      "display_priorities": {
+        "IN": 12,
+        "US": 63
+      },
+      "display_priority": 6,
+      "logo_path": "/rjPaInWHH1nPgtRFF17BbHN2gu.png",
+      "provider_name": "Netflix Kids",
+      "provider_id": 175
+    },
+    {
+      "display_priorities": {
+        "US": 64
+      },
+      "display_priority": 64,
+      "logo_path": "/1mQtLR21JpfBgJEtBGa3Brlpu6t.png",
+      "provider_name": "ALLBLK",
+      "provider_id": 251
+    },
+    {
+      "display_priorities": {
+        "US": 65
+      },
+      "display_priority": 65,
+      "logo_path": "/5VGoQun874KipwsAgtc8eagtIkc.png",
+      "provider_name": "History Vault",
+      "provider_id": 268
+    },
+    {
+      "display_priorities": {
+        "US": 66
+      },
+      "display_priority": 66,
+      "logo_path": "/tnZCMxbcKdxuVmjxefyXCaip7q3.png",
+      "provider_name": "Paramount+ Roku Premium Channel",
+      "provider_id": 633
+    },
+    {
+      "display_priorities": {
+        "US": 68
+      },
+      "display_priority": 68,
+      "logo_path": "/bbOe5U4MhSaVcKtsaqRMasUt4lw.png",
+      "provider_name": "WWE Network",
+      "provider_id": 260
+    },
+    {
+      "display_priorities": {
+        "US": 69
+      },
+      "display_priority": 69,
+      "logo_path": "/qAccuffS0YOegynkbRchQeBrw7W.png",
+      "provider_name": "Pure Flix",
+      "provider_id": 278
+    },
+    {
+      "display_priorities": {
+        "US": 70
+      },
+      "display_priority": 70,
+      "logo_path": "/uIEpwbQFkFlcadP7p6DUOKRpmHp.png",
+      "provider_name": "Lifetime Movie Club",
+      "provider_id": 284
+    },
+    {
+      "display_priorities": {
+        "US": 71
+      },
+      "display_priority": 71,
+      "logo_path": "/wCW3oITUn8OBRWhivavESRrYp7b.png",
+      "provider_name": "PBS Kids Amazon Channel",
+      "provider_id": 293
+    },
+    {
+      "display_priorities": {
+        "US": 72
+      },
+      "display_priority": 72,
+      "logo_path": "/vJBXVX2REOqNrWlwgnBuQX4pQK6.png",
+      "provider_name": "Cinemax Amazon Channel",
+      "provider_id": 289
+    },
+    {
+      "display_priorities": {
+        "US": 73
+      },
+      "display_priority": 73,
+      "logo_path": "/yG1Q3YBp5xF2Xj6Meux51Dkg4jP.png",
+      "provider_name": "Hallmark+ Amazon Channel",
+      "provider_id": 290
+    },
+    {
+      "display_priorities": {
+        "US": 74
+      },
+      "display_priority": 74,
+      "logo_path": "/aZASQOdPFvGnXiJ015OVGVJ9vt7.png",
+      "provider_name": "PBS Masterpiece Amazon Channel",
+      "provider_id": 294
+    },
+    {
+      "display_priorities": {
+        "US": 75
+      },
+      "display_priority": 75,
+      "logo_path": "/6kINh90KLGRqWa9HS2oj4JI1ipO.png",
+      "provider_name": "MZ Choice Amazon Channel",
+      "provider_id": 291
+    },
+    {
+      "display_priorities": {
+        "US": 76
+      },
+      "display_priority": 17,
+      "logo_path": "/fN4czqaMQNLeF6sSSIjGbAWzvwK.png",
+      "provider_name": "Pluto TV",
+      "provider_id": 300
+    },
+    {
+      "display_priorities": {
+        "US": 77
+      },
+      "display_priority": 77,
+      "logo_path": "/nIlP6X2QcJbnXA5Tm4hrsKsniAP.png",
+      "provider_name": "BYUtv",
+      "provider_id": 2129
+    },
+    {
+      "display_priorities": {
+        "US": 78
+      },
+      "display_priority": 78,
+      "logo_path": "/7thVkhxm23OSYzxtStZINh32wab.png",
+      "provider_name": "Sling TV Orange and Blue",
+      "provider_id": 299
+    },
+    {
+      "display_priorities": {
+        "US": 78
+      },
+      "display_priority": 78,
+      "logo_path": "/1743zXk6Hn0afaarNtp6bXVMlsT.png",
+      "provider_name": "HiDive",
+      "provider_id": 430
+    },
+    {
+      "display_priorities": {
+        "US": 79
+      },
+      "display_priority": 7,
+      "logo_path": "/ieJ55scAVrvboTpeJcZa3JlLIrS.png",
+      "provider_name": "VIX ",
+      "provider_id": 457
+    },
+    {
+      "display_priorities": {
+        "US": 80
+      },
+      "display_priority": 80,
+      "logo_path": "/acUxuVlP96MVPbUdxdGu0pUHTht.png",
+      "provider_name": "Night Flight Plus",
+      "provider_id": 455
+    },
+    {
+      "display_priorities": {
+        "IN": 32,
+        "JP": 14,
+        "KR": 16,
+        "US": 81
+      },
+      "display_priority": 13,
+      "logo_path": "/pqiY6w53xNELS5Y16pYQYvCxgE.png",
+      "provider_name": "Dekkoo",
+      "provider_id": 444
+    },
+    {
+      "display_priorities": {
+        "US": 82
+      },
+      "display_priority": 82,
+      "logo_path": "/pqXjcTVXpOVHF3IfWo9siRZkLXo.png",
+      "provider_name": "Retrocrush",
+      "provider_id": 446
+    },
+    {
+      "display_priorities": {
+        "US": 83
+      },
+      "display_priority": 83,
+      "logo_path": "/ezTLm8lPMse9QRKTYInPOBD2jUM.png",
+      "provider_name": "Shout! Factory TV",
+      "provider_id": 439
+    },
+    {
+      "display_priorities": {
+        "US": 84
+      },
+      "display_priority": 84,
+      "logo_path": "/g4C5BqC8EC0xcBY57C4Mnm5Ht8k.png",
+      "provider_name": "OVID",
+      "provider_id": 433
+    },
+    {
+      "display_priorities": {
+        "US": 85
+      },
+      "display_priority": 85,
+      "logo_path": "/b1cu4YuZF6xRagXjCjVeZBbnSD2.png",
+      "provider_name": "Chai Flicks",
+      "provider_id": 438
+    },
+    {
+      "display_priorities": {
+        "US": 86
+      },
+      "display_priority": 86,
+      "logo_path": "/lLCtT8BA42vuYn23UxuPPQDrLap.png",
+      "provider_name": "Mhz Choice",
+      "provider_id": 427
+    },
+    {
+      "display_priorities": {
+        "US": 87
+      },
+      "display_priority": 87,
+      "logo_path": "/yb4PbHPVpvJ2JizOuZoJSLXsjcG.png",
+      "provider_name": "Shudder Amazon Channel",
+      "provider_id": 204
+    },
+    {
+      "display_priorities": {
+        "IN": 57,
+        "US": 89
+      },
+      "display_priority": 89,
+      "logo_path": "/w1hl8HszsPf5aAGT0mVY0O6LYP4.png",
+      "provider_name": "MUBI Amazon Channel",
+      "provider_id": 201
+    },
+    {
+      "display_priorities": {
+        "US": 90
+      },
+      "display_priority": 90,
+      "logo_path": "/7BBOk6Av1TFqWqEhxBYyTJucGuL.png",
+      "provider_name": "AcornTV Amazon Channel",
+      "provider_id": 196
+    },
+    {
+      "display_priorities": {
+        "US": 91
+      },
+      "display_priority": 91,
+      "logo_path": "/dneArfNvYnCY0LQwDs6n0wVLpPh.png",
+      "provider_name": "BritBox Amazon Channel",
+      "provider_id": 197
+    },
+    {
+      "display_priorities": {
+        "US": 92
+      },
+      "display_priority": 92,
+      "logo_path": "/adymMNlhhLlJl5xccRCrsh3OehD.png",
+      "provider_name": "Starz Amazon Channel",
+      "provider_id": 1794
+    },
+    {
+      "display_priorities": {
+        "US": 93
+      },
+      "display_priority": 93,
+      "logo_path": "/pqV8nzIxmOKVDsDrQ5wCPYuSM5P.png",
+      "provider_name": "Fandor Amazon Channel",
+      "provider_id": 199
+    },
+    {
+      "display_priorities": {
+        "US": 94
+      },
+      "display_priority": 94,
+      "logo_path": "/zRn4rBGPYDeZvTeZEBySDdqHzS8.png",
+      "provider_name": "Screambox Amazon Channel",
+      "provider_id": 202
+    },
+    {
+      "display_priorities": {
+        "US": 95
+      },
+      "display_priority": 95,
+      "logo_path": "/2Xa0WHfPZRm4YD21CcN5hkP2kuj.png",
+      "provider_name": "Sundance Now Amazon Channel",
+      "provider_id": 205
+    },
+    {
+      "display_priorities": {
+        "US": 96
+      },
+      "display_priority": 96,
+      "logo_path": "/lEboSJfLzmtWaoLsms0jYBxYqka.png",
+      "provider_name": "Adult Swim",
+      "provider_id": 318
+    },
+    {
+      "display_priorities": {
+        "US": 97
+      },
+      "display_priority": 97,
+      "logo_path": "/7Z4egOqWISqraA0SS5CldDzRyh3.png",
+      "provider_name": "USA Network",
+      "provider_id": 322
+    },
+    {
+      "display_priorities": {
+        "US": 98
+      },
+      "display_priority": 98,
+      "logo_path": "/hkw2s2Su8EyifB9EbbQP64Fj1xA.png",
+      "provider_name": "FlixFling",
+      "provider_id": 331
+    },
+    {
+      "display_priorities": {
+        "US": 99
+      },
+      "display_priority": 99,
+      "logo_path": "/gqaJWT5oFiJyVDojVLYRSFPbhQ1.png",
+      "provider_name": "YouTube Free",
+      "provider_id": 235
+    },
+    {
+      "display_priorities": {
+        "US": 100
+      },
+      "display_priority": 17,
+      "logo_path": "/AoNsevRecTdVv4xQEf1oLRGO2yh.png",
+      "provider_name": "Rakuten Viki",
+      "provider_id": 344
+    },
+    {
+      "display_priorities": {
+        "US": 101
+      },
+      "display_priority": 101,
+      "logo_path": "/7LA3wg2A01nyV3PCLN01WNOVhcT.png",
+      "provider_name": "TCM",
+      "provider_id": 361
+    },
+    {
+      "display_priorities": {
+        "US": 103
+      },
+      "display_priority": 103,
+      "logo_path": "/6cgMswJ1yXtJLP1uJhM476h2WTH.png",
+      "provider_name": "TNT",
+      "provider_id": 363
+    },
+    {
+      "display_priorities": {
+        "US": 105
+      },
+      "display_priority": 105,
+      "logo_path": "/kB58rlVFpLTxMl1L9F0OKc82ulG.png",
+      "provider_name": "BBC America",
+      "provider_id": 397
+    },
+    {
+      "display_priorities": {
+        "US": 106
+      },
+      "display_priority": 106,
+      "logo_path": "/gawu8fJwrJKNvzgTjklQBdVqPCF.png",
+      "provider_name": "IndieFlix",
+      "provider_id": 368
+    },
+    {
+      "display_priorities": {
+        "US": 108
+      },
+      "display_priority": 108,
+      "logo_path": "/1vm2fDHqpRYJIQREgOfvnMNs8K3.png",
+      "provider_name": "Vimeo",
+      "provider_id": 2529
+    },
+    {
+      "display_priorities": {
+        "US": 115
+      },
+      "display_priority": 115,
+      "logo_path": "/aFXgq7JAVVs2zdAlfqB1LlCfIUD.png",
+      "provider_name": "Here TV",
+      "provider_id": 417
+    },
+    {
+      "display_priorities": {
+        "US": 118
+      },
+      "display_priority": 118,
+      "logo_path": "/at8MF92qAXgKtYNp883j4BLtT5T.png",
+      "provider_name": "Flix Premiere",
+      "provider_id": 432
+    },
+    {
+      "display_priorities": {
+        "US": 119
+      },
+      "display_priority": 119,
+      "logo_path": "/8MX4rbkjJUf2NMb2ZVwHq0IATJf.png",
+      "provider_name": "TBS",
+      "provider_id": 506
+    },
+    {
+      "display_priorities": {
+        "US": 120
+      },
+      "display_priority": 120,
+      "logo_path": "/oPEgKhJZjWEjCjySvwozKQyrNKi.png",
+      "provider_name": "AsianCrush",
+      "provider_id": 514
+    },
+    {
+      "display_priorities": {
+        "IN": 19,
+        "JP": 9,
+        "KR": 10,
+        "US": 121
+      },
+      "display_priority": 9,
+      "logo_path": "/enoyK3NBsSCTpaJJJIR5x28mWHN.png",
+      "provider_name": "DOCSVILLE",
+      "provider_id": 475
+    },
+    {
+      "display_priorities": {
+        "US": 122
+      },
+      "display_priority": 122,
+      "logo_path": "/emSd1j9jOjNzUA2iTKk8qRSvcjs.png",
+      "provider_name": "Revry",
+      "provider_id": 473
+    },
+    {
+      "display_priorities": {
+        "US": 123
+      },
+      "display_priority": 123,
+      "logo_path": "/6qPtM96UZkt3Bu4ZFPsDeHFWUZ2.png",
+      "provider_name": "Spectrum On Demand",
+      "provider_id": 486
+    },
+    {
+      "display_priorities": {
+        "US": 124
+      },
+      "display_priority": 124,
+      "logo_path": "/VSkdYiq9YA34Oaucl2Ga0dBL11.png",
+      "provider_name": "Hi-YAH",
+      "provider_id": 503
+    },
+    {
+      "display_priorities": {
+        "US": 125
+      },
+      "display_priority": 125,
+      "logo_path": "/sksAwn7y5P55CNGZ2znVuwLNM8S.png",
+      "provider_name": "tru TV",
+      "provider_id": 507
+    },
+    {
+      "display_priorities": {
+        "US": 126
+      },
+      "display_priority": 126,
+      "logo_path": "/3Zp05yizjTStDH4AhEBPzEsf9jv.png",
+      "provider_name": "DisneyNOW",
+      "provider_id": 508
+    },
+    {
+      "display_priorities": {
+        "IN": 25,
+        "JP": 24,
+        "KR": 11,
+        "US": 128
+      },
+      "display_priority": 25,
+      "logo_path": "/blAEhvx3XX8sV0fFVFk88FFjubs.png",
+      "provider_name": "Plex",
+      "provider_id": 538
+    },
+    {
+      "display_priorities": {
+        "IN": 26,
+        "JP": 10,
+        "KR": 12,
+        "US": 129
+      },
+      "display_priority": 10,
+      "logo_path": "/8pME6TzkiDzMnKZioeoqqvfaNya.png",
+      "provider_name": "WOW Presents Plus",
+      "provider_id": 546
+    },
+    {
+      "display_priorities": {
+        "IN": 27,
+        "JP": 11,
+        "KR": 13,
+        "US": 130
+      },
+      "display_priority": 11,
+      "logo_path": "/hyo2pwkoGKt5Erpz9TfgNQbN8uq.png",
+      "provider_name": "Magellan TV",
+      "provider_id": 551
+    },
+    {
+      "display_priorities": {
+        "IN": 28,
+        "JP": 12,
+        "KR": 14,
+        "US": 131
+      },
+      "display_priority": 131,
+      "logo_path": "/aPhfGJf1ilFprLhUvpuBpkpHoO.png",
+      "provider_name": "BroadwayHD",
+      "provider_id": 554
+    },
+    {
+      "display_priorities": {
+        "IN": 29,
+        "JP": 13,
+        "KR": 15,
+        "US": 133
+      },
+      "display_priority": 12,
+      "logo_path": "/6tVbNdx7Yzvi6LThNW5Wo1yov6A.png",
+      "provider_name": "Filmzie",
+      "provider_id": 559
+    },
+    {
+      "display_priorities": {
+        "IN": 33,
+        "JP": 15,
+        "KR": 17,
+        "US": 134
+      },
+      "display_priority": 14,
+      "logo_path": "/4lNWw9zxVHvoxbas6SAO8X6J03f.png",
+      "provider_name": "True Story",
+      "provider_id": 567
+    },
+    {
+      "display_priorities": {
+        "IN": 31,
+        "US": 135
+      },
+      "display_priority": 135,
+      "logo_path": "/kFk4puSITzflhhcH0dUJNId022S.png",
+      "provider_name": "MovieSaints",
+      "provider_id": 562
+    },
+    {
+      "display_priorities": {
+        "IN": 34,
+        "JP": 16,
+        "KR": 18,
+        "US": 137
+      },
+      "display_priority": 15,
+      "logo_path": "/dAna3PsNLAzPDJkEKWYzMlj94jF.png",
+      "provider_name": "DocAlliance Films",
+      "provider_id": 569
+    },
+    {
+      "display_priorities": {
+        "US": 138
+      },
+      "display_priority": 138,
+      "logo_path": "/t4tushezwJkXCposaC73oZTwF5a.png",
+      "provider_name": "OnDemandKorea",
+      "provider_id": 575
+    },
+    {
+      "display_priorities": {
+        "IN": 14,
+        "JP": 17,
+        "KR": 19,
+        "US": 139
+      },
+      "display_priority": 16,
+      "logo_path": "/8dgAD4EzQWMsyudVwWCFg19998L.png",
+      "provider_name": "Hoichoi",
+      "provider_id": 315
+    },
+    {
+      "display_priorities": {
+        "US": 140
+      },
+      "display_priority": 140,
+      "logo_path": "/naf5wQA91UCj0OetKOEYZgWZLqe.png",
+      "provider_name": "Darkroom",
+      "provider_id": 2308
+    },
+    {
+      "display_priorities": {
+        "US": 141
+      },
+      "display_priority": 141,
+      "logo_path": "/qcq4iKj21lUGZEYBZbI8jjegqZM.png",
+      "provider_name": "iQIYI",
+      "provider_id": 581
+    },
+    {
+      "display_priorities": {
+        "US": 142
+      },
+      "display_priority": 142,
+      "logo_path": "/az2JJqmANqUA48IPn7Iz2E7MchD.png",
+      "provider_name": "Metrograph",
+      "provider_id": 585
+    },
+    {
+      "display_priorities": {
+        "US": 143,
+        "IN": 92
+      },
+      "display_priority": 143,
+      "logo_path": "/fuVBtr57kxnYzOILZ38xqSmBeyR.png",
+      "provider_name": "Amazon Prime Video Free with Ads",
+      "provider_id": 613
+    },
+    {
+      "display_priorities": {
+        "US": 144
+      },
+      "display_priority": 144,
+      "logo_path": "/pDodO7jgdP0eYO1vP2Dwu9YjeVJ.png",
+      "provider_name": "Public Domain Movies",
+      "provider_id": 638
+    },
+    {
+      "display_priorities": {
+        "US": 145
+      },
+      "display_priority": 145,
+      "logo_path": "/2IHcGZUPqxy4HhWWN57AGEIKcCW.png",
+      "provider_name": "Eternal Family",
+      "provider_id": 2411
+    },
+    {
+      "display_priorities": {
+        "US": 146
+      },
+      "display_priority": 146,
+      "logo_path": "/dNF4vWhF3TduWvOyfVxEyTqSNRl.png",
+      "provider_name": "Fawesome",
+      "provider_id": 2409
+    },
+    {
+      "display_priorities": {
+        "IN": 39,
+        "JP": 19,
+        "KR": 21,
+        "US": 147
+      },
+      "display_priority": 18,
+      "logo_path": "/hBR1NB5z52BHMqowq0TgZqMcDBv.png",
+      "provider_name": "Cultpix",
+      "provider_id": 692
+    },
+    {
+      "display_priorities": {
+        "IN": 36,
+        "JP": 18,
+        "KR": 20,
+        "US": 148
+      },
+      "display_priority": 17,
+      "logo_path": "/3TLkIBBnZQ9KdjIjWU7NdqXincI.png",
+      "provider_name": "Eventive",
+      "provider_id": 677
+    },
+    {
+      "display_priorities": {
+        "IN": 24,
+        "US": 149
+      },
+      "display_priority": 149,
+      "logo_path": "/i8cMQ9Hw8oDcOO4rV6GYlO7VBDH.png",
+      "provider_name": "aha",
+      "provider_id": 532
+    },
+    {
+      "display_priorities": {
+        "IN": 37,
+        "US": 150
+      },
+      "display_priority": 150,
+      "logo_path": "/gNQdc6Hdh5mr9AJkuyQEFEmphWW.png",
+      "provider_name": "ShortsTV Amazon Channel",
+      "provider_id": 688
+    },
+    {
+      "display_priorities": {
+        "IN": 40,
+        "JP": 20,
+        "KR": 22,
+        "US": 151
+      },
+      "display_priority": 21,
+      "logo_path": "/exmycQN7BOW3d2Br5SGAQ1BMqjq.png",
+      "provider_name": "Takflix",
+      "provider_id": 1771
+    },
+    {
+      "display_priorities": {
+        "US": 152
+      },
+      "display_priority": 152,
+      "logo_path": "/cgfAUbWv7QcVkf9LZw07FjnuFv7.png",
+      "provider_name": "Klassiki",
+      "provider_id": 1793
+    },
+    {
+      "display_priorities": {
+        "JP": 22,
+        "KR": 24,
+        "US": 153
+      },
+      "display_priority": 153,
+      "logo_path": "/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+      "provider_name": "Netflix Standard with Ads",
+      "provider_id": 1796
+    },
+    {
+      "display_priorities": {
+        "US": 154
+      },
+      "display_priority": 154,
+      "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png",
+      "provider_name": "HBO Max",
+      "provider_id": 1899
+    },
+    {
+      "display_priorities": {
+        "US": 155
+      },
+      "display_priority": 155,
+      "logo_path": "/89EaG6G6QpQnxfquTLSPNlpRhF8.png",
+      "provider_name": "Cohen Media Amazon Channel",
+      "provider_id": 1811
+    },
+    {
+      "display_priorities": {
+        "US": 156
+      },
+      "display_priority": 156,
+      "logo_path": "/dZn7SR1rarhMVKnO0OXCAvMjbcv.png",
+      "provider_name": "ViX Premium Amazon Channel",
+      "provider_id": 1866
+    },
+    {
+      "display_priorities": {
+        "US": 157
+      },
+      "display_priority": 157,
+      "logo_path": "/erEYCN3EGN4yzcRvix2DunZLxHE.png",
+      "provider_name": "Runtime",
+      "provider_id": 1875
+    },
+    {
+      "display_priorities": {
+        "US": 158
+      },
+      "display_priority": 158,
+      "logo_path": "/ekptUvAJRe4qVjRRT1bN1x9HIPx.png",
+      "provider_name": "ESPN",
+      "provider_id": 1718
+    },
+    {
+      "display_priorities": {
+        "US": 158
+      },
+      "display_priority": 158,
+      "logo_path": "/etdWe2BhDaHFvrTY9SLilTwZcTk.png",
+      "provider_name": "Fandango",
+      "provider_id": 60
+    },
+    {
+      "display_priorities": {
+        "US": 160
+      },
+      "display_priority": 160,
+      "logo_path": "/tHseJEgZaUdVlLtBpOGmKPfzbQ8.png",
+      "provider_name": "Discovery +",
+      "provider_id": 520
+    },
+    {
+      "display_priorities": {
+        "US": 162
+      },
+      "display_priority": 162,
+      "logo_path": "/pusUxS9dP5VK7HkN8SLf2wnP9gm.png",
+      "provider_name": "Angel Studios",
+      "provider_id": 1956
+    },
+    {
+      "display_priorities": {
+        "US": 163
+      },
+      "display_priority": 163,
+      "logo_path": "/rqCIpmrCBpnL6oliak6E1mrq5DD.png",
+      "provider_name": "Cineverse",
+      "provider_id": 1957
+    },
+    {
+      "display_priorities": {
+        "US": 164
+      },
+      "display_priority": 164,
+      "logo_path": "/vred6xlUjlo9TL2NlmutsZnGHUT.png",
+      "provider_name": "ESPN Plus",
+      "provider_id": 1768
+    },
+    {
+      "display_priorities": {
+        "IN": 42,
+        "US": 164
+      },
+      "display_priority": 164,
+      "logo_path": "/3evrYMmDN3wsD8d5iatp9hFXlEs.png",
+      "provider_name": "AD tv",
+      "provider_id": 1958
+    },
+    {
+      "display_priorities": {
+        "IN": 85,
+        "US": 165
+      },
+      "display_priority": 165,
+      "logo_path": "/1356slxu4QrHOMrEVDKHJXRo5sW.png",
+      "provider_name": "Lionsgate+ Amazon Channel",
+      "provider_id": 2358
+    },
+    {
+      "display_priorities": {
+        "US": 166
+      },
+      "display_priority": 166,
+      "logo_path": "/c1dWUx3AwvoZ13meOTQSDEBonZD.png",
+      "provider_name": "Midnight Pulp",
+      "provider_id": 1960
+    },
+    {
+      "display_priorities": {
+        "US": 167
+      },
+      "display_priority": 167,
+      "logo_path": "/h25xjouKmiSmFiiqw0aDXbxGZo7.png",
+      "provider_name": "Starz",
+      "provider_id": 43
+    },
+    {
+      "display_priorities": {
+        "US": 169
+      },
+      "display_priority": 169,
+      "logo_path": "/n6E9OeoQicCDd43PnLsMpVIVYFK.png",
+      "provider_name": "Xumo Play",
+      "provider_id": 1963
+    },
+    {
+      "display_priorities": {
+        "US": 170
+      },
+      "display_priority": 170,
+      "logo_path": "/yZtxolQEo9EEfu72AtegMwXE4Em.png",
+      "provider_name": "National Geographic",
+      "provider_id": 1964
+    },
+    {
+      "display_priorities": {
+        "IN": 43,
+        "US": 172
+      },
+      "display_priority": 172,
+      "logo_path": "/vmBE15FtFOa5RDcH5LEy5TftBLI.png",
+      "provider_name": "Shahid VIP",
+      "provider_id": 1715
+    },
+    {
+      "display_priorities": {
+        "US": 173
+      },
+      "display_priority": 173,
+      "logo_path": "/dJsyipsIt597fzdXUlr5sDifNRa.png",
+      "provider_name": "myfilmfriend",
+      "provider_id": 1972
+    },
+    {
+      "display_priorities": {
+        "US": 175
+      },
+      "display_priority": 175,
+      "logo_path": "/udCTWgJghEIid2npnaeCcLq1m2b.png",
+      "provider_name": "Outside Watch",
+      "provider_id": 1976
+    },
+    {
+      "display_priorities": {
+        "US": 177
+      },
+      "display_priority": 177,
+      "logo_path": "/9RAN991ZXQLf32nKmpxns1xmaCs.png",
+      "provider_name": "Full Moon Amazon Channel",
+      "provider_id": 597
+    },
+    {
+      "display_priorities": {
+        "US": 178
+      },
+      "display_priority": 178,
+      "logo_path": "/nFOHylv7fSm5fEyTMBWxSwUwv4u.png",
+      "provider_name": "Univer Video",
+      "provider_id": 1860
+    },
+    {
+      "display_priorities": {
+        "US": 179
+      },
+      "display_priority": 179,
+      "logo_path": "/8CWCON0bheDTk0VmLloPENLJmHW.png",
+      "provider_name": "GlewedTV",
+      "provider_id": 1990
+    },
+    {
+      "display_priorities": {
+        "US": 181
+      },
+      "display_priority": 181,
+      "logo_path": "/iXkhXfJmtYESTtFhncl1UaMBRqK.png",
+      "provider_name": "A&E Crime Central Apple TV channel",
+      "provider_id": 2033
+    },
+    {
+      "display_priorities": {
+        "US": 182
+      },
+      "display_priority": 182,
+      "logo_path": "/1MRjoHouZAWsBCdXjjkPWEDtyV0.png",
+      "provider_name": "Acorn TV Apple TV channel",
+      "provider_id": 2034
+    },
+    {
+      "display_priorities": {
+        "US": 183
+      },
+      "display_priority": 183,
+      "logo_path": "/hcx4wa1c29eqBHWzDbGJRBVNexh.png",
+      "provider_name": "ALLBLK Apple TV channel",
+      "provider_id": 2036
+    },
+    {
+      "display_priorities": {
+        "US": 184
+      },
+      "display_priority": 184,
+      "logo_path": "/j7y1nRXVZIqco9GgZv5cv7CpFSG.png",
+      "provider_name": "UP Faith & Family Apple TV channel",
+      "provider_id": 2045
+    },
+    {
+      "display_priorities": {
+        "US": 185
+      },
+      "display_priority": 185,
+      "logo_path": "/dlTMnulvP6v9YKlGP1TMjbCrmtA.png",
+      "provider_name": "Tastemade Apple TV channel",
+      "provider_id": 2047
+    },
+    {
+      "display_priorities": {
+        "US": 187
+      },
+      "display_priority": 187,
+      "logo_path": "/56UClPygDruoT7kvuPeIMJC59Zx.png",
+      "provider_name": "Shudder Apple TV channel",
+      "provider_id": 2049
+    },
+    {
+      "display_priorities": {
+        "US": 188
+      },
+      "display_priority": 188,
+      "logo_path": "/qUSKopZ7YFZ6N1dUpTbNhgZd5FH.png",
+      "provider_name": "ScreenPix Apple TV channel",
+      "provider_id": 2050
+    },
+    {
+      "display_priorities": {
+        "US": 189
+      },
+      "display_priority": 189,
+      "logo_path": "/6TPYB5MB5fFK5lgzi4VHnwxgPp5.png",
+      "provider_name": "OUTtv Apple TV channel",
+      "provider_id": 2044
+    },
+    {
+      "display_priorities": {
+        "US": 190
+      },
+      "display_priority": 190,
+      "logo_path": "/gaq44w5Jm2ilzLYylDPDRe03asZ.png",
+      "provider_name": "Lifetime Movie Club Apple TV channel",
+      "provider_id": 2055
+    },
+    {
+      "display_priorities": {
+        "US": 191
+      },
+      "display_priority": 191,
+      "logo_path": "/fAUJbIgaArLzpf6eK2FMJV8zOQT.png",
+      "provider_name": "Hallmark+ Apple TV channel",
+      "provider_id": 2058
+    },
+    {
+      "display_priorities": {
+        "IN": 46,
+        "US": 192
+      },
+      "display_priority": 192,
+      "logo_path": "/cPCFd2O8QYgEkYYZuhfkyFyv6Gn.png",
+      "provider_name": "Eros Now Select Apple TV channel",
+      "provider_id": 2059
+    },
+    {
+      "display_priorities": {
+        "US": 193
+      },
+      "display_priority": 193,
+      "logo_path": "/sDEg0lTuj2Z2X14yIquwAdv7KuL.png",
+      "provider_name": "CuriosityStream Apple TV channel",
+      "provider_id": 2060
+    },
+    {
+      "display_priorities": {
+        "US": 194
+      },
+      "display_priority": 194,
+      "logo_path": "/eArBCdklkA9DKiESboGkyv3rVQ7.png",
+      "provider_name": "Cinemax Apple TV channel",
+      "provider_id": 2061
+    },
+    {
+      "display_priorities": {
+        "US": 195
+      },
+      "display_priority": 195,
+      "logo_path": "/wrSjTgv3jPOTCCYYYGS7XFzS5DH.png",
+      "provider_name": "BBC Select Apple Tv channel",
+      "provider_id": 2039
+    },
+    {
+      "display_priorities": {
+        "US": 196
+      },
+      "display_priority": 196,
+      "logo_path": "/bRwEVhplTJJbp47sUa2DFUpsE42.png",
+      "provider_name": "Carnegie Hall+ Apple TV channel",
+      "provider_id": 2042
+    },
+    {
+      "display_priorities": {
+        "US": 197
+      },
+      "display_priority": 197,
+      "logo_path": "/lJ8Lh0SMfJgfWTV3rpFUjuaH26q.png",
+      "provider_name": "IFC Films Unlimited Apple TV channel",
+      "provider_id": 2056
+    },
+    {
+      "display_priorities": {
+        "US": 198
+      },
+      "display_priority": 198,
+      "logo_path": "/5BTLYTpmxk4esX7qkNstcjpczJO.png",
+      "provider_name": "HISTORY Vault Apple TV channel",
+      "provider_id": 2057
+    },
+    {
+      "display_priorities": {
+        "US": 199,
+        "JP": 31
+      },
+      "display_priority": 199,
+      "logo_path": "/3JjNZuoqjepX0LrRAIHXpuKTblR.png",
+      "provider_name": "HISTORY Vault Amazon Channel",
+      "provider_id": 2073
+    },
+    {
+      "display_priorities": {
+        "US": 200
+      },
+      "display_priority": 200,
+      "logo_path": "/nKingkQ2DSIbQzbxgPf5v9M0AiP.png",
+      "provider_name": "Carnegie Hall+ Amazon Channel",
+      "provider_id": 2071
+    },
+    {
+      "display_priorities": {
+        "US": 201
+      },
+      "display_priority": 201,
+      "logo_path": "/vqCS0xYK1KAZpbG8qoJ1kdnpXxR.png",
+      "provider_name": "Lifetime Movie Club Amazon Channel",
+      "provider_id": 2089
+    },
+    {
+      "display_priorities": {
+        "US": 202
+      },
+      "display_priority": 202,
+      "logo_path": "/c8H4Jp8qInInqkPSryR80rb7jYO.png",
+      "provider_name": "Film Movement Plus",
+      "provider_id": 579
+    },
+    {
+      "display_priorities": {
+        "US": 203,
+        "IN": 69,
+        "JP": 68
+      },
+      "display_priority": 203,
+      "logo_path": "/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+      "provider_name": "Amazon Prime Video with Ads",
+      "provider_id": 2100
+    },
+    {
+      "display_priorities": {
+        "US": 204
+      },
+      "display_priority": 204,
+      "logo_path": "/lgxDo2a3iGr617vm1rf0k5Hc8jz.png",
+      "provider_name": "Starz Apple TV channel",
+      "provider_id": 1855
+    },
+    {
+      "display_priorities": {
+        "US": 205
+      },
+      "display_priority": 205,
+      "logo_path": "/A8GVl6Pu2O0KVYVtijBHIsZ6LQn.png",
+      "provider_name": "Troma NOW",
+      "provider_id": 2078
+    },
+    {
+      "display_priorities": {
+        "US": 206,
+        "JP": 28,
+        "KR": 26,
+        "IN": 65
+      },
+      "display_priority": 206,
+      "logo_path": "/br5xAl9fUmssOElX3ENWvymUtGx.png",
+      "provider_name": "Jolt Film",
+      "provider_id": 2330
+    },
+    {
+      "display_priorities": {
+        "US": 211
+      },
+      "display_priority": 211,
+      "logo_path": "/vzHdqyLVfEXK6dNIbsVYH28mn9k.png",
+      "provider_name": "Kino Film Collection",
+      "provider_id": 2135
+    },
+    {
+      "display_priorities": {
+        "US": 214
+      },
+      "display_priority": 214,
+      "logo_path": "/ugFLagb0elt6ssH89oY85UxXd4d.png",
+      "provider_name": "Strand Releasing Amazon Channel",
+      "provider_id": 2174
+    },
+    {
+      "display_priorities": {
+        "US": 215
+      },
+      "display_priority": 215,
+      "logo_path": "/yrEwyMzEKdqAoGhaWUARtIxByol.png",
+      "provider_name": "Peacock Premium Plus",
+      "provider_id": 387
+    },
+    {
+      "display_priorities": {
+        "US": 216
+      },
+      "display_priority": 216,
+      "logo_path": "/oDXxEOMxeZ3UBF1piIYn6zrWMqy.png",
+      "provider_name": "ALLBLK Amazon channel ",
+      "provider_id": 2064
+    },
+    {
+      "display_priorities": {
+        "US": 217,
+        "IN": 64,
+        "JP": 26
+      },
+      "display_priority": 217,
+      "logo_path": "/rerVCu9auZrgxTTiZu1criqrQzg.png",
+      "provider_name": "Apple TV Amazon Channel",
+      "provider_id": 2243
+    },
+    {
+      "display_priorities": {
+        "US": 219
+      },
+      "display_priority": 219,
+      "logo_path": "/A5RE4UD6pzWoqVx9pZd9DrvFddv.png",
+      "provider_name": "Stingray Classica Amazon Channel",
+      "provider_id": 2273
+    },
+    {
+      "display_priorities": {
+        "US": 220
+      },
+      "display_priority": 220,
+      "logo_path": "/w06erKc2bai21sKdQoPChddardy.png",
+      "provider_name": "Stingray Djazz Amazon Channel",
+      "provider_id": 2274
+    },
+    {
+      "display_priorities": {
+        "US": 221
+      },
+      "display_priority": 221,
+      "logo_path": "/esBXsHrOOJ43hZfdPN9sm8vv3Z7.png",
+      "provider_name": "Stingray Karaoke Amazon Channel",
+      "provider_id": 2275
+    },
+    {
+      "display_priorities": {
+        "US": 222
+      },
+      "display_priority": 222,
+      "logo_path": "/2pZA0kyJWDDvKnvMqkkCQk62AuO.png",
+      "provider_name": "Acaciatv Amazon Channel",
+      "provider_id": 2314
+    },
+    {
+      "display_priorities": {
+        "US": 223
+      },
+      "display_priority": 223,
+      "logo_path": "/gxzqxNsimYV4RBllwpMYId4DZwo.png",
+      "provider_name": "Alchemiya Amazon Channel",
+      "provider_id": 2316
+    },
+    {
+      "display_priorities": {
+        "US": 224
+      },
+      "display_priority": 224,
+      "logo_path": "/8DuSChh4rrKbUNweKEKnbJISd53.png",
+      "provider_name": "All warrior network Amazon Channel",
+      "provider_id": 2317
+    },
+    {
+      "display_priorities": {
+        "US": 225
+      },
+      "display_priority": 225,
+      "logo_path": "/aJXVegIjKagfzioJ90nwDn3beb4.png",
+      "provider_name": "Amebatv Amazon Channel",
+      "provider_id": 2318
+    },
+    {
+      "display_priorities": {
+        "US": 226
+      },
+      "display_priority": 226,
+      "logo_path": "/8av0kW35qpduCdBEwVpWmgNJLAZ.png",
+      "provider_name": "Aspire TV Amazon Channel",
+      "provider_id": 2320
+    },
+    {
+      "display_priorities": {
+        "US": 227
+      },
+      "display_priority": 227,
+      "logo_path": "/eWCPrtH47KFk8Ne9iGkXU2MqUK4.png",
+      "provider_name": "BeFit Amazon Channel",
+      "provider_id": 2321
+    },
+    {
+      "display_priorities": {
+        "US": 229
+      },
+      "display_priority": 229,
+      "logo_path": "/2Qcz1Q43QyvR58X0rWFIM7UL2kW.png",
+      "provider_name": "Best of British Tv Amazon Channel",
+      "provider_id": 2323
+    },
+    {
+      "display_priorities": {
+        "US": 230
+      },
+      "display_priority": 230,
+      "logo_path": "/yrLspz98ORhOjqsZc2EstYQRarA.png",
+      "provider_name": "Baeble Amazon Channel",
+      "provider_id": 2324
+    },
+    {
+      "display_priorities": {
+        "US": 231
+      },
+      "display_priority": 231,
+      "logo_path": "/uYU06duoAxGGLY6xcNqpzKiRA6f.png",
+      "provider_name": "Best Westerns Ever Amazon Channel",
+      "provider_id": 2325
+    },
+    {
+      "display_priorities": {
+        "US": 232
+      },
+      "display_priority": 232,
+      "logo_path": "/iwUZ7U1f7rAcaa7pFevHE9yG4in.png",
+      "provider_name": "Broadway HD Amazon Channel",
+      "provider_id": 2326
+    },
+    {
+      "display_priorities": {
+        "US": 233
+      },
+      "display_priority": 233,
+      "logo_path": "/8jUGFyYpGZ3QC8uhtZo1X6JWPSr.png",
+      "provider_name": "Brown Sugar Amazon Channel",
+      "provider_id": 2327
+    },
+    {
+      "display_priorities": {
+        "US": 234
+      },
+      "display_priority": 234,
+      "logo_path": "/lWzSEjT62Ob0XIHXdN7G4OQWCAr.png",
+      "provider_name": "BFI Player Amazon Channel",
+      "provider_id": 287
+    },
+    {
+      "display_priorities": {
+        "US": 235
+      },
+      "display_priority": 235,
+      "logo_path": "/peF41H4W62298L0WnNpevX3cXvH.png",
+      "provider_name": "The Coda Collection Amazon Channel",
+      "provider_id": 2366
+    },
+    {
+      "display_priorities": {
+        "US": 236
+      },
+      "display_priority": 236,
+      "logo_path": "/uqAgFY1AoqdcsDVLzMCpoQqzJ2u.png",
+      "provider_name": "Midnight Pulp Amazon Channel",
+      "provider_id": 2367
+    },
+    {
+      "display_priorities": {
+        "US": 238
+      },
+      "display_priority": 238,
+      "logo_path": "/1mJi85wACU1ncr2M61LkirMt7Uc.png",
+      "provider_name": "Daring Docs Amazon Channel",
+      "provider_id": 2369
+    },
+    {
+      "display_priorities": {
+        "US": 239
+      },
+      "display_priority": 239,
+      "logo_path": "/7AysG1tyPp51IG8iR3MeXBhQCaa.png",
+      "provider_name": "Dekkoo Amazon Channel",
+      "provider_id": 2371
+    },
+    {
+      "display_priorities": {
+        "US": 240
+      },
+      "display_priority": 240,
+      "logo_path": "/esTUcjyg561nU9g4yTbDLsZKfVB.png",
+      "provider_name": "DocCom Amazon Channel",
+      "provider_id": 2376
+    },
+    {
+      "display_priorities": {
+        "US": 241
+      },
+      "display_priority": 241,
+      "logo_path": "/5iNTjBNb8SyqNBpJ5vviJAF37Fa.png",
+      "provider_name": "DocuramaFilms Amazon Channel",
+      "provider_id": 2377
+    },
+    {
+      "display_priorities": {
+        "US": 242
+      },
+      "display_priority": 242,
+      "logo_path": "/bu9lWI6L0BPjAh3j1CJh6KDMEqk.png",
+      "provider_name": "Dove Amazon Channel",
+      "provider_id": 2378
+    },
+    {
+      "display_priorities": {
+        "US": 243
+      },
+      "display_priority": 243,
+      "logo_path": "/t9kQOukUOI9EcnXN5vtV76HbTfO.png",
+      "provider_name": "Dox Amazon Channel",
+      "provider_id": 2379
+    },
+    {
+      "display_priorities": {
+        "US": 244
+      },
+      "display_priority": 244,
+      "logo_path": "/63UDiSB2rJAEUaxUXTNZbGNnjRm.png",
+      "provider_name": "Hidive Amazon Channel",
+      "provider_id": 2390
+    },
+    {
+      "display_priorities": {
+        "US": 245
+      },
+      "display_priority": 245,
+      "logo_path": "/c5styX2PnW0Kmwfyy1AV3swGODH.png",
+      "provider_name": "Echoboom Amazon Channel ",
+      "provider_id": 2392
+    },
+    {
+      "display_priorities": {
+        "US": 247
+      },
+      "display_priority": 247,
+      "logo_path": "/dGO3dx4MmQDXMRbROZOx8IX6vkE.png",
+      "provider_name": "Fear Factory Amazon Channel",
+      "provider_id": 2394
+    },
+    {
+      "display_priorities": {
+        "US": 248
+      },
+      "display_priority": 248,
+      "logo_path": "/zy8e5KYnkpB8qbLJUvzMnaynBSZ.png",
+      "provider_name": "Film Movement Plus Amazon Channel",
+      "provider_id": 2395
+    },
+    {
+      "display_priorities": {
+        "US": 249
+      },
+      "display_priority": 249,
+      "logo_path": "/Adjmm5dINLv82qSlmKd14etMX5T.png",
+      "provider_name": "Fitfusion Amazon Channel",
+      "provider_id": 2396
+    },
+    {
+      "display_priorities": {
+        "US": 251
+      },
+      "display_priority": 251,
+      "logo_path": "/abvSx9NJzXJbZYI0CD5L2T1fqvq.png",
+      "provider_name": "Food Matters Amazon Channel",
+      "provider_id": 2398
+    },
+    {
+      "display_priorities": {
+        "US": 252
+      },
+      "display_priority": 252,
+      "logo_path": "/7OJoroE8GD4vCVGfODOjXt9wL2J.png",
+      "provider_name": "Fuse+ Amazon Channel",
+      "provider_id": 2401
+    },
+    {
+      "display_priorities": {
+        "US": 254
+      },
+      "display_priority": 254,
+      "logo_path": "/mlciWnmFopns3WZGENR6ZZoNnZO.png",
+      "provider_name": "Hi-YAH Amazon Channel",
+      "provider_id": 2403
+    },
+    {
+      "display_priorities": {
+        "US": 255
+      },
+      "display_priority": 255,
+      "logo_path": "/wlIBJalNhr0vHuhYBk0uqevxwvX.png",
+      "provider_name": "ABC",
+      "provider_id": 148
+    },
+    {
+      "display_priorities": {
+        "US": 255
+      },
+      "display_priority": 255,
+      "logo_path": "/jjnc7RNCGfmd2Lw7MMFLRTaaWh3.png",
+      "provider_name": "Indie Club Amazon Channel",
+      "provider_id": 2404
+    },
+    {
+      "display_priorities": {
+        "US": 256
+      },
+      "display_priority": 256,
+      "logo_path": "/10011zizrQEpO955oxor51BM0IP.png",
+      "provider_name": "IndieFlix Shorts Amazon Channel",
+      "provider_id": 2405
+    },
+    {
+      "display_priorities": {
+        "US": 257
+      },
+      "display_priority": 257,
+      "logo_path": "/nLnN7wjiPLo5A2Um8BZA2IupEJS.png",
+      "provider_name": "Here TV  Amazon Channel",
+      "provider_id": 2406
+    },
+    {
+      "display_priorities": {
+        "US": 258
+      },
+      "display_priority": 258,
+      "logo_path": "/rAJjslepn3Be3RppygJDVVYdkLw.png",
+      "provider_name": "FILMBOX+ Now Amazon Channel",
+      "provider_id": 602
+    },
+    {
+      "display_priorities": {
+        "US": 260
+      },
+      "display_priority": 260,
+      "logo_path": "/Ab7YgJslUP0mB4aXrmYYMHEw5a3.png",
+      "provider_name": "Gaia Amazon Channel",
+      "provider_id": 2164
+    },
+    {
+      "display_priorities": {
+        "US": 261
+      },
+      "display_priority": 261,
+      "logo_path": "/gLOsC3f7mrM7tc7VFxrlxXOk3oq.png",
+      "provider_name": "France Channel Amazon Channel",
+      "provider_id": 2400
+    },
+    {
+      "display_priorities": {
+        "US": 262
+      },
+      "display_priority": 262,
+      "logo_path": "/om1AJmTFbc4B82HszpqJElsMshe.png",
+      "provider_name": "IndiePix Unlimited Amazon Channel",
+      "provider_id": 2407
+    },
+    {
+      "display_priorities": {
+        "US": 263
+      },
+      "display_priority": 263,
+      "logo_path": "/j5eICVK6wWtux3hO6xOaUOse8i6.png",
+      "provider_name": "Doki Amazon Channel",
+      "provider_id": 2408
+    },
+    {
+      "display_priorities": {
+        "US": 265
+      },
+      "display_priority": 265,
+      "logo_path": "/l9ceMtT6Lb4zCDDzavGkVeFmPNV.png",
+      "provider_name": "Kartoon Channel Amazon Channel",
+      "provider_id": 2414
+    },
+    {
+      "display_priorities": {
+        "US": 266
+      },
+      "display_priority": 266,
+      "logo_path": "/k7qXZrDOnkpdvfmZemRSp6DQ14f.png",
+      "provider_name": "Kidstream Amazon Channel",
+      "provider_id": 2415
+    },
+    {
+      "display_priorities": {
+        "US": 269
+      },
+      "display_priority": 269,
+      "logo_path": "/jGDWtSHBVsAAwJbLONwxR0SquXf.png",
+      "provider_name": "Magnolia Selects Amazon Channel",
+      "provider_id": 2418
+    },
+    {
+      "display_priorities": {
+        "US": 270
+      },
+      "display_priority": 270,
+      "logo_path": "/pcSzaYgwXvQaoPYqtrPXu6nrEdW.png",
+      "provider_name": "Monsters and Nightmares Amazon Channel",
+      "provider_id": 2419
+    },
+    {
+      "display_priorities": {
+        "US": 271
+      },
+      "display_priority": 271,
+      "logo_path": "/tZwYeFngp1uSgncqVbUycz51R3S.png",
+      "provider_name": "Marquee TV Amazon Channel",
+      "provider_id": 2420
+    },
+    {
+      "display_priorities": {
+        "US": 274
+      },
+      "display_priority": 274,
+      "logo_path": "/y3b3UctYaH11sKkxPN4juIQhaHp.png",
+      "provider_name": "Outside TV Features Amzon Channel",
+      "provider_id": 2424
+    },
+    {
+      "display_priorities": {
+        "US": 276
+      },
+      "display_priority": 276,
+      "logo_path": "/qwAX5rtMm8JVnbGFASKhmRY8hXp.png",
+      "provider_name": "Passionflix Amazon Channel",
+      "provider_id": 2427
+    },
+    {
+      "display_priorities": {
+        "US": 277
+      },
+      "display_priority": 277,
+      "logo_path": "/ajKH6uihInKQVXXPnArbEuBdBLv.png",
+      "provider_name": "Pinoy Box Office Amazon Channel",
+      "provider_id": 2428
+    },
+    {
+      "display_priorities": {
+        "US": 279
+      },
+      "display_priority": 279,
+      "logo_path": "/fZiIXJI0fAN09zTXY1U0xFirdIu.png",
+      "provider_name": "PBS Documentaries Amazon Channel",
+      "provider_id": 2430
+    },
+    {
+      "display_priorities": {
+        "US": 280
+      },
+      "display_priority": 280,
+      "logo_path": "/gjZVD1jiKsXW70chiLBtQtIKUNI.png",
+      "provider_name": "PBS Living Amazon Channel",
+      "provider_id": 2431
+    },
+    {
+      "display_priorities": {
+        "US": 281
+      },
+      "display_priority": 281,
+      "logo_path": "/dB3kEI2rQE9nicjuMjzL4sEyLJv.png",
+      "provider_name": "PixL Amazon Channel",
+      "provider_id": 2432
+    },
+    {
+      "display_priorities": {
+        "US": 282
+      },
+      "display_priority": 282,
+      "logo_path": "/jQJseCPOtpMj1f5WWhXSSMOEdwG.png",
+      "provider_name": "Great American Pure Flix Amazon Channel",
+      "provider_id": 2433
+    },
+    {
+      "display_priorities": {
+        "US": 284
+      },
+      "display_priority": 284,
+      "logo_path": "/r5N4WOhNUSnIM8rr53CJsbUga83.png",
+      "provider_name": "Revry Amazon Channel",
+      "provider_id": 2435
+    },
+    {
+      "display_priorities": {
+        "US": 285
+      },
+      "display_priority": 285,
+      "logo_path": "/3YeNiQ5uVqidsXtCdDhlzHBQ2zC.png",
+      "provider_name": "Ryan and Friends Plus Amazon Channel",
+      "provider_id": 2436
+    },
+    {
+      "display_priorities": {
+        "US": 286
+      },
+      "display_priority": 286,
+      "logo_path": "/9x1bvQWvkvdnubydGqdXcz14Fkg.png",
+      "provider_name": "Sensical Amazon Channel",
+      "provider_id": 2438
+    },
+    {
+      "display_priorities": {
+        "US": 287
+      },
+      "display_priority": 287,
+      "logo_path": "/70n0RO8hwhtJX7LAaJBXCA6FxN5.png",
+      "provider_name": "ZenLIFE by Stingray Amazon Channel",
+      "provider_id": 2439
+    },
+    {
+      "display_priorities": {
+        "US": 289
+      },
+      "display_priority": 289,
+      "logo_path": "/9VaDiNZthGOHRmMJtBufcYxJxTO.png",
+      "provider_name": "Demand Africa Amazon Channel",
+      "provider_id": 2442
+    },
+    {
+      "display_priorities": {
+        "US": 290
+      },
+      "display_priority": 290,
+      "logo_path": "/ntK1exgHl96YAxZkvJ9LEQ06tMk.png",
+      "provider_name": "The Surf Network Amazon Channel",
+      "provider_id": 2443
+    },
+    {
+      "display_priorities": {
+        "US": 291
+      },
+      "display_priority": 291,
+      "logo_path": "/iH5dtBl6WfoCCAQ7ZhizZefJ82t.png",
+      "provider_name": "Toku Amazon Channel",
+      "provider_id": 2444
+    },
+    {
+      "display_priorities": {
+        "US": 292
+      },
+      "display_priority": 292,
+      "logo_path": "/9GQLqBo5obK0r3nhZl24BadRKPq.png",
+      "provider_name": "MovieSphere+ Amazon Channel",
+      "provider_id": 2445
+    },
+    {
+      "display_priorities": {
+        "US": 293
+      },
+      "display_priority": 293,
+      "logo_path": "/ziIz3Nu3xMynUtbkAmSNz6lpSgy.png",
+      "provider_name": "True Royalty Amazon Channel",
+      "provider_id": 2446
+    },
+    {
+      "display_priorities": {
+        "US": 294
+      },
+      "display_priority": 294,
+      "logo_path": "/wJUGCYUzHETrdmuAAUOWdpbHzLs.png",
+      "provider_name": "FUEL TV+ Amazon Channel",
+      "provider_id": 2448
+    },
+    {
+      "display_priorities": {
+        "US": 298
+      },
+      "display_priority": 298,
+      "logo_path": "/f8oq0oy41AvzFkF13xj8HftS4oa.png",
+      "provider_name": "Dreamscape Kids Amazon Channel",
+      "provider_id": 2452
+    },
+    {
+      "display_priorities": {
+        "US": 300
+      },
+      "display_priority": 300,
+      "logo_path": "/5ovCs5MUUHp4vgwm45YONgogAUB.png",
+      "provider_name": "Green Planet Stream Amazon Channel",
+      "provider_id": 2454
+    },
+    {
+      "display_priorities": {
+        "US": 308
+      },
+      "display_priority": 308,
+      "logo_path": "/p46J3ivri6oZZTR8QlLJ06i1MGv.png",
+      "provider_name": "Yoga and Fitness TV Amazon channel",
+      "provider_id": 2462
+    },
+    {
+      "display_priorities": {
+        "US": 310
+      },
+      "display_priority": 310,
+      "logo_path": "/mca7VqNcL66Hc737KZcbqBTHJ2t.png",
+      "provider_name": "Young Hollywood Amazon Channel",
+      "provider_id": 2464
+    },
+    {
+      "display_priorities": {
+        "US": 311
+      },
+      "display_priority": 311,
+      "logo_path": "/9VMnceo5okN4TDfSJj4MnJmkzLP.png",
+      "provider_name": "Vemox Cine Amazon Channel",
+      "provider_id": 2465
+    },
+    {
+      "display_priorities": {
+        "US": 312
+      },
+      "display_priority": 312,
+      "logo_path": "/tYRiW2QvjPtCbBhRVYFUyyfApVl.png",
+      "provider_name": "Warriors and Gangsters Amazon Channel",
+      "provider_id": 2466
+    },
+    {
+      "display_priorities": {
+        "US": 313
+      },
+      "display_priority": 313,
+      "logo_path": "/iZTZGmgmLTM7TKSAlgIS9LanceC.png",
+      "provider_name": "Xive TV Documentaries Amazon Channel",
+      "provider_id": 2467
+    },
+    {
+      "display_priorities": {
+        "US": 314
+      },
+      "display_priority": 314,
+      "logo_path": "/fMBOrMu7vdw0ktNmakRp746bf3y.png",
+      "provider_name": "XLTV Amazon Channel ",
+      "provider_id": 2468
+    },
+    {
+      "display_priorities": {
+        "US": 315
+      },
+      "display_priority": 315,
+      "logo_path": "/tggH1gatJOaMYl05ftaFV4IdMSf.png",
+      "provider_name": "Yipee Kids TV Amazon Channel",
+      "provider_id": 2470
+    },
+    {
+      "display_priorities": {
+        "US": 319
+      },
+      "display_priority": 319,
+      "logo_path": "/ydhPmamP2uIMipgq8qIEfmcw2hT.png",
+      "provider_name": "Shout! Factory Amazon Channel",
+      "provider_id": 600
+    },
+    {
+      "display_priorities": {
+        "US": 322
+      },
+      "display_priority": 322,
+      "logo_path": "/okzVQmpdFwtSRTvkIUr8vSSWNCj.png",
+      "provider_name": "UP Faith & Family Amazon Channel ",
+      "provider_id": 2066
+    },
+    {
+      "display_priorities": {
+        "US": 323
+      },
+      "display_priority": 323,
+      "logo_path": "/5mKfei0iY1whxxgS6Fs7XbpsdzG.png",
+      "provider_name": "Tastemade Amazon Channel ",
+      "provider_id": 2068
+    },
+    {
+      "display_priorities": {
+        "US": 325
+      },
+      "display_priority": 325,
+      "logo_path": "/eP8ouMk5uIDebPWNto76rNstMqE.png",
+      "provider_name": "Viaplay Amazon Channel",
+      "provider_id": 2296
+    },
+    {
+      "display_priorities": {
+        "JP": 27,
+        "US": 326
+      },
+      "display_priority": 326,
+      "logo_path": "/4iLmGtD9ZFdZYFQ0ukrMFdZMrjm.png",
+      "provider_name": "Qello Concerts by Stingray Amazon Channel",
+      "provider_id": 2266
+    },
+    {
+      "display_priorities": {
+        "IN": 66,
+        "JP": 29,
+        "KR": 27,
+        "US": 327
+      },
+      "display_priority": 327,
+      "logo_path": "/2hAu4MUecOOMTtrlJ3XEqB4dhZr.png",
+      "provider_name": "FOUND TV",
+      "provider_id": 2478
+    },
+    {
+      "display_priorities": {
+        "US": 329
+      },
+      "display_priority": 329,
+      "logo_path": "/6pXyuaIbeAiweceapqHizMaOVMM.png",
+      "provider_name": "Gaiam TV Yoga & Fit",
+      "provider_id": 2480
+    },
+    {
+      "display_priorities": {
+        "US": 330
+      },
+      "display_priority": 330,
+      "logo_path": "/tUXhi1QnIhdoPOTFUKKTrshUuiV.png",
+      "provider_name": "Kocowa",
+      "provider_id": 464
+    },
+    {
+      "display_priorities": {
+        "US": 331
+      },
+      "display_priority": 331,
+      "logo_path": "/4cHhgsNAxu15DEut0ZBmc8lK0Zt.png",
+      "provider_name": "History",
+      "provider_id": 155
+    },
+    {
+      "display_priorities": {
+        "US": 333
+      },
+      "display_priority": 333,
+      "logo_path": "/qtw1f8sXwc57wAY6l0RuYzMOg4t.png",
+      "provider_name": "RetroCrush Amazon Channel",
+      "provider_id": 295
+    },
+    {
+      "display_priorities": {
+        "US": 334
+      },
+      "display_priority": 334,
+      "logo_path": "/xu1q89warmeMRwZRMgWQSl6GIYV.png",
+      "provider_name": "ScreenPix Amazon Channel ",
+      "provider_id": 2069
+    },
+    {
+      "display_priorities": {
+        "US": 335
+      },
+      "display_priority": 335,
+      "logo_path": "/zrzvU8SGxItb3xFCX7WpyHzo4k7.png",
+      "provider_name": "Mometu",
+      "provider_id": 2533
+    },
+    {
+      "display_priorities": {
+        "US": 338
+      },
+      "display_priority": 338,
+      "logo_path": "/rfXfa1Cq2cxiO76jN3kflGeqJuT.png",
+      "provider_name": "Hallmark TV Amazon Channel",
+      "provider_id": 1746
+    },
+    {
+      "display_priorities": {
+        "US": 339
+      },
+      "display_priority": 339,
+      "logo_path": "/8GCjHi76yPE7kqjc9ykNVHIZtCv.png",
+      "provider_name": "Peacock Premium Plus Amazon Channel",
+      "provider_id": 2553
+    },
+    {
+      "display_priorities": {
+        "JP": 71,
+        "KR": 29,
+        "US": 341,
+        "IN": 71
+      },
+      "display_priority": 341,
+      "logo_path": "/grSWrznc2QaymD5bM0MxMmcdrQl.png",
+      "provider_name": "Bloodstream",
+      "provider_id": 2555
+    },
+    {
+      "display_priorities": {
+        "US": 344,
+        "IN": 73,
+        "JP": 72,
+        "KR": 30
+      },
+      "display_priority": 344,
+      "logo_path": "/pxmDUtLdaSCek4LUwme4h7wfsC9.png",
+      "provider_name": "MovieMe",
+      "provider_id": 2565
+    },
+    {
+      "display_priorities": {
+        "IN": 14,
+        "US": 347
+      },
+      "display_priority": 347,
+      "logo_path": "/9dEuvA8wg5TSeFBZlPxSVxFdimJ.png",
+      "provider_name": "Tubi TV",
+      "provider_id": 73
+    },
+    {
+      "display_priorities": {
+        "IN": 74,
+        "KR": 31,
+        "JP": 73,
+        "US": 348
+      },
+      "display_priority": 348,
+      "logo_path": "/tXSfA8awn62PUBbGIGhejrTPwiG.png",
+      "provider_name": "KableOne",
+      "provider_id": 2603
+    },
+    {
+      "display_priorities": {
+        "US": 349
+      },
+      "display_priority": 349,
+      "logo_path": "/gq031DkuykfuuHVoLPx9BFNyfPU.png",
+      "provider_name": "KQED",
+      "provider_id": 2621
+    },
+    {
+      "display_priorities": {
+        "US": 351
+      },
+      "display_priority": 351,
+      "logo_path": "/tKembbxL7cYdDvFK70xBecbN0G8.png",
+      "provider_name": "Starz Roku Premium Channel",
+      "provider_id": 634
+    },
+    {
+      "display_priorities": {
+        "US": 352
+      },
+      "display_priority": 352,
+      "logo_path": "/fwzxYZXp5T57T2WaazFhzArAmYd.png",
+      "provider_name": "WETA+",
+      "provider_id": 2657
+    },
+    {
+      "display_priorities": {
+        "KR": 32,
+        "IN": 77,
+        "US": 353,
+        "JP": 74
+      },
+      "display_priority": 353,
+      "logo_path": "/5BBtkfnbubfLyPXDtscrgQHg1cq.png",
+      "provider_name": "CaixaForum+",
+      "provider_id": 2620
+    },
+    {
+      "display_priorities": {
+        "IN": 87,
+        "JP": 81,
+        "KR": 38,
+        "US": 354
+      },
+      "display_priority": 354,
+      "logo_path": "/oMEvAYpfx85D9HHQzXqFbHC0S6F.png",
+      "provider_name": "YOW.tv",
+      "provider_id": 2667
+    },
+    {
+      "display_priorities": {
+        "US": 355
+      },
+      "display_priority": 355,
+      "logo_path": "/q44PU5iFUrxhOLKW19BrPuEN6Go.png",
+      "provider_name": "Wonder Project Amazon Channel",
+      "provider_id": 2668
+    },
+    {
+      "display_priorities": {
+        "IN": 80,
+        "KR": 33,
+        "JP": 75,
+        "US": 356
+      },
+      "display_priority": 356,
+      "logo_path": "/hO4tZhtSJ7VrVnJusimkY3MltSx.png",
+      "provider_name": "Artiflix",
+      "provider_id": 2623
+    },
+    {
+      "display_priorities": {
+        "IN": 59,
+        "US": 357
+      },
+      "display_priority": 357,
+      "logo_path": "/lD5GM2RVquDG85ybCswioL1MXHU.png",
+      "provider_name": "CuriosityStream Amazon Channel",
+      "provider_id": 603
+    },
+    {
+      "display_priorities": {
+        "US": 358
+      },
+      "display_priority": 358,
+      "logo_path": "/gnmo98waJ6PHt9uKZaTo8Wq95Ky.png",
+      "provider_name": "Amasian TV",
+      "provider_id": 2679
+    },
+    {
+      "display_priorities": {
+        "KR": 35,
+        "IN": 81,
+        "JP": 76,
+        "US": 359
+      },
+      "display_priority": 359,
+      "logo_path": "/j6yqJltFxcDIrWB9bBJ2TDQQC8X.png",
+      "provider_name": "Artify",
+      "provider_id": 2685
+    },
+    {
+      "display_priorities": {
+        "US": 360,
+        "IN": 87,
+        "KR": 39,
+        "JP": 81
+      },
+      "display_priority": 360,
+      "logo_path": "/8MHJUtlpY7PGBclfvjryTzBEB7A.png",
+      "provider_name": "Chilling",
+      "provider_id": 2703
+    },
+    {
+      "display_priorities": {
+        "US": 361
+      },
+      "display_priority": 361,
+      "logo_path": "/mkikn40hHk3K3Xis19dnzyRnHBB.png",
+      "provider_name": "Cineverse Amazon Channel",
+      "provider_id": 2704
+    },
+    {
+      "display_priorities": {
+        "US": 362
+      },
+      "display_priority": 362,
+      "logo_path": "/uVhUzKH7taAxHZGrRMZ4IqIbQxe.png",
+      "provider_name": "ARROW",
+      "provider_id": 529
+    },
+    {
+      "display_priorities": {
+        "JP": 78,
+        "US": 370
+      },
+      "display_priority": 370,
+      "logo_path": "/uNyIRlzYb0Hf7Ix6Q3MKms0ERgA.png",
+      "provider_name": "Sony Pictures Core Amazon Channel",
+      "provider_id": 2745
+    },
+    {
+      "display_priorities": {
+        "US": 371
+      },
+      "display_priority": 371,
+      "logo_path": "/dI7GHS1st3jWH8eW21x5YnJdUFN.png",
+      "provider_name": "Howdy Amazon Channel",
+      "provider_id": 2754
+    },
+    {
+      "display_priorities": {
+        "IN": 89,
+        "JP": 79,
+        "KR": 36,
+        "US": 373
+      },
+      "display_priority": 373,
+      "logo_path": "/fy6GVs6ZtKluakv0Z5nuLesmTqx.png",
+      "provider_name": "Pijama Films",
+      "provider_id": 2765
+    },
+    {
+      "display_priorities": {
+        "IN": 90,
+        "JP": 80,
+        "KR": 37,
+        "US": 375
+      },
+      "display_priority": 375,
+      "logo_path": "/jaekUwv4s9rVc0GvQhsnwDp82MA.png",
+      "provider_name": "Filmtap",
+      "provider_id": 2782
+    },
+    {
+      "display_priorities": {
+        "US": 376
+      },
+      "display_priority": 376,
+      "logo_path": "/lJzEL0ddBGpK62gpFAbxLGXN6My.png",
+      "provider_name": "BINGE Movies & TV",
+      "provider_id": 2786
+    },
+    {
+      "display_priorities": {
+        "IN": 60,
+        "US": 378
+      },
+      "display_priority": 378,
+      "logo_path": "/mfqGHipFOVMtsdaFPDPRcV0we46.png",
+      "provider_name": "DocuBay Amazon Channel",
+      "provider_id": 604
+    },
+    {
+      "display_priorities": {
+        "IN": 41,
+        "US": 380
+      },
+      "display_priority": 380,
+      "logo_path": "/46U3TOB3PhVDjA7qaFOuYSaGMiq.png",
+      "provider_name": "Amazon MX Player",
+      "provider_id": 1898
+    },
+    {
+      "display_priorities": {
+        "US": 381
+      },
+      "display_priority": 381,
+      "logo_path": "/4j1JqvhtL3xwHXW9RJHr8eWEQQF.png",
+      "provider_name": "Cinefest Amazon Channel",
+      "provider_id": 2364
+    },
+    {
+      "display_priorities": {
+        "IN": 93,
+        "JP": 81,
+        "KR": 38,
+        "US": 383
+      },
+      "display_priority": 383,
+      "logo_path": "/wonfCSSdI55EfVFlWJyyQZIlYx7.png",
+      "provider_name": "WeTV",
+      "provider_id": 623
+    },
+    {
+      "display_priorities": {
+        "US": 386
+      },
+      "display_priority": 386,
+      "logo_path": "/7fXsX6nah0rRJqbkgA1Ft9SAw5C.png",
+      "provider_name": "PBS Kids",
+      "provider_id": 2796
+    }
+  ]
+}

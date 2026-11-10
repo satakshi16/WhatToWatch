@@ -1,0 +1,39 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      # Vendored third-party assets (e.g. the TMDB logo) must stay byte-for-byte unmodified.
+      - id: end-of-file-fixer
+        exclude: ^ui/assets/
+      - id: trailing-whitespace
+        exclude: ^ui/assets/
+      - id: check-yaml
+      - id: check-toml
+      - id: check-added-large-files
+
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
+        args: ["--baseline", ".secrets.baseline"]
+        exclude: uv.lock
+
+  # ruff + mypy run from the project venv so versions match uv.lock.
+  - repo: local
+    hooks:
+      - id: ruff
+        name: ruff
+        entry: uv run ruff check --fix
+        language: system
+        types: [python]
+      - id: ruff-format
+        name: ruff-format
+        entry: uv run ruff format
+        language: system
+        types: [python]
+      - id: mypy
+        name: mypy (strict, app/)
+        entry: uv run mypy
+        language: system
+        types: [python]
+        pass_filenames: false

@@ -1,0 +1,24 @@
+{
+  "head": {"vars": ["tmdb", "item", "itemLabel", "kind", "value", "valueLabel", "text", "ord"]},
+  "results": {
+    "bindings": [
+      {"tmdb": {"type": "literal", "value": "900001"},
+       "item": {"type": "uri", "value": "http://www.wikidata.org/entity/Q5001"},
+       "itemLabel": {"type": "literal", "xml:lang": "en", "value": "The Glass Orchard"},
+       "kind": {"type": "literal", "value": "item"}},
+      {"tmdb": {"type": "literal", "value": "900001"},
+       "item": {"type": "uri", "value": "http://www.wikidata.org/entity/Q5001"},
+       "itemLabel": {"type": "literal", "xml:lang": "en", "value": "The Glass Orchard"},
+       "kind": {"type": "literal", "value": "genre"},
+       "value": {"type": "uri", "value": "http://www.wikidata.org/entity/Q130232"},
+       "valueLabel": {"type": "literal", "xml:lang": "en", "value": "drama film"}},
+      {"tmdb": {"type": "literal", "value": "900001"},
+       "item": {"type": "uri", "value": "http://www.wikidata.org/entity/Q5001"},
+       "itemLabel": {"type": "literal", "xml:lang": "en", "value": "The Glass Orchard"},
+       "kind": {"type": "literal", "value": "sitelink"},
+       "value": {"type": "uri", "value": "https://en.wikipedia.org/"},
+       "valueLabel": {"type": "literal", "value": "https://en.wikipedia.org/"},
+       "text": {"type": "literal", "xml:lang": "en", "value": "The Glass Orchard (film)"}}
+    ]
+  }
+}

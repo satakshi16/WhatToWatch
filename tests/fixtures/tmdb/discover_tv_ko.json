@@ -1,0 +1,453 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
+      "genre_ids": [
+        10759,
+        9648,
+        18
+      ],
+      "id": 93405,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "오징어 게임",
+      "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+      "popularity": 74.7697,
+      "poster_path": "/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
+      "first_air_date": "2021-09-17",
+      "softcore": false,
+      "name": "Squid Game",
+      "vote_average": 7.852,
+      "vote_count": 17909
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8hp2CuGnw1iP5dLBVMAPUv23swx.jpg",
+      "genre_ids": [
+        10759,
+        18,
+        10765
+      ],
+      "id": 99966,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "지금 우리 학교는",
+      "overview": "A high school becomes ground zero for a zombie virus outbreak. Trapped students must fight their way out — or turn into one of the rabid infected.",
+      "popularity": 36.0541,
+      "poster_path": "/pTEFqAjLd5YTsMD6NSUxV6Dq7A6.jpg",
+      "first_air_date": "2022-01-28",
+      "softcore": false,
+      "name": "All of Us Are Dead",
+      "vote_average": 8.29,
+      "vote_count": 4511
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/smSbK5cd8T9XHcxEUcems23BDEF.jpg",
+      "genre_ids": [
+        18,
+        10765,
+        35
+      ],
+      "id": 67915,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "쓸쓸하고 찬란하神-도깨비",
+      "overview": "In his quest for a bride to break his immortal curse, a 939-year-old guardian of souls meets a grim reaper and a sprightly student with a tragic past.",
+      "popularity": 20.1395,
+      "poster_path": "/sPkxHNw5BFvuCFGWw825TS7n6X3.jpg",
+      "first_air_date": "2016-12-02",
+      "softcore": false,
+      "name": "Guardian: The Lonely and Great God",
+      "vote_average": 8.618,
+      "vote_count": 3147
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3E1GroTJCRdIYHa5n62GqjmqxQR.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 112888,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "여신강림",
+      "overview": "After being bullied and discriminated because of her ugly looks, a high school girl transforms herself into a gorgeous \"goddess\" and quickly rises to fame after mastering the art of makeup via online tutorial videos.",
+      "popularity": 25.7147,
+      "poster_path": "/I9WCyKUbKAiu95tAitaHOx8EVO.jpg",
+      "first_air_date": "2020-12-09",
+      "softcore": false,
+      "name": "True Beauty",
+      "vote_average": 8.3,
+      "vote_count": 2742
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mXouvrZbn8YpZMURGvw30QK8qfo.jpg",
+      "genre_ids": [
+        18,
+        10765
+      ],
+      "id": 89641,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "좋아하면 울리는",
+      "overview": "Love Alarm is an app that tells you if someone within a 10-meter radius has a crush on you. It quickly becomes a social phenomenon. While everyone talks about it and uses it to test their love and popularity, Jojo is one of the few people who have yet to download the app. However, she soon faces a love triangle situation between Sun-oh whom she starts to have feelings for, and Hye-young, who has had a huge crush on her.",
+      "popularity": 10.6025,
+      "poster_path": "/hQ8Hobo1RpYuZVQJQOCycNMHAG.jpg",
+      "first_air_date": "2019-08-22",
+      "softcore": false,
+      "name": "Love Alarm",
+      "vote_average": 8.2,
+      "vote_count": 2054
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nFrIKLtWiHiEApHEa1tvM2eDbbh.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 16420,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "꽃보다 남자",
+      "overview": "A poor high school student earns a scholarship to an elite academy, where she clashes with the most popular boy in school!",
+      "popularity": 13.9686,
+      "poster_path": "/7nqNwwCoMB3IdMU9VKSPTg5SrfL.jpg",
+      "first_air_date": "2009-01-05",
+      "softcore": false,
+      "name": "Boys Over Flowers",
+      "vote_average": 8.3,
+      "vote_count": 1864
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mceCXNTny6a5F3rQgShLoyARw4l.jpg",
+      "genre_ids": [
+        10765,
+        10759
+      ],
+      "id": 96648,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "스위트홈",
+      "overview": "As humans turn into savage monsters and the world plunges into terror, a handful of survivors fight for their lives — and to hold on to their humanity.",
+      "popularity": 28.445,
+      "poster_path": "/owGb1SExjoEZWOvPx6hAVAi2B7D.jpg",
+      "first_air_date": "2020-12-18",
+      "softcore": false,
+      "name": "Sweet Home",
+      "vote_average": 8.198,
+      "vote_count": 1634
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4IzdfRrxgbvtnE0ZBNEjlcFcxgc.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 96462,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "사이코지만 괜찮아",
+      "overview": "Desperate to escape from his emotional baggage and the heavy responsibility he’s had all his life, a psychiatric ward worker begins to heal with help from the unexpected – a woman who writes fairy tales but doesn’t believe in them.",
+      "popularity": 14.7674,
+      "poster_path": "/8XSJfLeImX8NszDUFnK1lbseCi8.jpg",
+      "first_air_date": "2020-06-20",
+      "softcore": false,
+      "name": "It's Okay to Not Be Okay",
+      "vote_average": 8.501,
+      "vote_count": 1533
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jRhJlV4inm8wAAqTeHUX5HpjZcc.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "id": 70593,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "킹덤",
+      "overview": "In this zombie thriller set in Korea's medieval Joseon dynasty which has been defeated by corruption and famine, a mysterious rumor of the king’s death spreads, as does a strange plague that renders the infected immune to death and hungry for flesh. The crown prince, fallen victim to a conspiracy, sets out on a journey to unveil the evil scheme and save his people.",
+      "popularity": 16.9406,
+      "poster_path": "/AsICtiVtz4icMQQRwDvOzfaTzjK.jpg",
+      "first_air_date": "2019-01-25",
+      "softcore": false,
+      "name": "Kingdom",
+      "vote_average": 8.2,
+      "vote_count": 1293
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mPS95pRUxJnTDXsDfnbXfHn4TaZ.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 5178,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "천국의 계단",
+      "overview": "Song Ju and Jeong Seo who have lost a father and a mother respectively spend their childhood together like real siblings. Song Ju is there for Jeong Seo whenever she feels lonely and has a hard time, and Jeong Seo also relies a lot on Song Ju. However, after Jeong Seo's father gets married to Tae Mi Ra, Mi Ra and her daughter Yu Ri keep harassing Jeong Seo out of jealousy. Tae Hwa, Yu Ri's rough and wild older brother, has a crush on Jeong Seo who is pure and kind unlike him.",
+      "popularity": 6.1331,
+      "poster_path": "/n5Yyw9aub94Nmxart8T9rqr0Ypk.jpg",
+      "first_air_date": "2003-12-03",
+      "softcore": false,
+      "name": "Stairway to Heaven",
+      "vote_average": 8.2,
+      "vote_count": 1196
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sf7NCqyVUNoyjYuwW5oJke1T1lH.jpg",
+      "genre_ids": [
+        10759,
+        35,
+        18,
+        80
+      ],
+      "id": 117376,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "빈센조",
+      "overview": "During a visit to his motherland, a Korean-Italian Mafia lawyer gives an unrivaled conglomerate a taste of its own medicine  with a side of justice.",
+      "popularity": 21.0776,
+      "poster_path": "/qbkSS1cTjT4DzIwD44bdhTuYgdT.jpg",
+      "first_air_date": "2021-02-20",
+      "softcore": false,
+      "name": "Vincenzo",
+      "vote_average": 8.496,
+      "vote_count": 1119
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fCEKeONLr0tuWV5hT0iHeiRjYM4.jpg",
+      "genre_ids": [
+        80,
+        18,
+        9648
+      ],
+      "id": 110356,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "마이 네임",
+      "overview": "Following her father's murder, a revenge-driven woman puts her trust in a powerful crime boss — and enters the police force under his direction.",
+      "popularity": 11.0711,
+      "poster_path": "/gHozOomiA24DvlgNfjkYCB5NBiO.jpg",
+      "first_air_date": "2021-10-15",
+      "softcore": false,
+      "name": "My Name",
+      "vote_average": 8.203,
+      "vote_count": 1106
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ikN8ABD9pXHuW4JFqTEHr3ae8rd.jpg",
+      "genre_ids": [
+        18,
+        9648,
+        10765
+      ],
+      "id": 106651,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "지옥",
+      "overview": "Unearthly beings deliver bloody condemnations, sending individuals to hell and giving rise to a religious group founded on the idea of divine justice.",
+      "popularity": 13.6841,
+      "poster_path": "/5NYdSAnDVIXePrSG2dznHdiibMk.jpg",
+      "first_air_date": "2021-11-19",
+      "softcore": false,
+      "name": "Hellbound",
+      "vote_average": 7.311,
+      "vote_count": 1037
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vyG93jhmPL7tBIhRtCLa5mdBKob.jpg",
+      "genre_ids": [
+        10759,
+        18,
+        35
+      ],
+      "id": 276161,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "참교육",
+      "overview": "An inspector from the Educational Rights Protection Bureau (ERPB) who is authorized by the government to use physical intervention and unconventional methods to discipline delinquent students and reform the educational system.",
+      "popularity": 37.832,
+      "poster_path": "/fMECSPrTmRClSViMsXFYmiYIcWP.jpg",
+      "first_air_date": "2026-06-05",
+      "softcore": false,
+      "name": "Teach You a Lesson",
+      "vote_average": 9.357,
+      "vote_count": 1010
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/39owosjolYd3gKufgM9jMdSSk9t.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 197067,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "이상한 변호사 우영우",
+      "overview": "With a genius-level IQ, Woo Young-woo learns to embrace her extraordinary self while forming a tight-knit community of friends and allies.",
+      "popularity": 25.3867,
+      "poster_path": "/zuNOQVI4rEaqwknrfQUVKtlKE2C.jpg",
+      "first_air_date": "2022-06-29",
+      "softcore": false,
+      "name": "Extraordinary Attorney Woo",
+      "vote_average": 8.483,
+      "vote_count": 1003
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3yEHM2HT2vrUtO93YzTJNgEfiZG.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 94796,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "사랑의 불시착",
+      "overview": "A paragliding mishap drops a South Korean heiress in North Korea -- and into the life of an army officer, who decides he will help her hide.",
+      "popularity": 22.7099,
+      "poster_path": "/fgBNLPr6mC8pxuR79ENAJY4nBmj.jpg",
+      "first_air_date": "2019-12-14",
+      "softcore": false,
+      "name": "Crash Landing on You",
+      "vote_average": 8.54,
+      "vote_count": 988
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5auQnyJ0jQfiYlg88lsW0pCLBRJ.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 63767,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "그녀는 예뻤다",
+      "overview": "A former ugly duckling tries to track down his childhood first love. But what will happen when a case of false identities backfires?",
+      "popularity": 8.5899,
+      "poster_path": "/sIsUgKIFYAASpvvV5Aaip2xa7Zd.jpg",
+      "first_air_date": "2015-09-16",
+      "softcore": false,
+      "name": "She Was Pretty",
+      "vote_average": 8.268,
+      "vote_count": 988
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9DZMO2mhNwVKzfluBUoIdezBTHb.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 66330,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "W(더블유)",
+      "overview": "After being pulled into the webtoon world created by her father, a surgical resident gets entangled in a murder mystery involving the story's hero.",
+      "popularity": 12.5754,
+      "poster_path": "/rBuCoS0VB9M6zkEUCvnVrfeF0J.jpg",
+      "first_air_date": "2016-07-20",
+      "softcore": false,
+      "name": "W",
+      "vote_average": 8.4,
+      "vote_count": 986
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/AjwoDj77HLlqcpwEGqsnvMXm5my.jpg",
+      "genre_ids": [
+        18,
+        80
+      ],
+      "id": 136283,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "더 글로리",
+      "overview": "Years after surviving horrific abuse in high school, a woman puts an elaborate revenge scheme in motion to make the perpetrators pay for their crimes.",
+      "popularity": 20.2621,
+      "poster_path": "/uUM4LVlPgIrww07OoEKrGWlS1Ej.jpg",
+      "first_air_date": "2022-12-30",
+      "softcore": false,
+      "name": "The Glory",
+      "vote_average": 8.461,
+      "vote_count": 975
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ktlhFbvJaOvsQJCBtVLMaGDZKjW.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 68349,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "역도요정 김복주",
+      "overview": "A competitive swimmer crosses paths with his childhood friend, a rising weight lifting star, and realizes that she has a secret crush on his cousin.",
+      "popularity": 9.974,
+      "poster_path": "/iLF6Jz6nL8uD8jKo6EvQ3XutDcR.jpg",
+      "first_air_date": "2016-11-16",
+      "softcore": false,
+      "name": "Weightlifting Fairy Kim Bok-joo",
+      "vote_average": 8.501,
+      "vote_count": 970
+    }
+  ],
+  "total_pages": 559,
+  "total_results": 11171
+}

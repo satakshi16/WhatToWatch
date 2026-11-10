@@ -1,0 +1,89 @@
+[project]
+name = "whattowatch"
+version = "0.1.0"
+description = "Weekly, availability-aware movie & series recommendations."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "alembic>=1.20.1",
+    "fastapi>=0.162.0",
+    "httpx>=0.28.1",
+    # Intel macOS: PyTorch stopped shipping x86_64 macOS wheels after 2.2.2, which was
+    # built against NumPy 1.x, so the whole ML stack is pinned older there (D-012).
+    "numpy>=2.5.4 ; sys_platform != 'darwin' or platform_machine != 'x86_64'",
+    "numpy>=1.26,<2 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "pydantic-settings>=2.16.2",
+    "sqlalchemy>=2.1.6",
+    "structlog>=26.1.0",
+    "tenacity>=9.2.1",
+    "uvicorn[standard]>=0.54.0",
+    "argon2-cffi>=25.1.0",
+    "pyjwt>=2.15.1",
+    "email-validator>=2.3.0",
+    "tzdata>=2026.6",
+]
+
+[dependency-groups]
+dev = [
+    "detect-secrets>=1.5.0",
+    "httpx>=0.28.1",
+    "mypy>=2.4.1",
+    "pre-commit>=4.7.0",
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.4.1.post1",
+    "pytest-cov>=7.1.0",
+    "respx>=0.23.1",
+    "ruff>=0.17.3",
+]
+ml = [
+    "sentence-transformers>=6.2.0 ; sys_platform != 'darwin' or platform_machine != 'x86_64'",
+    "sentence-transformers>=3.4,<4 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "transformers>=4.44,<4.50 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "torch==2.2.2 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+]
+ui = [
+    "httpx>=0.28.1",
+    "streamlit>=1.66.1",
+]
+
+[tool.uv]
+default-groups = ["dev"]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["."]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP", "N", "S", "SIM", "RUF", "ASYNC", "PT"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S105", "S106"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+plugins = ["pydantic.mypy"]
+files = ["app"]
+
+[[tool.mypy.overrides]]
+# Optional `ml` group, imported lazily; not installed by default.
+module = ["sentence_transformers", "sentence_transformers.*"]
+ignore_missing_imports = true
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+addopts = "-ra --strict-markers"
+filterwarnings = [
+    "error",
+    # Starlette's TestClient nudges towards `httpx2`; we stay on httpx (respx support).
+    "ignore:Using `httpx` with `starlette.testclient` is deprecated",
+]
