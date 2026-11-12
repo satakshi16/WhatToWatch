@@ -1,0 +1,33 @@
+# Build context = repo root. Keep secrets, local data and dev caches out of every image
+# (P2-01, NFR-7). Config reaches containers only at runtime through `env_file: .env`.
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+*.pem
+*.key
+
+.git
+.github
+.venv*
+**/__pycache__
+**/*.py[cod]
+.mypy_cache
+.pytest_cache
+.ruff_cache
+.coverage
+.coverage.*
+htmlcov
+.claudeignore
+
+data
+mlruns
+docs
+tests
+FEATURE_SPEC.md
+*.pdf
+
+Dockerfile
+docker-compose.yml
+.dockerignore

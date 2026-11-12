@@ -4,7 +4,8 @@ Runs `RecommendationService.recommend` (§8) for the current user and maps each 
 the §7 item shape, adding display fields from `titles` (localized title, poster, year,
 runtime / seasons, genres) and provider names / logos from the cached provider list.
 Onboarding must be finished first (409 otherwise). Admins can pass `?debug=true` to get
-score components per item plus the pipeline debug block.
+score components per item plus the pipeline debug block. `?exclude=movie:123&exclude=tv:45`
+leaves titles out for this request ("Refresh" passes the ones already shown).
 """
 
 from __future__ import annotations
@@ -37,9 +38,28 @@ router = APIRouter(prefix="/recommendations", tags=["recommendations"])
 log = get_logger(__name__)
 
 TMDB_WEB_BASE_URL = "https://www.themoviedb.org"
+MAX_EXCLUDE = 200
 ONBOARDING_INCOMPLETE = "Finish onboarding (preferences and seed titles) to get recommendations."
 
 _PROBLEM: dict[str, Any] = {"content": {"application/problem+json": {}}}
+
+
+def parse_exclude(values: Sequence[str]) -> set[tuple[int, TitleType]]:
+    """`["movie:123", "tv:45"]` → title keys; 422 on anything else."""
+    keys: set[tuple[int, TitleType]] = set()
+    for value in values:
+        type_, _, raw_id = value.partition(":")
+        try:
+            key = (int(raw_id), TitleType(type_))
+        except ValueError:
+            key = None
+        if key is None or not 0 < key[0] < 2**31:
+            raise HTTPException(
+                status.HTTP_422_UNPROCESSABLE_CONTENT,
+                detail=f"exclude entries look like 'movie:123' or 'tv:45', got {value!r}.",
+            )
+        keys.add(key)
+    return keys
 
 
 def watch_page_url(tmdb_id: int, type_: TitleType, country: str) -> str:
@@ -127,6 +147,13 @@ async def get_recommendations(
     debug: Annotated[
         bool, Query(description="Admins only: score components and pipeline stats.")
     ] = False,
+    exclude: Annotated[
+        list[str] | None,
+        Query(
+            max_length=MAX_EXCLUDE,
+            description="Titles to leave out this time, as `movie:<tmdb_id>` / `tv:<tmdb_id>`.",
+        ),
+    ] = None,
 ) -> RecommendationsOut:
     """Ranked titles streamable on the user's platforms, with a reason for each.
 
@@ -139,6 +166,7 @@ async def get_recommendations(
     if prefs is None or prefs.onboarding_step is not OnboardingStep.DONE:
         raise HTTPException(status.HTTP_409_CONFLICT, detail=ONBOARDING_INCOMPLETE)
     size = n or min(settings.rec_n_default, MAX_RECOMMENDATIONS)
+    skip = parse_exclude(exclude or [])
 
     service = RecommendationService.from_settings(
         db,
@@ -148,7 +176,7 @@ async def get_recommendations(
         catalog_cache=request.app.state.catalog_cache,
     )
     try:
-        result = await service.recommend(user.id, size)
+        result = await service.recommend(user.id, size, skip=skip)
     except PreferencesMissingError as exc:  # pragma: no cover - checked above
         raise HTTPException(status.HTTP_409_CONFLICT, detail=ONBOARDING_INCOMPLETE) from exc
 

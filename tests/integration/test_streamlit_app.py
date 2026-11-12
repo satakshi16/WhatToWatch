@@ -261,6 +261,63 @@ def test_refresh_button_reloads(ui: respx.MockRouter) -> None:
     assert len(at.feedback) == 10
 
 
+def test_refresh_shows_the_next_best_titles(ui: respx.MockRouter) -> None:
+    at = onboard(new_app())
+    first = rec_keys(at)
+
+    run(at.button(key="recs_refresh").click())
+    second = rec_keys(at)
+    assert len(second) == 10
+    assert not set(first) & set(second)
+
+    # Rating a card keeps the refreshed page (only the rated title drops out).
+    run(at.feedback(key=f"rate-{second[0]}").set_value(4))
+    third = rec_keys(at)
+    assert second[0] not in third
+    assert not set(first) & set(third)
+
+
+def test_refresh_starts_over_when_every_match_was_shown(ui: respx.MockRouter) -> None:
+    at = onboard(new_app())
+    first = rec_keys(at)
+    seen: set[str] = set(first)
+    for _ in range(30):
+        run(at.button(key="recs_refresh").click())
+        keys = rec_keys(at)
+        if seen & set(keys):
+            break
+        seen |= set(keys)
+    else:
+        pytest.fail("Refresh never wrapped around")
+    assert any("starting from the top" in i.value for i in at.info)
+    assert keys
+
+
+def test_seed_page_shows_current_seeds_and_saving_replaces_them(
+    ui: respx.MockRouter, db_session: Session
+) -> None:
+    at = onboard(new_app())
+    run(at.sidebar.radio(key="view").set_value("Seed titles"))
+    assert any("Your picks (3/10)" in s.value for s in at.subheader)
+    removes = [b for b in at.button if b.key and b.key.startswith("remove-")]
+    assert len(removes) == 3
+
+    # Swap one seed for a new one and save.
+    run(removes[0].click())
+    at.text_input(key="seed_query").input("Title 2")
+    run(button(at, "Search").click())
+    adds = [b for b in at.button if b.key and b.key.startswith("add-") and not b.disabled]
+    run(adds[0].click())
+    assert any("Your picks (3/10)" in s.value for s in at.subheader)
+    run(button(at, "Save and update recommendations →").click())
+
+    assert len(at.feedback) > 0
+    run(at.sidebar.radio(key="view").set_value("Seed titles"))
+    chips = {b.key for b in at.button if b.key and b.key.startswith("remove-")}
+    assert len(chips) == 3
+    assert removes[0].key not in chips
+
+
 def test_seed_submit_needs_three_titles(ui: respx.MockRouter) -> None:
     at = new_app()
     sign_up(at)

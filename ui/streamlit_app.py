@@ -28,6 +28,7 @@ from ui.attribution import APP_NAME, JUSTWATCH_NOTICE, footer_html  # noqa: E402
 MIN_SEEDS = 3
 MAX_SEEDS = 10
 REC_COUNT = 10
+MAX_SKIP = 200  # API's `exclude` cap
 SEARCH_LIMIT = 10
 MAX_RUNTIME = 1000
 
@@ -100,11 +101,19 @@ def navigate(view: str) -> None:
     state.pending_view = view
 
 
+def reset_recs() -> None:
+    """Drop the list and the titles Refresh skipped past (the next fetch starts at the top)."""
+    state.recs = None
+    state.rec_skip = []
+
+
 def start_session(token: str, user: JSON) -> None:
     state.token = token
     state.user = user
     state.prefs = None
-    state.recs = None
+    reset_recs()
+    state.pop("seeds_loaded", None)
+    state.pop("seeds", None)
 
 
 # --------------------------------------------------------------------------- auth
@@ -297,7 +306,7 @@ def render_preferences(user: JSON, prefs: JSON) -> None:
     if saved is None:
         return
     state.prefs = saved
-    state.recs = None
+    reset_recs()
     flash("success", "Preferences saved.")
     if first_time:
         navigate(VIEW_SEEDS)
@@ -340,10 +349,21 @@ def run_search(query: str, type_: str) -> list[JSON] | None:
 
 def render_seeds(prefs: JSON) -> None:
     first_time = prefs["onboarding_step"] != "done"
-    st.header("Step 2 of 2 · Titles you love" if first_time else "Add titles you love")
+    if not first_time and not state.get("seeds_loaded"):
+        # Editing: start from the current seed set (saving replaces it).
+        current = call(client().current_seeds)
+        if current is None:
+            return
+        state.seeds = list(current["seeds"])
+        state.seeds_loaded = True
+    st.header("Step 2 of 2 · Titles you love" if first_time else "Your seed titles")
     st.write(
         f"Pick {MIN_SEEDS} to {MAX_SEEDS} movies or series you enjoyed. "
-        "They shape your first recommendations."
+        + (
+            "They shape your first recommendations."
+            if first_time
+            else "Add or remove titles, then save: your recommendations follow this list."
+        )
     )
     seeds: list[JSON] = state.setdefault("seeds", [])
 
@@ -402,7 +422,10 @@ def render_seeds(prefs: JSON) -> None:
     if not ready and seeds:
         st.caption(f"Add {MIN_SEEDS - len(seeds)} more to continue.")
     if st.button(
-        "Get my recommendations →", type="primary", disabled=not ready, key="seeds_submit"
+        "Get my recommendations →" if first_time else "Save and update recommendations →",
+        type="primary",
+        disabled=not ready,
+        key="seeds_submit",
     ):
         with st.spinner("Saving your titles…"):
             out = call(client().submit_seeds, seeds)
@@ -411,8 +434,9 @@ def render_seeds(prefs: JSON) -> None:
         state.prefs = {**prefs, "onboarding_step": out["onboarding_step"]}
         state.seed_report = out["seeds"]
         state.seeds = []
+        state.pop("seeds_loaded", None)
         state.search = None
-        state.recs = None
+        reset_recs()
         navigate(VIEW_RECS)
         st.rerun()
 
@@ -422,6 +446,26 @@ def render_seeds(prefs: JSON) -> None:
 
 def _item_key(item: JSON) -> str:
     return f"{item['type']}-{item['tmdb_id']}"
+
+
+def _exclude_key(item: JSON) -> str:
+    """The API's `exclude` format (`movie:123`)."""
+    return f"{item['type']}:{item['tmdb_id']}"
+
+
+def fetch_recs() -> JSON | None:
+    """Fetch the list, skipping titles already shown before the last Refresh.
+
+    When Refresh has gone through every match, start again from the top.
+    """
+    skip: list[str] = state.setdefault("rec_skip", [])
+    with st.spinner("Finding titles you can stream…"):
+        recs = call(client().recommendations, REC_COUNT, skip)
+        if recs is not None and skip and not recs["items"]:
+            state.rec_skip = []
+            flash("info", "You've seen all your matches, so we're starting from the top.")
+            recs = call(client().recommendations, REC_COUNT)
+    return recs
 
 
 def on_rate(item: JSON, widget_key: str) -> None:
@@ -478,6 +522,10 @@ def render_recommendations() -> None:
     title_col, button_col = st.columns([4, 1], vertical_alignment="bottom")
     title_col.header("Your picks")
     if button_col.button("↻ Refresh", key="recs_refresh"):
+        # Show the next-best titles: skip the ones on screen now.
+        shown = [_exclude_key(i) for i in (state.get("recs") or {}).get("items", [])]
+        skip: list[str] = state.setdefault("rec_skip", [])
+        state.rec_skip = list(dict.fromkeys([*skip, *shown]))[-MAX_SKIP:]
         state.recs = None
 
     for seed in state.pop("seed_report", None) or []:
@@ -488,8 +536,8 @@ def render_recommendations() -> None:
             )
 
     if state.get("recs") is None:
-        with st.spinner("Finding titles you can stream…"):
-            state.recs = call(client().recommendations, REC_COUNT)
+        state.recs = fetch_recs()
+        show_flash()
     recs = state.get("recs")
     if recs is None:
         return

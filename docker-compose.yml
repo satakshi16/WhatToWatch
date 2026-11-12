@@ -1,0 +1,126 @@
+# Local stack (P2-01, NFR-21): `make dev` → API http://localhost:8000, UI http://localhost:8501.
+#
+# Config comes from `.env` at runtime (never baked into images). The values under
+# `environment:` override `.env` for container networking: Postgres instead of the
+# local SQLite file, and the UI talking to the `api` service.
+
+name: whattowatch
+
+x-app: &app
+  image: whattowatch-app:dev
+  build:
+    context: .
+    target: app
+  env_file: .env
+  environment:
+    DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-whattowatch}:${POSTGRES_PASSWORD:-whattowatch}@postgres:5432/${POSTGRES_DB:-whattowatch}
+    REDIS_URL: redis://redis:6379/0
+    EMBEDDINGS_DIR: /app/data
+    HF_HOME: /models
+  volumes:
+    - app-data:/app/data
+    - model-cache:/models
+  restart: unless-stopped
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-whattowatch}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-whattowatch}
+      POSTGRES_DB: ${POSTGRES_DB:-whattowatch}
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U \"$$POSTGRES_USER\" -d \"$$POSTGRES_DB\""]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "127.0.0.1:${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  api:
+    <<: *app
+    # Migrations run before the server starts, so a fresh volume is usable right away.
+    command:
+      - sh
+      - -c
+      - alembic upgrade head && exec uvicorn app.main:app --host 0.0.0.0 --port 8000 --no-access-log
+    ports:
+      - "127.0.0.1:${API_PORT:-8000}:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      # Liveness, not /ready: /ready stays 503 until the catalog is embedded (§8.9).
+      test:
+        - CMD
+        - python
+        - -c
+        - import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health', timeout=3)
+      interval: 10s
+      timeout: 5s
+      start_period: 30s
+      retries: 6
+
+  worker:
+    <<: *app
+    command: ["python", "-m", "app.jobs.worker"]
+    depends_on:
+      api:
+        condition: service_healthy # migrations applied
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-m", "app.jobs.worker", "--check"]
+      interval: 15s
+      timeout: 5s
+      start_period: 20s
+      retries: 4
+
+  ui:
+    image: whattowatch-ui:dev
+    build:
+      context: .
+      target: ui
+    environment:
+      API_BASE_URL: http://api:8000
+    ports:
+      - "127.0.0.1:${UI_PORT:-8501}:8501"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - import urllib.request; urllib.request.urlopen('http://127.0.0.1:8501/_stcore/health', timeout=3)
+      interval: 10s
+      timeout: 5s
+      start_period: 20s
+      retries: 6
+    restart: unless-stopped
+
+volumes:
+  pg-data:
+  redis-data:
+  app-data:
+  model-cache:

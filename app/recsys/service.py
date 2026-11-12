@@ -17,6 +17,7 @@ import json
 import threading
 import time
 import uuid
+from collections.abc import Collection
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Any
@@ -46,7 +47,7 @@ from app.recsys.candidates import (
 )
 from app.recsys.catalog import NO_ROW, Catalog, FloatArray, IntArray, TitleRecord
 from app.recsys.embeddings import EmbeddingStore
-from app.recsys.feedback import excluded_title_keys
+from app.recsys.feedback import excluded_title_keys, stale_seed_ids
 from app.recsys.filters import UserFilters, filter_mask
 from app.recsys.profile import EXPLICIT_KINDS, Profile, Signal, build_profile
 from app.recsys.reasons import REASON_SOURCE, template_reason
@@ -303,7 +304,15 @@ class RecommendationService:
         s = self._settings
         return Weights(sim=s.w_sim, qual=s.w_qual, pop=s.w_pop, rec=s.w_rec, neg=s.w_neg)
 
-    async def recommend(self, user_id: uuid.UUID, n: int | None = None) -> Recommendations:
+    async def recommend(
+        self,
+        user_id: uuid.UUID,
+        n: int | None = None,
+        *,
+        skip: Collection[TitleKey] = (),
+    ) -> Recommendations:
+        """Top-`n` list for the user. `skip`: titles to leave out this time (e.g. ones the
+        user already saw on screen, so "Refresh" shows the next-best titles)."""
         s = self._settings
         n = n or s.rec_n_default
         if n < 1:
@@ -348,6 +357,7 @@ class RecommendationService:
         lap("profile")
 
         excluded = excluded_title_keys(self._session, user_id)
+        skipped = frozenset(skip) - excluded
         filters = UserFilters(
             languages=list(prefs.languages),
             content_types=[TitleType(t) for t in prefs.content_types],
@@ -357,7 +367,7 @@ class RecommendationService:
             allow_adult=prefs.allow_adult,
             adult_certifications=s.adult_certifications.get(country, []),
             country=country,
-            excluded=frozenset(excluded),
+            excluded=frozenset(excluded) | skipped,
             max_runtime_applies_to_tv=s.max_runtime_applies_to_tv,
         )
         mask = filter_mask(catalog, filters, today)
@@ -469,6 +479,7 @@ class RecommendationService:
                 "catalog": len(catalog),
                 "embedded": int((vector_rows != NO_ROW).sum()),
                 "excluded": len(excluded),
+                "skipped": len(skipped),
                 "eligible": int(mask.sum()),
                 **counts,
                 "candidates": int(rows.size),
@@ -509,6 +520,8 @@ class RecommendationService:
     # --- Steps that read the DB / network ------------------------------------------
 
     def _signals(self, user_id: uuid.UUID) -> list[Signal]:
+        """Explicit feedback, minus seeds replaced by a later seed submission."""
+        stale = stale_seed_ids(self._session, user_id)
         stmt = select(
             Interaction.id,
             Interaction.tmdb_id,
@@ -526,6 +539,7 @@ class RecommendationService:
                 seq=r.id,
             )
             for r in self._session.execute(stmt)
+            if r.id not in stale
         ]
 
     async def _available(

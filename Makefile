@@ -1,9 +1,11 @@
 .DEFAULT_GOAL := help
-.PHONY: help install lint fmt typecheck test api ui ingest open-content embed neighbours bench-recs migrate seed-demo
+.PHONY: help install lint fmt typecheck test api ui ingest open-content embed neighbours bench-recs migrate seed-demo \
+	dev dev-down dev-logs dev-run image-scan
 
 UV ?= uv
 HOST ?= 127.0.0.1
 PORT ?= 8000
+COMPOSE ?= docker compose
 
 help: ## List targets
 	@grep -E '^[a-z-]+:.*## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*## "}; {printf "  %-13s %s\n", $$1, $$2}'
@@ -56,3 +58,23 @@ migrate: ## Apply DB migrations (alembic upgrade head; also run by ingest / api 
 
 seed-demo: migrate ## Demo users Priya / Marcus / Ji-woo via the API (ARGS="--api-url http://127.0.0.1:8000")
 	$(UV) run --group ml python -m scripts.seed_demo $(ARGS)
+
+# --- Docker stack (P2-01): api + worker + ui + postgres (pgvector) + redis ---
+
+dev: ## Docker: build + start the whole stack, run migrations; API :8000, UI :8501
+	@[ -f .env ] || (echo "No .env: copy .env.example to .env and fill in TMDB_READ_TOKEN (see README)"; exit 1)
+	$(COMPOSE) up -d --build --wait
+	@echo "API http://localhost:8000/docs  ·  UI http://localhost:8501  ·  logs: make dev-logs"
+
+dev-down: ## Docker: stop the stack (volumes kept; ARGS=-v deletes DB / model cache)
+	$(COMPOSE) down $(ARGS)
+
+dev-logs: ## Docker: follow logs (ARGS="api worker")
+	$(COMPOSE) logs -f $(ARGS)
+
+dev-run: ## Docker: one-off command in the app image (CMD="python -m app.ingest.ingest_catalog")
+	@[ -n "$(CMD)" ] || (echo 'Usage: make dev-run CMD="python -m ..."'; exit 1)
+	$(COMPOSE) run --rm api $(CMD)
+
+image-scan: ## Docker: check built images for baked-in secrets (history, env files, detect-secrets)
+	$(UV) run python -m scripts.check_image_secrets

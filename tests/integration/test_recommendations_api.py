@@ -112,6 +112,15 @@ def make_admin(db_session: Session, email: str) -> None:
     db_session.commit()
 
 
+def seed_with(client: TestClient, token: str, keys: list[tuple[int, TitleType]]) -> None:
+    resp = client.post(
+        "/api/v1/onboarding/seeds",
+        headers=auth(token),
+        json={"seeds": [{"tmdb_id": i, "type": t.value} for i, t in keys]},
+    )
+    assert resp.status_code == 201, resp.text
+
+
 # --- Happy path / §7 shape -----------------------------------------------------
 
 
@@ -390,3 +399,63 @@ def test_tv_seasons_are_reported(
 
     assert body["items"]
     assert {i["seasons"] for i in body["items"]} == {3}
+
+
+# --- Refresh (exclude) and seed replacement -----------------------------------
+
+
+def test_exclude_returns_the_next_best_titles(
+    rec_client: TestClient, catalog: FixtureCatalog
+) -> None:
+    token = onboard(rec_client, catalog)
+    first = rec_client.get(URL, headers=auth(token), params={"n": 5}).json()
+    shown = [f"{t}:{i}" for i, t in keys_of(first)]
+
+    resp = rec_client.get(URL, headers=auth(token), params={"n": 5, "exclude": shown})
+
+    assert resp.status_code == 200, resp.text
+    second = keys_of(resp.json())
+    assert len(second) == 5
+    assert not set(second) & set(keys_of(first))
+    # Without exclude the list is unchanged (the exclusion is per request, not stored).
+    again = rec_client.get(URL, headers=auth(token), params={"n": 5}).json()
+    assert keys_of(again) == keys_of(first)
+
+
+@pytest.mark.parametrize("bad", ["movie", "movie:", "film:1", "tv:abc", "movie:0", ":5"])
+def test_malformed_exclude_is_422(
+    rec_client: TestClient, catalog: FixtureCatalog, bad: str
+) -> None:
+    token = onboard(rec_client, catalog)
+    resp = rec_client.get(URL, headers=auth(token), params={"exclude": [bad]})
+    assert resp.status_code == 422, resp.text
+
+
+def test_too_many_excludes_is_422(rec_client: TestClient, catalog: FixtureCatalog) -> None:
+    token = onboard(rec_client, catalog)
+    params = {"exclude": [f"movie:{i}" for i in range(1, 202)]}
+    resp = rec_client.get(URL, headers=auth(token), params=params)
+    assert resp.status_code == 422, resp.text
+
+
+def test_replacing_seeds_drops_old_seeds_from_the_profile(
+    rec_client: TestClient, catalog: FixtureCatalog, db_session: Session
+) -> None:
+    embedded = [k for k in catalog.keys if k in catalog.embedded]
+    old, new = embedded[:3], embedded[-3:]
+    assert not set(old) & set(new)
+    token = register(rec_client, "ana@example.com")
+    body = {"languages": ["en", "hi", "ko"], "platforms": [NETFLIX, PRIME]}
+    assert rec_client.put("/api/v1/me/preferences", headers=auth(token), json=body).is_success
+    make_admin(db_session, "ana@example.com")
+
+    seed_with(rec_client, token, old)
+    before = rec_client.get(URL, headers=auth(token), params={"debug": True}).json()
+    seed_with(rec_client, token, new)
+    after = rec_client.get(URL, headers=auth(token), params={"debug": True}).json()
+
+    assert before["debug"]["profile"]["signals_used"] == 3
+    assert after["debug"]["profile"]["signals_used"] == 3  # not 6: old seeds are stale
+    assert keys_of(after) != keys_of(before)
+    returned = {(i, TitleType(t)) for i, t in keys_of(after)}
+    assert not returned & (set(old) | set(new))  # removed seeds stay excluded (FR-23)

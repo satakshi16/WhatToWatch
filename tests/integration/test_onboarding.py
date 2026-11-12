@@ -15,6 +15,7 @@ import respx
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
 from sqlalchemy import Engine, func, select
+from sqlalchemy import update as sa_update
 from sqlalchemy.orm import Session
 
 from app.api.deps import get_tmdb_factory
@@ -30,7 +31,7 @@ from app.db.models import (
 from app.ingest.build_embeddings import ID_MAP_FILE, embed_one
 from app.ingest.tmdb_client import TMDBConfigError
 from app.recsys.embeddings import OnDemandEmbedder
-from app.recsys.feedback import excluded_title_keys
+from app.recsys.feedback import current_seed_keys, excluded_title_keys, stale_seed_ids
 from tests.catalog_factory import add_catalog, tmdb_title
 from tests.fakes import FakeEncoder
 from tests.feedback_env import (
@@ -161,14 +162,66 @@ def test_seed_titles_are_excluded_from_recommendations(
         assert excluded_title_keys(session, user_id) == {(1, M), (2, M), (3, M)}
 
 
-def test_resubmitting_adds_new_ratings(
+def test_resubmitting_replaces_the_seed_set(
     api: TestClient, token: str, migrated_engine: Engine
 ) -> None:
     assert _post(api, token, [seed(1), seed(2), seed(3)]).status_code == 201
     resp = _post(api, token, [seed(3), seed(4), seed(5)])
     assert resp.status_code == 201
     assert resp.json()["onboarding_step"] == "done"
-    assert len(_interactions(migrated_engine)) == 6
+    # The log is append-only: the first set's rows stay but become stale.
+    rows = _interactions(migrated_engine)
+    assert len(rows) == 6
+    first = rows[:3]
+    sets = [(r.payload or {}).get("seed_set") for r in rows]
+    assert None not in sets
+    assert len(set(sets[:3])) == 1
+    assert len(set(sets[3:])) == 1
+    assert sets[0] != sets[3]
+    with Session(migrated_engine) as session:
+        user_id = session.scalars(select(UserPreferences.user_id)).one()
+        assert current_seed_keys(session, user_id) == [(3, M), (4, M), (5, M)]
+        assert stale_seed_ids(session, user_id) == {r.id for r in first}
+        # Removed seeds are still never recommended (FR-23).
+        assert excluded_title_keys(session, user_id) >= {(1, M), (2, M)}
+
+    listed = api.get("/api/v1/onboarding/seeds", headers=auth(token))
+    assert listed.status_code == 200
+    assert [(s["tmdb_id"], s["type"]) for s in listed.json()["seeds"]] == [
+        (3, "movie"),
+        (4, "movie"),
+        (5, "movie"),
+    ]
+    assert set(listed.json()["seeds"][0]) == {
+        "tmdb_id",
+        "type",
+        "title",
+        "original_title",
+        "year",
+    }
+
+
+def test_legacy_seeds_without_a_set_id_stay_current_until_resubmitted(
+    api: TestClient, token: str, migrated_engine: Engine
+) -> None:
+    assert _post(api, token, [seed(1), seed(2), seed(3)]).status_code == 201
+    with Session(migrated_engine) as session:
+        user_id = session.scalars(select(UserPreferences.user_id)).one()
+        # Rows saved before seed sets existed have no payload.
+        session.execute(sa_update(Interaction).values(payload=None))
+        session.commit()
+        assert current_seed_keys(session, user_id) == [(1, M), (2, M), (3, M)]
+        assert stale_seed_ids(session, user_id) == set()
+    assert _post(api, token, [seed(4), seed(5), seed(6)]).status_code == 201
+    with Session(migrated_engine) as session:
+        assert current_seed_keys(session, user_id) == [(4, M), (5, M), (6, M)]
+        assert len(stale_seed_ids(session, user_id)) == 3
+
+
+def test_listing_seeds_before_onboarding_is_empty(api: TestClient, token: str) -> None:
+    resp = api.get("/api/v1/onboarding/seeds", headers=auth(token))
+    assert resp.status_code == 200
+    assert resp.json() == {"seeds": []}
 
 
 # --- Validation ---

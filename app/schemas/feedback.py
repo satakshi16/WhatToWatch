@@ -59,6 +59,20 @@ class SeedsOut(BaseModel):
     seeds: list[SeedOut]
 
 
+class CurrentSeedOut(BaseModel):
+    tmdb_id: int
+    type: TitleType
+    title: str
+    original_title: str
+    year: int | None
+
+
+class CurrentSeedsOut(BaseModel):
+    """The user's current seed set (empty before onboarding)."""
+
+    seeds: list[CurrentSeedOut]
+
+
 class InteractionIn(BaseModel):
     """Phase 1 kinds: `rating` (`value` = 1-5 stars) and `not_interested` (no value)."""
 

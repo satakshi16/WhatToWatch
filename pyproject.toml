@@ -12,6 +12,7 @@ dependencies = [
     # built against NumPy 1.x, so the whole ML stack is pinned older there (D-012).
     "numpy>=2.5.4 ; sys_platform != 'darwin' or platform_machine != 'x86_64'",
     "numpy>=1.26,<2 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "psycopg[binary]>=3.2",
     "pydantic-settings>=2.16.2",
     "sqlalchemy>=2.1.6",
     "structlog>=26.1.0",
@@ -40,6 +41,8 @@ ml = [
     "sentence-transformers>=3.4,<4 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
     "transformers>=4.44,<4.50 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
     "torch==2.2.2 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    # Linux (Docker image, CI): CPU-only wheels from the PyTorch index, not the ~GB CUDA build.
+    "torch>=2.6 ; sys_platform == 'linux'",
 ]
 ui = [
     "httpx>=0.28.1",
@@ -49,6 +52,14 @@ ui = [
 [tool.uv]
 default-groups = ["dev"]
 package = false
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
 
 [tool.ruff]
 line-length = 100

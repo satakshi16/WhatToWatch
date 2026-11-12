@@ -7,6 +7,10 @@ Used by `POST /onboarding/seeds` and `POST /interactions`:
 2. `add_interactions`: append rows to the `interactions` log (never updated).
 3. `excluded_title_keys`: the FR-23 hard filter (rating, `seen`, `not_interested`),
    which the recommender (P1-11) applies to every candidate set.
+4. Seed sets: each `POST /onboarding/seeds` tags its rows with one `payload.seed_set` id
+   and **replaces** the user's seeds. Rows from earlier submissions stay in the log (it is
+   append-only) but are "stale": the profile ignores them (`stale_seed_ids`). Legacy rows
+   without an id form one set, current until the next submission.
 """
 
 from __future__ import annotations
@@ -14,6 +18,7 @@ from __future__ import annotations
 import uuid
 from collections.abc import Sequence
 from dataclasses import dataclass, field
+from typing import Any
 
 from sqlalchemy import select
 from sqlalchemy.orm import Session
@@ -26,6 +31,8 @@ from app.ingest.providers import TMDBFactory
 from app.recsys.embeddings import OnDemandEmbedder
 
 log = get_logger(__name__)
+
+SEED_SET_KEY = "seed_set"
 
 # FR-23: a title with any of these interactions is never recommended again.
 EXCLUDING_KINDS: tuple[InteractionKind, ...] = (
@@ -88,11 +95,18 @@ def add_interactions(
     kind: InteractionKind,
     source: InteractionSource,
     value: float | None = None,
+    payload: dict[str, Any] | None = None,
 ) -> list[Interaction]:
     """Append one interaction per key (caller commits). Titles must exist in `titles`."""
     rows = [
         Interaction(
-            user_id=user_id, tmdb_id=tmdb_id, type=type_, kind=kind, value=value, source=source
+            user_id=user_id,
+            tmdb_id=tmdb_id,
+            type=type_,
+            kind=kind,
+            value=value,
+            source=source,
+            payload=dict(payload) if payload is not None else None,
         )
         for tmdb_id, type_ in keys
     ]
@@ -108,3 +122,43 @@ def excluded_title_keys(session: Session, user_id: uuid.UUID) -> set[TitleKey]:
         .distinct()
     )
     return {(tmdb_id, type_) for tmdb_id, type_ in session.execute(stmt)}
+
+
+def _seed_set_of(payload: Any) -> str | None:
+    if isinstance(payload, dict):
+        value = payload.get(SEED_SET_KEY)
+        return str(value) if value is not None else None
+    return None
+
+
+def _split_seed_rows(session: Session, user_id: uuid.UUID) -> tuple[list[Any], list[Any]]:
+    """The user's seed rows, split into (current set, stale), each oldest first."""
+    stmt = (
+        select(Interaction.id, Interaction.tmdb_id, Interaction.type, Interaction.payload)
+        .where(
+            Interaction.user_id == user_id,
+            Interaction.source == InteractionSource.ONBOARDING_SEED,
+            Interaction.kind == InteractionKind.RATING,
+        )
+        # By id, not created_at: ids follow insertion order even if the clock steps back.
+        .order_by(Interaction.id)
+    )
+    rows = list(session.execute(stmt))
+    if not rows:
+        return [], []
+    latest = _seed_set_of(rows[-1].payload)
+    current = [r for r in rows if _seed_set_of(r.payload) == latest]
+    stale = [r for r in rows if _seed_set_of(r.payload) != latest]
+    return current, stale
+
+
+def current_seed_keys(session: Session, user_id: uuid.UUID) -> list[TitleKey]:
+    """The user's current seed titles, in submission order."""
+    current, _ = _split_seed_rows(session, user_id)
+    return list(dict.fromkeys((r.tmdb_id, r.type) for r in current))
+
+
+def stale_seed_ids(session: Session, user_id: uuid.UUID) -> set[int]:
+    """Interaction ids of seeds replaced by a later submission (ignored by the profile)."""
+    _, stale = _split_seed_rows(session, user_id)
+    return {r.id for r in stale}

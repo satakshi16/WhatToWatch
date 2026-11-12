@@ -136,6 +136,22 @@ def test_endpoints(
         assert rec.body() == body
 
 
+def test_recommendations_sends_exclude_as_repeated_params() -> None:
+    rec = Recorder()
+    make_client(rec).recommendations(10, ["movie:1", "tv:2"])
+    assert rec.last.url.params.multi_items() == [
+        ("n", "10"),
+        ("exclude", "movie:1"),
+        ("exclude", "tv:2"),
+    ]
+
+
+def test_current_seeds() -> None:
+    rec = Recorder()
+    make_client(rec).current_seeds()
+    assert (rec.last.method, rec.last.url.path) == ("GET", "/api/v1/onboarding/seeds")
+
+
 def test_problem_json_becomes_api_error() -> None:
     problem = {
         "type": "about:blank",

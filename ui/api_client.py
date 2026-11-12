@@ -8,7 +8,7 @@ The caller keeps the access token (in `st.session_state`) and passes it in.
 from __future__ import annotations
 
 import os
-from collections.abc import Mapping
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -175,6 +175,9 @@ class ApiClient:
         refs = [{"tmdb_id": s["tmdb_id"], "type": s["type"]} for s in seeds]
         return self._request("POST", "/onboarding/seeds", json={"seeds": refs})
 
+    def current_seeds(self) -> JSON:
+        return self._request("GET", "/onboarding/seeds")
+
     # --- feedback (P1-09) ---
     def rate(self, tmdb_id: int, type_: str, stars: int) -> JSON:
         return self._request(
@@ -191,5 +194,9 @@ class ApiClient:
         )
 
     # --- recommendations (P1-12) ---
-    def recommendations(self, n: int = 10) -> JSON:
-        return self._request("GET", "/recommendations", params={"n": n})
+    def recommendations(self, n: int = 10, exclude: Sequence[str] = ()) -> JSON:
+        """`exclude`: `"movie:123"` / `"tv:45"` keys to leave out (sent as repeated params)."""
+        params: dict[str, Any] = {"n": n}
+        if exclude:
+            params["exclude"] = list(exclude)
+        return self._request("GET", "/recommendations", params=params)
